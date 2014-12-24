@@ -1,0 +1,245 @@
+@import "normalize.less";
+@import "helpers.less";
+@import "icons.less";
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/ProximaNova-Regular.eot');
+  src: url('/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/ProximaNova-Regular.woff') format('woff'),
+  url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/fonts/ProximaNova-Bold.eot');
+  src: url('/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/ProximaNova-Bold.woff') format('woff'),
+  url('/fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@header-bg: #08263f;
+@bg-color: #f6faff;
+@footer-color: #99a4b2;
+@hover-color: #d13c3f;
+
+a:hover{
+  color: #d13c3f;
+}
+
+body{
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background: url('/img/background.png') top center no-repeat;
+}
+
+header{
+  font-family: "Proxima Nova";
+
+  .menu {
+    height: 40px;
+    background: @header-bg;
+
+    a {
+      color: #4d72a0;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 40px;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:hover{
+        color: @hover-color;
+      }
+    }
+
+    .logo-bar{
+      float: left;
+    }
+
+    .city-bar{
+      float: left;
+      a{
+        margin: 0 0 0 20px;
+      }
+    }
+
+    .auth-bar{
+      float: right;
+
+      a {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+
+  .intro {
+    height: 220px;
+
+    .inner {
+      position: relative;
+
+      .logo {
+        position: absolute;
+        top: 27px;
+        left: 0;
+        width: 343px;
+        height: 168px;
+        background: url('/img/logo.png');
+      }
+    }
+  }
+
+  .second-menu{
+    height: 70px;
+    background: @header-bg;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0 30px 0 0;
+        float: left;
+
+        a {
+          line-height: 70px;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #dde9f7;
+          font-weight: bold;
+          font-size: 16px;
+          font-family: "Proxima Nova", Arial, sans-serif;
+
+          &:hover{
+            color: @hover-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer{
+  height: 175px;
+  background: #08263f;
+  color: @footer-color;
+
+  .inner{
+    background: url('/img/footer-bg.png') top left no-repeat;
+    height: 100%;
+    position: relative;
+
+    a{
+      color: #4d72a0;
+
+      &:hover{
+        color: @hover-color;
+      }
+    }
+
+    .created-by{
+      position: absolute;
+      top: 135px;
+      left: 0px;
+      color: #424d5c;
+    }
+
+    .links{
+      position: absolute;
+      top: 40px;
+      right: 340px;
+      width: 260px;
+      
+        .col{
+          width: 120px;
+          padding: 0 0 0 10px;
+          float: left;
+
+          a{
+            display: block;
+            font-family: "Proxima Nova";
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 28px;
+            color: @footer-color;
+
+            &:hover{
+              color: @hover-color;
+            }
+          }
+        }
+    }
+
+    .copyrights{
+      position: absolute;
+      top: 40px;
+      right: 85px;
+      width: 230px;
+      font-family: arial, sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .footer-logo{
+      position: absolute;
+      top: 40px;
+      right: 0;
+      width: 55px;
+      height: 70px;
+      background: url('/img/footer-logo.png');
+    }
+  }
+}
+
+.container{
+  min-width: 950px;
+  padding: 0 20px;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.middle{
+
+  margin: 0 0 80px 0;
+
+  .container {
+    background-color: @bg-color;
+
+    #content{
+      margin: 40px 0 0 0;
+      float: left;
+    }
+
+    aside{
+      margin: 40px 0 0 0;
+      float: right;
+      width: 210px;
+      background: white;
+      border: 1px solid #dde9f7;
+    }
+  }
+}
+
+h1{
+  margin-top: 0;
+}
+
+/* SQL log */
+.cake-sql-log {
+  background: #fff;
+}
+.cake-sql-log td {
+  padding: 4px 8px;
+  text-align: left;
+  font-family: Monaco, Consolas, "Courier New", monospaced;
+}
+.cake-sql-log caption {
+  color:#fff;
+}

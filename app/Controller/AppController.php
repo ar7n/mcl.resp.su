@@ -31,25 +31,4 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-
-    public function beforeRender()
-    {
-        // only compile it on development mode
-        if (Configure::read('debug') > 0)
-        {
-            // import the file to application
-            App::import('Vendor', 'lessc');
-
-            // set the LESS file location
-            $less = ROOT . DS . APP_DIR . DS . 'webroot' . DS . 'less' . DS . 'main.less';
-
-            // set the CSS file to be written
-            $css = ROOT . DS . APP_DIR . DS . 'webroot' . DS . 'css' . DS . 'main.css';
-
-            // compile the file
-            lessc::ccompile($less, $css);
-        }
-        parent::beforeRender();
-    }
-
 }

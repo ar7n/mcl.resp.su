@@ -1,23 +1,3 @@
-<?php
-/**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Layouts
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
-$cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
-?>
-<!DOCTYPE html>
 <html>
 <head>
 	<?php echo $this->Html->charset(); ?>
@@ -28,7 +8,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('main');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -36,28 +16,85 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+	<header>
+		<div class="menu">
+			<div class="container">
+				<nav class="menu-bar clearfix">
+					<div class="logo-bar">
+						<a href="/"><span class="icon-resp"></span>RESP.SU</a>
+					</div>
+					<div class="city-bar">
+						<a href="/"><span class="icon-mcl"></span>Москва</a>
+						<a href="/"><span class="icon-scl"></span>Санкт-Петербург</a>
+						<a href="/"><span class="icon-ecl"></span>Екатеринбург</a>
+					</div>
+					<div class="auth-bar">
+						<a href="/"><span class="icon-key"></span>Вход</a>
+						<a href="/">Регистрация</a>
+					</div>
+				</nav>
+			</div>
 		</div>
-		<div id="content">
-
-			<?php echo $this->Session->flash(); ?>
-
-			<?php echo $this->fetch('content'); ?>
+		<div class="intro">
+			<div class="container">
+				<div class="inner">
+					<a class="logo" href="/"></a>
+				</div>
+			</div>
 		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-				);
-			?>
-			<p>
-				<?php echo $cakeVersion; ?>
-			</p>
+		<nav class="second-menu container clearfix">
+			<ul>
+				<li><a href="/">Новости</a></li>
+				<li><a href="/">Таблица сезона</a></li>
+				<li><a href="/">Участники</a></li>
+				<li><a href="/">Регламент</a></li>
+				<li><a href="/">Партнеры</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="middle">
+		<div class="container clearfix">
+			<div id="content">
+
+				<?php echo $this->Session->flash(); ?>
+
+				<?php echo $this->fetch('content'); ?>
+
+			</div>
+			<aside class="right">
+				Организаторы
+			</aside>
 		</div>
 	</div>
+
+	<footer>
+		<div class="container">
+			<div class="inner">
+				<div class="created-by">
+					Создание дизайна - <a href="http://bbbro.ru">BBBro</a>
+				</div>
+				<div class="links">
+					<div class="col">
+						<a href="/">Новости</a>
+						<a href="/">Таблица сезона</a>
+						<a href="/">Участники</a>
+					</div>
+					<div class="col">
+						<a href="/">Регламент</a>
+						<a href="/">Партнеры</a>
+					</div>
+				</div>
+				<div class="copyrights">
+					© 2011 - 2015<br/>
+					Московская киберспортивная лига<br/>
+					<a href="http://resp.su">Resp.su</a>. Все права защищены
+				</div>
+				<div class="footer-logo"></div>
+			</div>
+		</div>
+	</footer>
+
 	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>
