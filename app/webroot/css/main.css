@@ -733,11 +733,22 @@ footer .inner .footer-logo {
   float: left;
 }
 .middle .container aside {
-  margin: 40px 0 0 0;
+  margin: 40px 0 40px 0;
   float: right;
   width: 210px;
   background: white;
   border: 1px solid #dde9f7;
+}
+.middle .container aside .title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #99a4b2;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+.middle .container aside a {
+  padding: 0 10px;
 }
 h1 {
   margin-top: 0;

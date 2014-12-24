@@ -63,7 +63,13 @@
 
 			</div>
 			<aside class="right">
-				Организаторы
+				<div class="title">Организаторы</div>
+				<a href="/"><img src="/img/mmmc-logo.png"/></a>
+				<div class="title">Информационные партнеры</div>
+				<a href="/"><img src="/img/gamer-logo.png"/></a>
+				<a href="/"><img src="/img/gg-logo.png"/></a>
+				<div class="title">Технические партнеры</div>
+				<a href="/"><img src="/img/goharu-logo.png"/></a>
 			</aside>
 		</div>
 	</div>
