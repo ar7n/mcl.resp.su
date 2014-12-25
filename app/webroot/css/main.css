@@ -644,6 +644,9 @@ header .second-menu ul li {
   margin: 0 30px 0 0;
   float: left;
 }
+header .second-menu ul li.active a {
+  color: #d13c3f;
+}
 header .second-menu ul li a {
   line-height: 70px;
   text-transform: uppercase;
@@ -730,13 +733,17 @@ footer .inner .footer-logo {
 }
 .middle .container {
   background-color: #f6faff;
+  position: relative;
 }
 .middle .container #content {
   margin: 40px 250px 40px 0;
+  min-height: 636px;
   float: left;
 }
 .middle .container aside {
-  margin: 40px -3px 40px -210px;
+  position: absolute;
+  top: 40px;
+  right: 20px;
   float: left;
   width: 210px;
   background: white;
@@ -781,6 +788,9 @@ h1 {
   color: #003663;
   font-size: 28px;
 }
+.post .post-text .post-title a {
+  text-decoration: none;
+}
 .post .post-text .post-intro {
   line-height: 24px;
 }
@@ -803,6 +813,42 @@ h1 {
 .paging span a {
   color: #4d72a0;
   text-decoration: none;
+}
+.ui-tabs {
+  background: none;
+  border: none;
+}
+.ui-tabs .ui-tabs-nav {
+  background: none;
+  border: none;
+  border-bottom: 3px solid #dde9f7;
+  border-radius: 0;
+  padding: 0;
+}
+.ui-tabs .ui-tabs-nav li {
+  background: #f6faff;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-default {
+  border: 1px solid transparent;
+  background: none;
+  border-radius: 0;
+  margin-bottom: -3px;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-default a {
+  color: #4d72a0;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-default a:hover {
+  color: #d13c3f;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-active {
+  background: #f6faff;
+  border-top: 1px solid #dde9f7;
+  border-left: 1px solid #dde9f7;
+  border-right: 1px solid #dde9f7;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-active a {
+  color: #d13c3f;
+  outline-color: transparent;
 }
 /* SQL log */
 .cake-sql-log {

@@ -6,13 +6,19 @@
 
 			<? if (isset($post['Picture'][0]['thumb_path'])){?>
 				<div class="post-image">
-					<img src="http://resp.su/<?= $post['Picture'][0]['big_path']?>" width="200" height="200">
+					<a href="/posts/view/<?= $post['Post']['id'];?>">
+						<img src="http://resp.su/<?= $post['Picture'][0]['big_path']?>" width="200" height="200">
+					</a>
 				</div>
 			<? } ?>
 
 			<div class="post-text">
 				<div class="post-time"><? echo rdate('j M Y в G:i', mysqlTimestamp($post['Post']['created'])); ?></div>
-				<div class="post-title"><? echo $post['Post']['title']; ?></div>
+				<div class="post-title">
+					<a href="/posts/view/<?= $post['Post']['id'];?>">
+						<? echo $post['Post']['title']; ?>
+					</a>
+				</div>
 				<div class="post-intro">
 				<?
 				$post['Post']['text'] = unserialize($post['Post']['text']);
@@ -20,7 +26,7 @@
 				?>
 				</div>
 				<div class="post-actions">
-					<a href="/">Читать далее</a>
+					<a href="/posts/view/<?= $post['Post']['id'];?>">Читать далее</a>
 				</div>
 			</div>
 		</div>

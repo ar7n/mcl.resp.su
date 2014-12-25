@@ -32,6 +32,8 @@ class PostsController extends AppController {
 
 		$this->Post->recursive = 2;
 		$this->set('posts', $this->Paginator->paginate());
+
+		$this->set('currentMenuItem', 'Новости');
 	}
 
 /**
@@ -47,6 +49,8 @@ class PostsController extends AppController {
 		}
 		$options = array('conditions' => array('Post.' . $this->Post->primaryKey => $id));
 		$this->set('post', $this->Post->find('first', $options));
+
+		$this->set('currentMenuItem', 'Новости');
 	}
 
 /**

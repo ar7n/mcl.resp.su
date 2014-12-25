@@ -1,13 +1,11 @@
 <html>
 <head>
 	<?php echo $this->Html->charset(); ?>
-	<title>
-		<?php echo $cakeDescription ?>:
-		<?php echo $this->fetch('title'); ?>
-	</title>
+	<title>Московская киберспортивная лига</title>
 	<?php
 		echo $this->Html->meta('icon');
 
+		echo $this->Html->css('jquery-ui.min.css');
 		echo $this->Html->css('main');
 
 		echo $this->fetch('meta');
@@ -44,11 +42,23 @@
 		</div>
 		<nav class="second-menu container clearfix">
 			<ul>
-				<li><a href="/">Новости</a></li>
-				<li><a href="/">Таблица сезона</a></li>
-				<li><a href="/">Участники</a></li>
-				<li><a href="/">Регламент</a></li>
-				<li><a href="/">Партнеры</a></li>
+				<?
+				$menuItems = array(
+					'Новости' => '/',
+					'Таблица сезона' => '/',
+					'Участники' => '/',
+					'Регламент' => '/rules',
+					'Партнеры' => '/partners',
+				);
+				foreach ($menuItems as $title => $url){
+					if (isset($currentMenuItem) && $currentMenuItem == $title) {
+						echo '<li class="active"><a href="' . $url . '">' . $title . '</a></li>';
+					}
+					else {
+						echo '<li><a href="' . $url . '">' . $title . '</a></li>';
+					}
+				}
+				?>
 			</ul>
 		</nav>
 	</header>
@@ -102,5 +112,10 @@
 	</footer>
 
 	<?php echo $this->element('sql_dump'); ?>
+
+	<? echo $this->Html->script('jquery-1.11.2.min'); ?>
+	<? echo $this->Html->script('jquery-ui.min'); ?>
+	<? echo $this->Html->script('scripts'); ?>
+
 </body>
 </html>

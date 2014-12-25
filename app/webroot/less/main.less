@@ -110,6 +110,10 @@ header{
         margin: 0 30px 0 0;
         float: left;
 
+        &.active a{
+          color: @hover-color;
+        }
+
         a {
           line-height: 70px;
           text-transform: uppercase;
@@ -215,14 +219,18 @@ footer{
 
   .container {
     background-color: @bg-color;
+    position: relative;
 
     #content{
       margin: 40px 250px 40px 0;
+      min-height: 636px;
       float: left;
     }
 
     aside{
-      margin: 40px -3px 40px -210px;
+      position: absolute;
+      top: 40px;
+      right: 20px;
       float: left;
       width: 210px;
       background: white;
@@ -274,6 +282,10 @@ h1{
       font-weight: bold;
       color: #003663;
       font-size: 28px;
+
+      a{
+        text-decoration: none;
+      }
     }
 
     .post-intro{
@@ -303,6 +315,48 @@ h1{
     a{
       color: #4d72a0;
       text-decoration: none;
+    }
+  }
+}
+
+.ui-tabs{
+  background: none;
+  border: none;
+
+  .ui-tabs-nav{
+    background: none;
+    border: none;
+    border-bottom: 3px solid #dde9f7;
+    border-radius: 0;
+    padding: 0;
+
+    li{
+        background: #f6faff;
+
+        &.ui-state-default{
+          border: 1px solid transparent;
+          background: none;
+          border-radius: 0;
+          margin-bottom: -3px;
+          a{
+            color: #4d72a0;
+
+            &:hover{
+              color: @hover-color;
+            }
+          }
+        }
+
+        &.ui-state-active{
+          background: #f6faff;
+          border-top: 1px solid #dde9f7;
+          border-left: 1px solid #dde9f7;
+          border-right: 1px solid #dde9f7;
+          a {
+            color: @hover-color;
+            outline-color: transparent;
+          }
+        }
     }
   }
 }
