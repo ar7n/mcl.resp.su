@@ -46,20 +46,20 @@ class User extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Avatar' => array(
-			'className' => 'Avatar',
-			'foreignKey' => 'avatar_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		),
-		'Photo' => array(
-			'className' => 'Photo',
-			'foreignKey' => 'photo_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		)
+//		'Avatar' => array(
+//			'className' => 'Avatar',
+//			'foreignKey' => 'avatar_id',
+//			'conditions' => '',
+//			'fields' => '',
+//			'order' => ''
+//		),
+//		'Photo' => array(
+//			'className' => 'Photo',
+//			'foreignKey' => 'photo_id',
+//			'conditions' => '',
+//			'fields' => '',
+//			'order' => ''
+//		)
 	);
 
 /**

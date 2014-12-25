@@ -27,6 +27,10 @@
 @footer-color: #99a4b2;
 @hover-color: #d13c3f;
 
+a{
+  color: #4d72a0;
+}
+
 a:hover{
   color: #d13c3f;
 }
@@ -34,7 +38,7 @@ a:hover{
 body{
   font-family: arial, sans-serif;
   font-size: 14px;
-  background: url('/img/background.png') top center no-repeat;
+  background: #d6dfe8 url('/img/background.png') top center no-repeat;
 }
 
 header{
@@ -213,13 +217,13 @@ footer{
     background-color: @bg-color;
 
     #content{
-      margin: 40px 0 0 0;
+      margin: 40px 250px 40px 0;
       float: left;
     }
 
     aside{
-      margin: 40px 0 40px 0;
-      float: right;
+      margin: 40px -3px 40px -210px;
+      float: left;
       width: 210px;
       background: white;
       border: 1px solid #dde9f7;
@@ -242,6 +246,65 @@ footer{
 
 h1{
   margin-top: 0;
+}
+
+.post{
+  position: relative;
+  margin: 0 0 30px 0;
+  min-height: 200px;
+
+  .post-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 3px solid #dde9f7;
+  }
+
+  .post-text{
+    margin: 0 0 0 236px;
+
+    .post-time{
+      font-size: 12px;
+      color: #99a4b2;
+    }
+
+    .post-title{
+      margin: 0 0 10px 0;
+      font-family: "Proxima Nova";
+      font-weight: bold;
+      color: #003663;
+      font-size: 28px;
+    }
+
+    .post-intro{
+      line-height: 24px;
+    }
+
+    .post-actions{
+      font-size: 12px;
+    }
+  }
+}
+
+.paging{
+  border-top: 3px solid #dde9f7;
+  padding: 20px 0 0 0;
+
+  span{
+    color: #4d72a0;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    margin-right: 10px;
+
+    &.current{
+      color: @hover-color;
+    }
+
+    a{
+      color: #4d72a0;
+      text-decoration: none;
+    }
+  }
 }
 
 /* SQL log */

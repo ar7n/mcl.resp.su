@@ -10,6 +10,8 @@ App::uses('AppModel', 'Model');
  */
 class MediaFile extends AppModel {
 
+	public $tablePrefix = '';
+
 /**
  * Display field
  *

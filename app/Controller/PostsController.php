@@ -16,13 +16,21 @@ class PostsController extends AppController {
  */
 	public $components = array('Paginator', 'Session');
 
+	public $paginate = array(
+		'limit' => 5,
+		'conditions' => array('hub_id' => 691),
+		'order' => array('created' => 'DESC'),
+	);
+
 /**
  * index method
  *
  * @return void
  */
 	public function index() {
-		$this->Post->recursive = 0;
+		$this->Paginator->settings = $this->paginate;
+
+		$this->Post->recursive = 2;
 		$this->set('posts', $this->Paginator->paginate());
 	}
 

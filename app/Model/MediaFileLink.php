@@ -7,6 +7,8 @@ App::uses('AppModel', 'Model');
  */
 class MediaFileLink extends AppModel {
 
+	public $tablePrefix = '';
+
 /**
  * Display field
  *

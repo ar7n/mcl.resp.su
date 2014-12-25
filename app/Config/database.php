@@ -8,7 +8,8 @@ class DATABASE_CONFIG {
 		'login' => 'root',
 		'password' => '123456',
 		'database' => 'resp',
-		'encoding' => 'utf8'
+		'encoding' => 'utf8',
+		'prefix' => '',
 	);
 
 	public $test = array(

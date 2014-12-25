@@ -106,3 +106,76 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+
+function rdate() {
+	$translate = array(
+		"am" => "дп",
+		"pm" => "пп",
+		"AM" => "ДП",
+		"PM" => "ПП",
+		"Monday" => "Понедельник",
+		"Mon" => "Пн",
+		"Tuesday" => "Вторник",
+		"Tue" => "Вт",
+		"Wednesday" => "Среда",
+		"Wed" => "Ср",
+		"Thursday" => "Четверг",
+		"Thu" => "Чт",
+		"Friday" => "Пятница",
+		"Fri" => "Пт",
+		"Saturday" => "Суббота",
+		"Sat" => "Сб",
+		"Sunday" => "Воскресенье",
+		"Sun" => "Вс",
+		"January" => "Января",
+		"Jan" => "Янв",
+		"February" => "Февраля",
+		"Feb" => "Фев",
+		"March" => "Марта",
+		"Mar" => "Мар",
+		"April" => "Апреля",
+		"Apr" => "Апр",
+		"May" => "Мая",
+		"May" => "Мая",
+		"June" => "Июня",
+		"Jun" => "Июн",
+		"July" => "Июля",
+		"Jul" => "Июл",
+		"August" => "Августа",
+		"Aug" => "Авг",
+		"September" => "Сентября",
+		"Sep" => "Сен",
+		"October" => "Октября",
+		"Oct" => "Окт",
+		"November" => "Ноября",
+		"Nov" => "Ноя",
+		"December" => "Декабря",
+		"Dec" => "Дек",
+		"st" => "ое",
+		"nd" => "ое",
+		"rd" => "е",
+		"th" => "ое"
+	);
+
+	if (func_num_args() > 1) {
+		$timestamp = func_get_arg(1);
+		return strtr(date(func_get_arg(0), $timestamp), $translate);
+	} else {
+		return strtr(date(func_get_arg(0)), $translate);
+	}
+}
+
+/**
+ * XXX к году прибавляется 1900
+ * @param type $datetime
+ * @return type
+ */
+function mysqlTimestamp($datetime){
+	//$datetime = '2012-12-1 1:1:1';
+	//debug($datetime);
+	$a = strptime($datetime, '%Y-%m-%d %H:%M:%S');
+	$a['tm_year'] += 1900;
+	$a['tm_mon'] += 1;
+	return mktime($a['tm_hour'], $a['tm_min'], $a['tm_sec'], $a['tm_mon'], $a['tm_mday'], $a['tm_year']);
+}

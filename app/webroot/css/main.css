@@ -574,13 +574,16 @@ a:hover .icon-key {
   font-weight: bold;
   font-style: normal;
 }
+a {
+  color: #4d72a0;
+}
 a:hover {
   color: #d13c3f;
 }
 body {
   font-family: arial, sans-serif;
   font-size: 14px;
-  background: url('/img/background.png') top center no-repeat;
+  background: #d6dfe8 url('/img/background.png') top center no-repeat;
 }
 header {
   font-family: "Proxima Nova";
@@ -729,12 +732,12 @@ footer .inner .footer-logo {
   background-color: #f6faff;
 }
 .middle .container #content {
-  margin: 40px 0 0 0;
+  margin: 40px 250px 40px 0;
   float: left;
 }
 .middle .container aside {
-  margin: 40px 0 40px 0;
-  float: right;
+  margin: 40px -3px 40px -210px;
+  float: left;
   width: 210px;
   background: white;
   border: 1px solid #dde9f7;
@@ -752,6 +755,54 @@ footer .inner .footer-logo {
 }
 h1 {
   margin-top: 0;
+}
+.post {
+  position: relative;
+  margin: 0 0 30px 0;
+  min-height: 200px;
+}
+.post .post-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 3px solid #dde9f7;
+}
+.post .post-text {
+  margin: 0 0 0 236px;
+}
+.post .post-text .post-time {
+  font-size: 12px;
+  color: #99a4b2;
+}
+.post .post-text .post-title {
+  margin: 0 0 10px 0;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  color: #003663;
+  font-size: 28px;
+}
+.post .post-text .post-intro {
+  line-height: 24px;
+}
+.post .post-text .post-actions {
+  font-size: 12px;
+}
+.paging {
+  border-top: 3px solid #dde9f7;
+  padding: 20px 0 0 0;
+}
+.paging span {
+  color: #4d72a0;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  margin-right: 10px;
+}
+.paging span.current {
+  color: #d13c3f;
+}
+.paging span a {
+  color: #4d72a0;
+  text-decoration: none;
 }
 /* SQL log */
 .cake-sql-log {
