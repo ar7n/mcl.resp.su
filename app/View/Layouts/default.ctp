@@ -6,6 +6,7 @@
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('jquery-ui.min.css');
+		echo $this->Html->css('social-likes_classic.css');
 		echo $this->Html->css('main');
 
 		echo $this->fetch('meta');
@@ -115,6 +116,7 @@
 
 	<? echo $this->Html->script('jquery-1.11.2.min'); ?>
 	<? echo $this->Html->script('jquery-ui.min'); ?>
+	<? echo $this->Html->script('social-likes.min'); ?>
 	<? echo $this->Html->script('scripts'); ?>
 
 </body>

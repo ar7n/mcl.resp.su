@@ -850,6 +850,41 @@ h1 {
   color: #d13c3f;
   outline-color: transparent;
 }
+.social-likes-wrap {
+  margin: 50px 0 0 0;
+  text-align: center;
+  position: relative;
+}
+.social-likes-wrap .title {
+  position: relative;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 18px;
+  color: #99a4b2;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+  z-index: 1;
+}
+.social-likes-wrap .title:before {
+  content: "";
+  border-top: 1px solid #dde9f7;
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+.social-likes-wrap .title span {
+  background: #f6faff;
+  padding: 0 15px;
+}
+.social-likes-wrap .social-likes {
+  display: inline-block;
+}
 /* SQL log */
 .cake-sql-log {
   background: #fff;

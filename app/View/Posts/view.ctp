@@ -20,4 +20,6 @@
 
 		</div>
 	</div>
+
+	<? echo $this->element('SocialLikes'); ?>
 </div>
