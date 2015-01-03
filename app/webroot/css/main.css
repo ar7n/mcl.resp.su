@@ -580,9 +580,16 @@ a {
 a:hover {
   color: #d13c3f;
 }
+h2 {
+  margin: 0 0 15px 0;
+  color: #08263f;
+  font-size: 28px;
+  font-family: "Proxima Nova", Arial, sans-serif;
+}
 body {
   font-family: arial, sans-serif;
   font-size: 14px;
+  color: #031523;
   background: #d6dfe8 url('/img/background.png') top center no-repeat;
 }
 header {
@@ -728,6 +735,11 @@ footer .inner .footer-logo {
   max-width: 1160px;
   margin: 0 auto;
 }
+@media (min-width: 1025px) {
+  .container {
+    padding: 0 40px;
+  }
+}
 .middle {
   margin: 0 0 80px 0;
 }
@@ -739,6 +751,11 @@ footer .inner .footer-logo {
   margin: 40px 250px 40px 0;
   min-height: 636px;
   float: left;
+}
+@media (min-width: 1025px) {
+  .middle .container #content {
+    margin: 40px 280px 40px 0;
+  }
 }
 .middle .container aside {
   position: absolute;
@@ -884,6 +901,34 @@ h1 {
 }
 .social-likes-wrap .social-likes {
   display: inline-block;
+}
+.pages.partners table {
+  margin: 0 0 40px 0;
+}
+.pages.partners table col {
+  width: 33%;
+}
+.pages.partners table td {
+  padding: 0 15px;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid #dde9f7;
+}
+.pages.partners table td img {
+  width: 100%;
+  margin: 25px 0 25px 0;
+}
+.pages.partners table td h4 {
+  margin: 0 0 15px 0;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #08263f;
+  text-transform: uppercase;
+}
+.pages.partners table td p {
+  font-size: 12px;
+  line-height: 20px;
 }
 /* SQL log */
 .cake-sql-log {
