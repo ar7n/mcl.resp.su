@@ -31,4 +31,53 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+    var $components = array(
+        'Auth' => array(
+            'loginAction' => array(
+                'controller' => 'users',
+                'action' => 'login',
+            ),
+            'authError' => 'Did you really think you are allowed to see that?',
+            'authenticate' => array(
+                'Form' => array(
+                    'fields' => array(
+                        'username' => 'email', //Default is 'username' in the userModel
+                        'password' => 'password'  //Default is 'password' in the userModel
+                    )
+                )
+            ),
+        ),
+        'Session',
+    );
+
+    public function beforeFilter(){
+        if (isset($this->params['prefix']) && 'admin' == $this->params['prefix']){
+            $this->layout = 'bootstrap';
+        }
+        $AuthUser = $this->Auth->user();
+        $this->set('AuthUser', $AuthUser);
+    }
+
+    public function moveUploadedFile($file){
+
+        // Initialize filename-variable
+        $filename = null;
+
+        if (
+            !empty($file['tmp_name'])
+            && is_uploaded_file($file['tmp_name'])
+        ) {
+            // Strip path information
+            $filename = basename($file['name']);
+            move_uploaded_file(
+                $file['tmp_name'],
+                WWW_ROOT . DS . 'files' . DS . $filename
+            );
+        }
+
+        // Set the file-name only to save in the database
+        return $filename;
+    }
+
 }

@@ -47,7 +47,21 @@ body{
   font-family: arial, sans-serif;
   font-size: 14px;
   color: #031523;
+
+}
+
+.wrap{
   background: #d6dfe8 url('/img/background.png') top center no-repeat;
+}
+
+.admin-bar{
+  color: #fff;
+  background: #EF0033;
+  padding: 5px;
+
+  a{
+    color: #fff;
+  }
 }
 
 header{
@@ -239,7 +253,6 @@ footer{
     #content{
       margin: 40px 250px 40px 0;
       min-height: 636px;
-      float: left;
     }
     
     @media (min-width: 1025px) {
@@ -452,6 +465,80 @@ h1{
           font-size: 12px;
           line-height: 20px;
         }
+      }
+    }
+  }
+}
+
+.users.login{
+
+  .form-wrap{
+    border: 1px solid #dde9f7;
+
+    .login-form{
+      width: 560px;
+      margin: 40px auto;
+
+      .input{
+
+        margin: 0 0 10px 0;
+
+        label{
+          display: inline-block;
+          width: 180px;
+          text-align: right;
+          font-size: 18px;
+          font-family: "Proxima Nova", Arial, sans-serif;
+          font-weight: bold;
+          line-height: 40px;
+          padding: 0 20px 0 0;
+        }
+
+        input{
+          width:340px;
+          line-height: 38px;
+          border: 1px solid #99a4b2;
+          background: #eaeef2;
+          padding: 0 10px;
+        }
+      }
+
+      .form-row{
+        margin: 0 0 10px 0;
+        font-size: 12px;
+        font-family: Verdana;
+
+
+        .form-col1{
+          float: left;
+          line-height: 40px;
+          min-height: 1px;
+          width: 180px;
+          padding: 0 16px 0 0;
+          text-align: right;
+        }
+
+        .form-col2{
+          float: left;
+          vertical-align: middle;
+          width: 360px;
+          line-height: 40px;
+        }
+      }
+
+      input[type=submit]{
+        background: #08263f;
+        color: white;
+        width: 110px;
+        font-family: "Proxima Nova", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .message{
+        color: #d13c3f;
+        font-size: 12px;
       }
     }
   }

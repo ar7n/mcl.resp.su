@@ -22,7 +22,14 @@ class PostsController extends AppController {
 		'order' => array('created' => 'DESC'),
 	);
 
-/**
+
+	public function beforeFilter(){
+		parent::beforeFilter();
+		$this->Auth->allow(array('index', 'view'));
+	}
+
+
+	/**
  * index method
  *
  * @return void
