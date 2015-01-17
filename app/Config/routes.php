@@ -25,16 +25,16 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 
+	Router::redirect('/admin', array('admin' => true, 'controller' => 'universities', 'action' => 'index'), array('status' => 302));
 	Router::connect('/', array('controller' => 'posts', 'action' => 'index'));
 	Router::connect('/rules', array('controller' => 'pages', 'action' => 'display', 'rules'));
 	Router::connect('/partners', array('controller' => 'pages', 'action' => 'display', 'partners'));
 	Router::connect('/table/', array('controller' => 'pages', 'action' => 'table'));
-	Router::connect('/teams', array('controller' => 'universities', 'action' => 'index'));
-	Router::connect('/teams/*', array('controller' => 'universities', 'action' => 'index'));
+	Router::connect('/teams', array('admin' => false, 'controller' => 'universities', 'action' => 'index'));
+	Router::connect('/teams/*', array('admin' => false, 'controller' => 'universities', 'action' => 'index'));
 	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
-	Router::connect('/register', array('controller' => 'users', 'action' => 'register'));
+	Router::connect('/registration', array('controller' => 'users', 'action' => 'registration'));
 	Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
-	Router::connect('/admin', array('prefix' => 'admin', 'controller' => 'universities', 'action' => 'index'));
 //	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.

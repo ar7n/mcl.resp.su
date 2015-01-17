@@ -18,7 +18,7 @@ class UsersController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('login', 'logout', 'admin_logout');
+		$this->Auth->allow('registration', 'login', 'logout', 'admin_logout');
 	}
 
 	public function login() {
@@ -28,6 +28,41 @@ class UsersController extends AppController {
 			}
 			$this->Session->setFlash('— Неправильный e-mail или пароль, попробуйте снова.', 'default', array(), 'auth');
 		}
+	}
+
+	public function registration($state = null){
+
+		if ($state == 'success'){
+			$this->render('registration_success');
+		}
+		if ($this->request->is('post')) {
+			$User = $this->data['User'];
+			$autoFields = array(
+				'visability_fields' => serialize($this->User->defaultVisibility),
+				'self_registered' => 1,
+				'activation_code' => $this->User->generate_code(),
+				'activation_code_date' => mysqldate(),
+				'activation_function' => 'registration',
+			);
+			$User = array_merge($User, $autoFields);
+//			$AvatarFile = array_merge($this->data['AvatarFile'], array('type' => 'photo'));
+
+
+			/*$this->User->set( $User );
+			debug($this->User->validates());
+			debug($this->User->invalidFields());*/
+
+			if ($this->User->saveAll(compact('User'))){//, 'AvatarFile'))) {
+				$title = 'Регистрация на mcl.resp.su';
+				$this->User->sendEmailToUser($this->User->id, 'registration', $title, array('code' => $User['activation_code']));
+				$this->redirect(array('success'));
+			}
+
+//			$this->Session->write('user.registration.allowedStates', array('step1', 'success'));
+//			$this->redirect(array('success'));
+		}
+
+		$this->set('geoCountries', $this->User->GeoCountry->find('list'));
 	}
 
 	public function admin_login() {
@@ -46,6 +81,33 @@ class UsersController extends AppController {
 
 	public function admin_logout() {
 		return $this->redirect($this->Auth->logout());
+	}
+
+	/**
+	 * Отправка письма, созданного из шаблона, пользователю
+	 *
+	 * @param type $id
+	 * @param type $template
+	 * @param type $data
+	 * @param type $options
+	 * @return boolean
+	 */
+	public function sendEmailToUser($id, $template, $title, $data = null, $options = null) {
+		$this->contain();
+		$user = $this->findById($id);
+		if (empty($user)) {
+			return FALSE;
+		}
+		if (empty($data)) {
+			$data = array();
+		}
+		$data = array_merge($data, $user);
+		if (!$this->sendEmail($user[$this->alias]['email'], $template, $title, $data, $options)){
+			return FALSE;
+		}
+		$this->id = $id;
+		$this->saveField('last_email_sent', mysqldate(), FALSE);
+		return TRUE;
 	}
 
 }

@@ -28,31 +28,31 @@
 			<?php echo $this->Form->create('University', array('role' => 'form', 'type' => 'file')); ?>
 
 			<div class="form-group">
-				<?php echo $this->Form->input('title', array('class' => 'form-control', 'placeholder' => 'Title'));?>
+				<?php echo $this->Form->input('title', array('class' => 'form-control', 'label' => 'Название'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('logo', array('type' => 'file', 'class' => 'form-control', 'placeholder' => 'Logo'));?>
+				<?php echo $this->Form->input('logo', array('type' => 'file', 'class' => 'form-control', 'label' => 'Логотип'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('division', array('class' => 'form-control', 'placeholder' => 'Division'));?>
+				<?php echo $this->Form->input('division', array('class' => 'form-control', 'label' => 'Дивизион'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('city_id', array('class' => 'form-control', 'placeholder' => 'City Id'));?>
+				<?php echo $this->Form->input('city_id', array('class' => 'form-control', 'label' => 'Город'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('managers', array('class' => 'form-control', 'placeholder' => 'Managers'));?>
+				<?php echo $this->Form->input('managers', array('class' => 'form-control', 'label' => 'Управляющие'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('team_dota2', array('class' => 'form-control', 'placeholder' => 'Team dota 2'));?>
+				<?php echo $this->Form->input('team_dota2', array('class' => 'form-control', 'label' => 'Команда dota 2'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('team_csgo', array('class' => 'form-control', 'placeholder' => 'Team cs:go'));?>
+				<?php echo $this->Form->input('team_csgo', array('class' => 'form-control', 'label' => 'Команда cs:go'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('team_fifa14', array('class' => 'form-control', 'placeholder' => 'Team fifa 14'));?>
+				<?php echo $this->Form->input('team_fifa14', array('class' => 'form-control', 'label' => 'Команда fifa 14'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->submit(__('Submit'), array('class' => 'btn btn-default')); ?>
+				<?php echo $this->Form->submit(__('Добавить'), array('class' => 'btn btn-default')); ?>
 			</div>
 
 			<?php echo $this->Form->end() ?>

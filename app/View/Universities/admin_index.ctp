@@ -18,7 +18,7 @@
 					<div class="panel-heading">Actions</div>
 					<div class="panel-body">
 						<ul class="nav nav-pills nav-stacked">
-							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New City'), array('action' => 'add'), array('escape' => false)); ?></li>
+							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New City'), array('controller' => 'cities', 'action' => 'add'), array('escape' => false)); ?></li>
 							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New University'), array('controller' => 'universities', 'action' => 'add'), array('escape' => false)); ?> </li>
 						</ul>
 					</div><!-- end body -->
@@ -35,9 +35,6 @@
 					<th><?php echo $this->Paginator->sort('logo'); ?></th>
 					<th><?php echo $this->Paginator->sort('division'); ?></th>
 					<th><?php echo $this->Paginator->sort('city_id'); ?></th>
-					<th><?php echo $this->Paginator->sort('managers'); ?></th>
-					<th><?php echo $this->Paginator->sort('team-dota-2'); ?></th>
-					<th><?php echo $this->Paginator->sort('team-cs-go'); ?></th>
 					<th class="actions"></th>
 				</tr>
 				</thead>
@@ -49,9 +46,6 @@
 						<td><?php echo h($university['University']['logo']); ?>&nbsp;</td>
 						<td><?php echo h($university['University']['division']); ?>&nbsp;</td>
 						<td><?php echo h($university['University']['city_id']); ?>&nbsp;</td>
-						<td><?php echo h($university['University']['managers']); ?>&nbsp;</td>
-						<td><?php echo h($university['University']['team_dota2']); ?>&nbsp;</td>
-						<td><?php echo h($university['University']['team_csgo']); ?>&nbsp;</td>
 						<td class="actions">
 							<?php echo $this->Html->link('<span class="glyphicon glyphicon-search"></span>', array('action' => 'view', $university['University']['id']), array('escape' => false)); ?>
 							<?php echo $this->Html->link('<span class="glyphicon glyphicon-edit"></span>', array('action' => 'edit', $university['University']['id']), array('escape' => false)); ?>

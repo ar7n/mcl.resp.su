@@ -167,6 +167,18 @@ function rdate() {
 }
 
 /**
+ * Возвращает дату в формате mysql
+ * @param $date
+ */
+function mysqldate($date=false)
+{
+	if ($date !== false) {
+		return date('Y-m-d H-i-s', $date);
+	}
+	return date('Y-m-d H-i-s');
+}
+
+/**
  * XXX к году прибавляется 1900
  * @param type $datetime
  * @return type

@@ -74,6 +74,15 @@ class UniversitiesController extends AppController {
 			throw new NotFoundException(__('Invalid university'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
+
+			$logo = $this->moveUploadedFile($this->request->data['University']['logo']);
+			if ($logo){
+				$this->request->data['University']['logo'] = $logo;
+			}
+			else{
+				unset($this->request->data['University']['logo']);
+			}
+
 			if ($this->University->save($this->request->data)) {
 				$this->Session->setFlash(__('The university has been saved.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
@@ -84,6 +93,7 @@ class UniversitiesController extends AppController {
 			$options = array('conditions' => array('University.' . $this->University->primaryKey => $id));
 			$this->request->data = $this->University->find('first', $options);
 		}
+		$this->set('cities', $this->University->City->find('list'));
 	}
 
 /**
@@ -120,7 +130,7 @@ class UniversitiesController extends AppController {
 	 */
 	public function index($city = NULL) {
 		$this->University->recursive = 0;
-		$this->set('universities', $this->Paginator->paginate());
+		$this->set('universities', $this->University->find('all'));
 	}
 }
 

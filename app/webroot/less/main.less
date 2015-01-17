@@ -27,6 +27,8 @@
 @footer-color: #99a4b2;
 @hover-color: #d13c3f;
 @heading-color: #08263f;
+@border-color: #dde9f7;
+@text-color: #031523;
 
 a{
   color: #4d72a0;
@@ -34,6 +36,10 @@ a{
 
 a:hover{
   color: #d13c3f;
+}
+
+p{
+  margin: 0 0 15px 0;
 }
 
 h2{
@@ -46,8 +52,15 @@ h2{
 body{
   font-family: arial, sans-serif;
   font-size: 14px;
-  color: #031523;
+  color: @text-color;
 
+}
+
+.heading{
+  color: @heading-color;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .wrap{
@@ -542,6 +555,236 @@ h1{
       }
     }
   }
+}
+
+.users.registration{
+
+  .form-wrap{
+    border: 1px solid #dde9f7;
+
+    .login-form{
+      width: 560px;
+      margin: 40px auto;
+
+      .input{
+
+        margin: 0 0 10px 0;
+
+        &.required label:after{
+          content: '*';
+          color: #d13c3f;
+        }
+
+
+        label{
+          display: inline-block;
+          width: 180px;
+          text-align: right;
+          font-size: 18px;
+          font-family: "Proxima Nova", Arial, sans-serif;
+          font-weight: bold;
+          line-height: 40px;
+          padding: 0 20px 0 0;
+        }
+
+        input[type=text], input[type=email], input[type=password], input[type=tel]{
+          width:340px;
+          line-height: 38px;
+          border: 1px solid #99a4b2;
+          background: #eaeef2;
+          padding: 0 10px;
+          outline: none;
+        }
+
+        .ui-selectmenu-button{
+          background: #eaeef2;
+          border: 1px solid #99a4b2;
+          border-radius: 0;
+          outline: none;
+
+
+          .ui-icon{
+            background: url('/img/icons.png');
+            background-position: -10px -82px;
+          }
+
+          .ui-selectmenu-text{
+            line-height: 38px;
+            background: #eaeef2;
+            padding: 0 10px 0 10px;
+            font-size: 14px;
+            color: @text-color;
+            font-weight: normal;
+          }
+        }
+
+        .error-message{
+          margin: 5px 0 0 200px;
+          font-size: 12px;
+          color: #d13c3f;
+          font-family: Verdana;
+        }
+
+      }
+
+      .form-row{
+        margin: 0 0 10px 0;
+        font-size: 12px;
+        font-family: Verdana;
+
+
+        .form-col1{
+          float: left;
+          line-height: 40px;
+          min-height: 1px;
+          width: 180px;
+          padding: 0 16px 0 0;
+          text-align: right;
+        }
+
+        .form-col2{
+          float: left;
+          vertical-align: middle;
+          width: 360px;
+          line-height: 40px;
+        }
+      }
+
+      input[type=submit]{
+        line-height: 38px;
+        border: none;
+        background: #08263f;
+        color: white;
+        width: 150px;
+        font-family: "Proxima Nova", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .message{
+        color: #d13c3f;
+        font-size: 12px;
+      }
+    }
+  }
+
+  &.registration-success .form-wrap{
+    padding: 40px;
+    font-family: Verdana;
+    line-height: 22px;
+  }
+}
+
+.ui-selectmenu-menu ul{
+
+  border-radius: 0;
+  border: 1px solid #99a4b2;
+  height: 300px;
+
+  .ui-menu-item {
+    line-height: 38px;
+    background: #eaeef2;
+    padding: 0 10px;
+    font-size: 14px;
+    color: @text-color;
+    font-weight: normal;
+    border-radius: 0;
+
+    &.ui-state-focus {
+      background: #08263f;
+      color: #dde9f7;
+      font-weight: normal;
+      border: none;
+    }
+  }
+}
+
+.universities.index{
+
+  p{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Verdana;
+  }
+
+  .title{
+    color: #99a4b2;
+    font-family: "Proxima Nova";
+    font-weight: bold;
+  }
+
+  li  > .title{
+    display: block;
+    padding: .5em 1em .5em 0;
+  }
+
+  .main-tabs{
+    font-size: 18px;
+  }
+
+  .university{
+    position: relative;
+    height: 135px;
+    margin: 35px 0 0 0;
+    font-size: 12px;
+
+    .university-logo{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 135px;
+      height: 135px;
+    }
+
+    .university-info{
+      position: absolute;
+      top: 0;
+      left: 175px;
+      width: 175px;
+      height: 135px;
+
+      .title{
+        margin: 20px 0 10px 0;
+        border-bottom: 1px solid @border-color;
+        padding: 0 0 5px 0;
+        text-transform: uppercase;
+      }
+
+      .university-managers{
+        font-family: Verdana;
+        padding: 0 40px 0 0;
+      }
+
+    }
+
+    .university-tabs{
+      margin: 0 0 0 350px;
+      padding: 0;
+
+      .ui-tabs-nav{
+        border-bottom: 1px solid @border-color;
+        border-radius: 0;
+        font-family: "Proxima Nova";
+        font-weight: bold;
+        text-transform: uppercase;
+
+      }
+
+      .ui-tabs-panel{
+        border-left: 1px solid @border-color;
+        border-right: 1px solid @border-color;
+        border-bottom: 1px solid @border-color;
+        border-radius: 0;
+      }
+
+      strong{
+        font-weight: normal;
+        color: #99a4b2;
+      }
+    }
+  }
+
 }
 
 /* SQL log */

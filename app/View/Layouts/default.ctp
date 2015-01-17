@@ -37,7 +37,7 @@
 						<div class="auth-bar">
 							<? if (empty($AuthUser)){ ?>
 								<a href="/login"><span class="icon-key"></span>Вход</a>
-								<a href="/register">Регистрация</a>
+								<a href="/registration">Регистрация</a>
 							<? } else { ?>
 								<a href="/logout"></span>Выход</a>
 							<? } ?>

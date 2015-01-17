@@ -30,4 +30,39 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+
+    /**
+     * Отправка email
+     *
+     * @param  string $email
+     * @param  string $template
+     * @param  array  $data
+     * @return boolean
+     */
+    function sendEmail($email, $template, $title, $data = NULL, $options = NULL) {
+//		$mail = $this->useTemplate($template, $data);
+        $classname = Configure::read('App.ClassNameForMail');
+        $componentname = Configure::read('App.ComponentNameForMail');
+        App::import('Component', $classname);
+        $emailComponent = new $classname;
+        $controller = new Controller;
+        $emailComponent->initialize($controller);
+//		$emailComponent->startup($controller);
+        $controller->set($data);
+        $emailComponent->to = $email;
+        $emailComponent->template = $template;
+        $emailComponent->subject = $title;
+        $emailComponent->from = Configure::read('App.Mail');
+        $emailComponent->sendAs = 'text';
+        if (!empty($options)) {
+            foreach ($options as $key => $option) {
+                $emailComponent->$key = $option;
+            }
+        }
+        if (!$emailComponent->send(NULL)) {
+            return FALSE;
+        }
+        return TRUE;
+    }
+
 }
