@@ -386,9 +386,13 @@ Cache::config('_cake_model_', array(
 ));
 
 
+$host=$_SERVER['HTTP_HOST'];
+$host=strtolower($host);
+$host=str_replace("www.", "", $host);
+
 Configure::write('App.Name','mcl.resp.su');
-Configure::write('App.Host',"http://mcl.resp.su/");
-Configure::write('App.Site',"http://mcl.resp.su");
+Configure::write('App.Host',"http://$host/");
+Configure::write('App.Site',"http://$host");
 Configure::write('App.Mail',"robot@mcl.resp.su");
 
 define('PROJECTNAME', Configure::read('App.Name'));

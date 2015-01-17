@@ -18,7 +18,7 @@ class UsersController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('registration', 'login', 'logout', 'admin_logout');
+		$this->Auth->allow('activation', 'registration', 'login', 'logout', 'admin_logout');
 	}
 
 	public function login() {
@@ -46,7 +46,7 @@ class UsersController extends AppController {
 			);
 			$User = array_merge($User, $autoFields);
 			App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
-			$passwordHasher = new SimplePasswordHasher(array('hashType' => 'sha256'));
+			$passwordHasher = new SimplePasswordHasher(array('hashType' => 'sha1'));
 			$User['password'] = $passwordHasher->hash($User['password']);
 			$User['repeat_password'] = $passwordHasher->hash($User['repeat_password']);
 //			$AvatarFile = array_merge($this->data['AvatarFile'], array('type' => 'photo'));
@@ -73,7 +73,6 @@ class UsersController extends AppController {
 		//$this->layout = false;
 		if (null == $code)
 			return;
-		$this->User->contain();
 		$user = $this->User->find('first',
 			array(
 				'conditions'=>array('activation_code'=>$code),
@@ -99,7 +98,7 @@ class UsersController extends AppController {
 			if($user['User']['activation_function']=='registration')
 			{
 				$user['User']['active']=1;
-				$this->User->sendSystemMessage($user['User']['id'], 'user_added');
+				$this->User->sendEmailToUser($user['User']['id'], 'registration_confirmed', 'Регистрация подтверждена');
 				$autologin=true;
 
 			}

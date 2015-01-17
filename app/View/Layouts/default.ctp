@@ -15,7 +15,7 @@
 	?>
 </head>
 <body>
-	<? if (isset($AuthUser) && $AuthUser['role'] == 'admin'){ ?>
+	<? if (isset($AuthUser['role']) && $AuthUser['role'] == 'admin'){ ?>
 		<div class="admin-bar"><a href="/admin">Панель администрирования</a></div>
 	<? } ?>
 	<div class="wrap">

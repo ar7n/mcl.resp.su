@@ -41,6 +41,10 @@ class AppController extends Controller {
             'authError' => 'Did you really think you are allowed to see that?',
             'authenticate' => array(
                 'Form' => array(
+//                    'passwordHasher' => array(
+//                        'className' => 'Simple',
+//                        'hashType' => 'sha256'
+//                    ),
                     'fields' => array(
                         'username' => 'email', //Default is 'username' in the userModel
                         'password' => 'password'  //Default is 'password' in the userModel
