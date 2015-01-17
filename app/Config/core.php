@@ -399,3 +399,5 @@ define('PROJECTNAME', Configure::read('App.Name'));
 define('PROJECTHOST', Configure::read('App.Host'));
 define('PROJECTSITE', Configure::read('App.Site'));
 define('PROJECTMAIL', Configure::read('App.Mail'));
+
+Configure::write('Config.language', 'rus');

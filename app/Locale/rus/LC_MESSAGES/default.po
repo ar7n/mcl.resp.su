@@ -1,0 +1,5699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2011-10-13 13:54+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Denis Oleshkevich <denis@web-dev.org>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language-Code: ru\n"
+"Language-Name: Russian\n"
+"Preferred-Encodings: utf-8\n"
+
+#: /app_controller.php:506;521
+msgid "The %s has been saved"
+msgstr "%s сохранён"
+
+#: /app_controller.php:508;524
+msgid "The %s could not be saved. Please, try again."
+msgstr "Не получается сохранить %s. Попробуйте позже."
+
+#: /app_controller.php:517
+msgid "Invalid %s"
+msgstr ""
+
+#: /app_controller.php:536
+#: /controllers/events_controller.php:147
+#: /controllers/softwares_controller.php:122
+msgid "Invalid id for %s"
+msgstr ""
+
+#: /app_controller.php:543
+#: /controllers/events_controller.php:150
+#: /controllers/softwares_controller.php:125
+msgid "%s deleted"
+msgstr "%s удален"
+
+#: /controllers/disciplines_controller.php:51;57
+msgid "Invalid id for discipline"
+msgstr ""
+
+#: /controllers/edits_controller.php:46;50;71;75;96
+msgid "Invalid edit"
+msgstr ""
+
+#: /controllers/edits_controller.php:86;100
+msgid "Error: can't save to database"
+msgstr ""
+
+#: /controllers/edits_controller.php:91
+msgid "Edit accepted"
+msgstr ""
+
+#: /controllers/edits_controller.php:102
+msgid "Edit declined"
+msgstr ""
+
+#: /controllers/events_controller.php:152
+#: /controllers/softwares_controller.php:127
+msgid "%s was not deleted"
+msgstr ""
+
+#: /controllers/group_types_controller.php:13;33
+msgid "Invalid group type"
+msgstr ""
+
+#: /controllers/group_types_controller.php:23;38
+msgid "The group type has been saved"
+msgstr ""
+
+#: /controllers/group_types_controller.php:26;41
+msgid "The group type could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/group_types_controller.php:51
+msgid "Invalid id for group type"
+msgstr ""
+
+#: /controllers/group_types_controller.php:55
+msgid "Group type deleted"
+msgstr ""
+
+#: /controllers/group_types_controller.php:58
+msgid "Group type was not deleted"
+msgstr ""
+
+#: /controllers/groups_controller.php:17;49;92;126;150
+msgid "Invalid group"
+msgstr ""
+
+#: /controllers/groups_controller.php:34;57;139;158
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/groups_controller.php:54;136;155
+msgid "The group has been saved"
+msgstr ""
+
+#: /controllers/groups_controller.php:71;172
+msgid "Invalid id for group"
+msgstr ""
+
+#: /controllers/groups_controller.php:75;176
+msgid "Group deleted"
+msgstr ""
+
+#: /controllers/groups_controller.php:78;179
+msgid "Group was not deleted"
+msgstr ""
+
+#: /controllers/parties_controller.php:190;252
+msgid "Invalid party"
+msgstr "Неправильная команда"
+
+#: /controllers/parties_controller.php:195
+msgid "The party has been approved"
+msgstr "Команда успешно подтверждена"
+
+
+
+msgid "Party has been added"
+msgstr "Команда добавлена в турнир"
+
+msgid "Party has not been created"
+msgstr "Команда не может быть добавлена"
+
+#: /controllers/parties_controller.php:198
+msgid "The party has been disapproved"
+msgstr "Команда отказалась от подтверждения"
+
+#: /controllers/parties_controller.php:201
+msgid "The party could not be approved. Please, try again."
+msgstr "Команда не может быть подтверждана. Пожалуйста, попробуйте еще раз."
+
+#: /controllers/parties_controller.php:257
+msgid "The party has been eliminated"
+msgstr "Команда выбыла из турнира"
+
+#: /controllers/parties_controller.php:260
+msgid "The party has been restored"
+msgstr "Команда восстановлена в турнире"
+
+#: /controllers/parties_controller.php:263
+msgid "The party could not be $eliminated. Please, try again."
+msgstr "Команда не может сейчас выбыть из турнира. Пожалуйста, попробуйте еще раз"
+
+#: /controllers/posts_controller.php:285;298;330
+msgid "Invalid post"
+msgstr ""
+
+#: /controllers/posts_controller.php:303;340
+msgid "The post has been saved"
+msgstr ""
+
+#: /controllers/posts_controller.php:306;343
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: /controllers/posts_controller.php:354
+msgid "Invalid id for post"
+msgstr ""
+
+#: /controllers/posts_controller.php:358
+msgid "Post deleted"
+msgstr ""
+
+#: /controllers/posts_controller.php:361
+msgid "Post was not deleted"
+msgstr ""
+
+#: /controllers/revisions_controller.php:35;42
+msgid "Invalid revision"
+msgstr ""
+
+#: /controllers/tournaments_controller.php:201
+msgid "The Tournament could not be saved. Please, try again."
+msgstr "Не удаётся сохранить турнир. Попробуйте позже."
+
+#: /controllers/tournaments_controller.php:206
+msgid "The Tournament has been saved"
+msgstr "Турнир сохранён"
+
+msgid "Tournament has been built"
+msgstr "Турнир построен"
+
+msgid "Tournament has not been built"
+msgstr "Турнир не построен"
+
+#: /controllers/user_histories_controller.php:19
+msgid "Invalid id for user history"
+msgstr ""
+
+#: /controllers/user_histories_controller.php:27
+msgid "User history applied"
+msgstr "История пользователя применена"
+
+#: /controllers/user_histories_controller.php:30
+msgid "User history was not applied"
+msgstr ""
+
+#: /controllers/users_controller.php:604
+msgid "Invalid id for user"
+msgstr ""
+
+#: /controllers/users_controller.php:609
+msgid "User "
+msgstr "Пользователь"
+
+#: /controllers/users_controller.php:611
+msgid "User was not "
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:55
+msgid "Invalid setting for key: Use iso, name, iso3, numcode or printableName."
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:59
+msgid "Afghanistan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:60
+msgid "Albania"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:61
+msgid "Algeria"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:62
+msgid "American Samoa"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:63
+msgid "Andorra"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:64
+msgid "Angola"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:65
+msgid "Anguilla"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:66
+msgid "Antarctica"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:67
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:68
+msgid "Argentina"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:69
+msgid "Armenia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:70
+msgid "Aruba"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:71
+msgid "Australia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:72
+msgid "Austria"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:73
+msgid "Azerbaijan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:74
+msgid "Bahamas"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:75
+msgid "Bahrain"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:76
+msgid "Bangladesh"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:77
+msgid "Barbados"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:78
+msgid "Belarus"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:79
+msgid "Belgium"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:80
+msgid "Belize"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:81
+msgid "Benin"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:82
+msgid "Bermuda"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:83
+msgid "Bhutan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:84
+msgid "Bolivia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:85
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:86
+msgid "Botswana"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:87
+msgid "Bouvet Island"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:88
+msgid "Brazil"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:89
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:90
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:91
+msgid "Bulgaria"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:92
+msgid "Burkina Faso"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:93
+msgid "Burundi"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:94
+msgid "Cambodia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:95
+msgid "Cameroon"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:96
+msgid "Canada"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:97
+msgid "Cape Verde"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:98
+msgid "Cayman Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:99
+msgid "Central African Republic"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:100
+msgid "Chad"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:101
+msgid "Chile"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:102
+msgid "China"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:103
+msgid "Christmas Island"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:104
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:105
+msgid "Colombia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:106
+msgid "Comoros"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:107
+msgid "Congo"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:108
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:109
+msgid "Cook Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:110
+msgid "Costa Rica"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:111
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:112
+msgid "Croatia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:113
+msgid "Cuba"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:114
+msgid "Cyprus"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:115
+msgid "Czech Republic"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:116
+msgid "Denmark"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:117
+msgid "Djibouti"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:118
+msgid "Dominica"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:119
+msgid "Dominican Republic"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:120
+msgid "Ecuador"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:121
+msgid "Egypt"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:122
+msgid "El Salvador"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:123
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:124
+msgid "Eritrea"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:125
+msgid "Estonia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:126
+msgid "Ethiopia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:127
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:128
+msgid "Faroe Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:129
+msgid "Fiji"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:130
+msgid "Finland"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:131
+msgid "France"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:132
+msgid "French Guiana"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:133
+msgid "French Polynesia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:134
+msgid "French Southern Territories"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:135
+msgid "Gabon"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:136
+msgid "Gambia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:137
+msgid "Georgia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:138
+msgid "Germany"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:139
+msgid "Ghana"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:140
+msgid "Gibraltar"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:141
+msgid "Greece"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:142
+msgid "Greenland"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:143
+msgid "Grenada"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:144
+msgid "Guadeloupe"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:145
+msgid "Guam"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:146
+msgid "Guatemala"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:147
+msgid "Guinea"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:148
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:149
+msgid "Guyana"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:150
+msgid "Haiti"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:151
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:152
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:153
+msgid "Honduras"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:154
+msgid "Hong Kong"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:155
+msgid "Hungary"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:156
+msgid "Iceland"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:157
+msgid "India"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:158
+msgid "Indonesia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:159
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:160
+msgid "Iraq"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:161
+msgid "Ireland"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:162
+msgid "Israel"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:163
+msgid "Italy"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:164
+msgid "Jamaica"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:165
+msgid "Japan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:166
+msgid "Jordan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:167
+msgid "Kazakhstan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:168
+msgid "Kenya"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:169
+msgid "Kiribati"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:170
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:171
+msgid "Korea, Republic of"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:172
+msgid "Kuwait"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:173
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:174
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:175
+msgid "Latvia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:176
+msgid "Lebanon"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:177
+msgid "Lesotho"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:178
+msgid "Liberia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:179
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:180
+msgid "Liechtenstein"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:181
+msgid "Lithuania"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:182
+msgid "Luxembourg"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:183
+msgid "Macao"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:184
+msgid "Macedonia, the Former Yugoslav Republic of"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:185
+msgid "Madagascar"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:186
+msgid "Malawi"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:187
+msgid "Malaysia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:188
+msgid "Maldives"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:189
+msgid "Mali"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:190
+msgid "Malta"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:191
+msgid "Marshall Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:192
+msgid "Martinique"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:193
+msgid "Mauritania"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:194
+msgid "Mauritius"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:195
+msgid "Mayotte"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:196
+msgid "Mexico"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:197
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:198
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:199
+msgid "Monaco"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:200
+msgid "Mongolia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:201
+msgid "Montserrat"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:202
+msgid "Morocco"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:203
+msgid "Mozambique"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:204
+msgid "Myanmar"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:205
+msgid "Namibia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:206
+msgid "Nauru"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:207
+msgid "Nepal"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:208
+msgid "Netherlands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:209
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:210
+msgid "New Caledonia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:211
+#, fuzzy
+msgid "New Zealand"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:212
+msgid "Nicaragua"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:213
+msgid "Niger"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:214
+msgid "Nigeria"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:215
+msgid "Niue"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:216
+msgid "Norfolk Island"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:217
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:218
+msgid "Norway"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:219
+msgid "Oman"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:220
+msgid "Pakistan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:221
+msgid "Palau"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:222
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:223
+msgid "Panama"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:224
+msgid "Papua New Guinea"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:225
+msgid "Paraguay"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:226
+msgid "Peru"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:227
+msgid "Philippines"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:228
+msgid "Pitcairn"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:229
+msgid "Poland"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:230
+msgid "Portugal"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:231
+msgid "Puerto Rico"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:232
+msgid "Qatar"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:233
+msgid "Reunion"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:234
+msgid "Romania"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:235
+msgid "Russian Federation"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:236
+msgid "Rwanda"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:237
+msgid "Saint Helena"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:238
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:239
+msgid "Saint Lucia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:240
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:241
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:242
+msgid "Samoa"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:243
+msgid "San Marino"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:244
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:245
+msgid "Saudi Arabia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:246
+msgid "Senegal"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:247
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:248
+msgid "Seychelles"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:249
+msgid "Sierra Leone"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:250
+msgid "Singapore"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:251
+msgid "Slovakia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:252
+msgid "Slovenia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:253
+msgid "Solomon Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:254
+msgid "Somalia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:255
+msgid "South Africa"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:256
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:257
+msgid "Spain"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:258
+msgid "Sri Lanka"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:259
+msgid "Sudan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:260
+msgid "Suriname"
+msgstr "Фамилия"
+
+#: /plugins/utils/libs/i18n_country.php:261
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:262
+msgid "Swaziland"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:263
+msgid "Sweden"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:264
+msgid "Switzerland"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:265
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:266
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:267
+msgid "Tajikistan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:268
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:269
+msgid "Thailand"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:270
+msgid "Timor-Leste"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:271
+msgid "Togo"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:272
+msgid "Tokelau"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:273
+msgid "Tonga"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:274
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:275
+msgid "Tunisia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:276
+msgid "Turkey"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:277
+msgid "Turkmenistan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:278
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:279
+msgid "Tuvalu"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:280
+msgid "Uganda"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:281
+msgid "Ukraine"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:282
+msgid "United Arab Emirates"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:283
+msgid "United Kingdom"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:284
+msgid "United States"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:285
+msgid "Uruguay"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:286
+msgid "Uzbekistan"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:287
+msgid "Vanuatu"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:288
+msgid "Venezuela"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:289
+msgid "Viet Nam"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:290
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:291
+msgid "Virgin Islands, U.s."
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:292
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:293
+msgid "Western Sahara"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:294
+msgid "Yemen"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:295
+msgid "Zambia"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:296
+msgid "Zimbabwe"
+msgstr ""
+
+#: /plugins/utils/libs/i18n_country.php:342
+msgid "Invalid argument #1: %s is not a valid %s identifyer."
+msgstr ""
+
+#: /views/competitions/admin_add.ctp:4
+msgid "Admin Add Competition"
+msgstr "Добавить соревнование"
+
+#: /views/competitions/admin_add.ctp:12
+#: /views/competitions/admin_edit.ctp:13
+#: /views/disciplines/add.ctp:12
+#: /views/disciplines/admin_add.ctp:12
+#: /views/disciplines/admin_edit.ctp:13
+#: /views/disciplines/edit.ctp:13
+#: /views/edits/admin_add.ctp:13
+#: /views/edits/admin_edit.ctp:14
+#: /views/events/admin_add.ctp:29
+#: /views/events/admin_edit.ctp:16
+#: /views/games/admin_add.ctp:12
+#: /views/games/admin_edit.ctp:13
+#: /views/group_types/admin_add.ctp:9
+#: /views/group_types/admin_edit.ctp:10
+#: /views/groups/add.ctp:9
+#: /views/groups/admin_add.ctp:14
+#: /views/groups/admin_edit.ctp:15
+#: /views/groups/edit.ctp:14
+#: /views/matches/admin_add.ctp:14
+#: /views/matches/admin_edit.ctp:15
+#: /views/media_files/add.ctp:19
+#: /views/media_files/admin_add.ctp:19
+#: /views/media_files/admin_edit.ctp:20
+#: /views/media_files/edit.ctp:20
+#: /views/parties/admin_add.ctp:21
+#: /views/parties/admin_edit.ctp:22
+#: /views/posts/admin_add.ctp:15
+#: /views/posts/admin_edit.ctp:17
+#: /views/softwares/add.ctp:15
+#: /views/softwares/admin_add.ctp:18
+#: /views/softwares/admin_edit.ctp:20
+#: /views/softwares/edit.ctp:16
+#: /views/tournaments/add.ctp:19
+#: /views/tournaments/admin_add.ctp:37
+#: /views/tournaments/admin_edit.ctp:38
+#: /views/tournaments/edit.ctp:19
+#: /views/user_histories/admin_add.ctp:10
+#: /views/user_histories/admin_edit.ctp:11
+#: /views/users/admin_add.ctp:49
+#: /views/users/admin_edit.ctp:50
+#: /views/users_revs/admin_add.ctp:49
+#: /views/users_revs/admin_edit.ctp:50
+msgid "Submit"
+msgstr "Отправить"
+
+#: /views/competitions/admin_edit.ctp:4
+msgid "Admin Edit Competition"
+msgstr ""
+
+#: /views/competitions/admin_view.ctp:3
+msgid "Competition"
+msgstr "Соревнование"
+
+msgid "Hub"
+msgstr "Хаб"
+
+msgid "Clan"
+msgstr "Клан"
+
+msgid "Partner"
+msgstr "Партнёр"
+
+msgid "University"
+msgstr "Вуз"
+
+msgid "Transaction"
+msgstr "Транзакция"
+
+#: /views/competitions/admin_view.ctp:5;62
+#: /views/disciplines/admin_view.ctp:4;57
+#: /views/games/admin_view.ctp:5;51
+#: /views/group_types/admin_view.ctp:4;32
+#: /views/groups/admin_view.ctp:5;66;114;162
+#: /views/media_files/admin_view.ctp:4;96;144
+#: /views/organization_histories/admin_view.ctp:4
+#: /views/organization_histories/view.ctp:4
+#: /views/parties/admin_view.ctp:5;96;138;186
+#: /views/posts/admin_view.ctp:5;52;94
+#: /views/revisions/admin_view.ctp:4
+#: /views/softwares/admin_view.ctp:5;76;122
+#: /views/tournaments/admin_view.ctp:4;91;137
+#: /views/user_histories/admin_view.ctp:4
+#: /views/users/admin_view.ctp:4;239;281;329;373;417;465;511;553;599;657
+#: /views/users_revs/admin_view.ctp:14
+msgid "Id"
+msgstr "Id"
+
+#: /views/competitions/admin_view.ctp:10
+#: /views/disciplines/admin_view.ctp:2
+msgid "Discipline"
+msgstr "Дисциплина"
+
+#: /views/competitions/admin_view.ctp:15
+#: /views/softwares/admin_view.ctp:3
+msgid "Software"
+msgstr "Игра (софт)"
+
+#: /views/competitions/admin_view.ctp:20
+#: /views/disciplines/admin_view.ctp:9;60
+#: /views/games/admin_view.ctp:55
+#: /views/group_types/admin_view.ctp:9;34
+#: /views/groups/admin_view.ctp:15;164
+#: /views/parties/admin_view.ctp:25;188
+#: /views/softwares/admin_view.ctp:10;79;123
+#: /views/tournaments/admin_view.ctp:139
+#: /views/users/admin_view.ctp:14;555;603
+#: /views/users_revs/admin_view.ctp:24
+msgid "Name"
+msgstr "Имя"
+
+#: /views/competitions/admin_view.ctp:25
+#: /views/disciplines/admin_view.ctp:24;61
+#: /views/games/admin_view.ctp:56
+#: /views/group_types/admin_view.ctp:35
+#: /views/groups/admin_view.ctp:20;70
+#: /views/media_files/admin_view.ctp:49;153
+#: /views/parties/admin_view.ctp:30
+#: /views/posts/admin_view.ctp:102
+#: /views/softwares/admin_view.ctp:15;80;124
+#: /views/tournaments/admin_view.ctp:14
+#: /views/users/admin_view.ctp:421;556;604;660
+#: /plugins/forum/views/stations/admin_form.ctp:31
+msgid "Description"
+msgstr "Описание"
+
+#: /views/competitions/admin_view.ctp:30;68
+#: /views/disciplines/admin_view.ctp:29;62
+#: /views/games/admin_view.ctp:20;61
+#: /views/group_types/admin_view.ctp:37
+#: /views/groups/admin_view.ctp:30;73;117;188
+#: /views/media_files/admin_view.ctp:54;100;154
+#: /views/organization_histories/admin_view.ctp:14
+#: /views/organization_histories/view.ctp:14
+#: /views/parties/admin_view.ctp:55;99;144;212
+#: /views/posts/admin_view.ctp:20;58;103
+#: /views/revisions/admin_view.ctp:19
+#: /views/softwares/admin_view.ctp:45;81;130
+#: /views/tournaments/admin_view.ctp:54;96;163
+#: /views/user_histories/admin_view.ctp:14
+#: /views/users/admin_view.ctp:134;242;287;333;377;424;468;513;558;609;662
+#: /views/users_revs/admin_view.ctp:204
+#: /plugins/forum/views/search/index.ctp:50
+#: /plugins/forum/views/stations/moderate.ctp:32
+#: /plugins/forum/views/stations/view.ctp:66
+#: /plugins/forum/views/users/profile.ctp:88
+msgid "Created"
+msgstr "Создано"
+
+#: /views/competitions/admin_view.ctp:35;69
+#: /views/disciplines/admin_view.ctp:34;63
+#: /views/games/admin_view.ctp:25;62
+#: /views/group_types/admin_view.ctp:38
+#: /views/groups/admin_view.ctp:35;72;118;189
+#: /views/media_files/admin_view.ctp:59;101;155
+#: /views/organization_histories/admin_view.ctp:19
+#: /views/organization_histories/view.ctp:19
+#: /views/parties/admin_view.ctp:60;100;145;213
+#: /views/posts/admin_view.ctp:25;59;104
+#: /views/softwares/admin_view.ctp:50;82;131
+#: /views/tournaments/admin_view.ctp:59;97;164
+#: /views/user_histories/admin_view.ctp:19
+#: /views/users/admin_view.ctp:139;243;288;334;378;423;469;514;559;610;663
+#: /views/users_revs/admin_view.ctp:209
+msgid "Modified"
+msgstr "Изменено"
+
+#: /views/competitions/admin_view.ctp:43;70
+#: /views/disciplines/add.ctp:15
+#: /views/disciplines/admin_view.ctp:42;64
+#: /views/disciplines/edit.ctp:16
+#: /views/edits/admin_add.ctp:16
+#: /views/edits/admin_edit.ctp:17
+#: /views/elements/admin_index.ctp:22
+#: /views/games/admin_index.ctp:11;53
+#: /views/games/admin_view.ctp:34;64
+#: /views/group_types/admin_add.ctp:12
+#: /views/group_types/admin_edit.ctp:13
+#: /views/group_types/admin_index.ctp:7;43
+#: /views/group_types/admin_view.ctp:17;39
+#: /views/groups/admin_index.ctp:13
+#: /views/groups/admin_view.ctp:43;74;122;202
+#: /views/groups/edit.ctp:17
+#: /views/groups/index.ctp:7
+#: /views/media_files/add.ctp:22
+#: /views/media_files/admin_view.ctp:77;104;158
+#: /views/media_files/edit.ctp:23
+#: /views/parties/admin_view.ctp:73;101;146;226
+#: /views/posts/admin_index.ctp:14
+#: /views/posts/admin_view.ctp:60;105
+#: /views/revisions/admin_view.ctp:47
+#: /views/softwares/add.ctp:18
+#: /views/softwares/admin_view.ctp:59;83;132
+#: /views/softwares/edit.ctp:19
+#: /views/tournaments/admin_view.ctp:68;98;177
+#: /views/tournaments/edit.ctp:22
+#: /views/user_histories/admin_index.ctp:10;43
+#: /views/user_histories/admin_new.ctp:11;54
+#: /views/user_histories/admin_view.ctp:32
+#: /views/users/admin_index_backup.ctp:51;132
+#: /views/users/admin_revisions.ctp:55
+#: /views/users/admin_view.ctp:202;244;289;335;379;425;472;516;560;612;664
+#: /views/users_revs/admin_add.ctp:52
+#: /views/users_revs/admin_edit.ctp:53
+#: /views/users_revs/admin_index.ctp:49
+#: /views/users_revs/admin_view.ctp:227
+msgid "Actions"
+msgstr "Действия"
+
+#: /views/competitions/admin_view.ctp:45
+msgid "Edit Competition"
+msgstr "Редактировать соревнование"
+
+#: /views/competitions/admin_view.ctp:46
+msgid "Delete Competition"
+msgstr "Удалить соревнование"
+
+#: /views/competitions/admin_view.ctp:46;92
+#: /views/disciplines/admin_view.ctp:45;85
+#: /views/disciplines/edit.ctp:19
+#: /views/edits/admin_edit.ctp:20
+#: /views/games/admin_index.ctp:32
+#: /views/games/admin_view.ctp:37;91
+#: /views/group_types/admin_edit.ctp:16
+#: /views/group_types/admin_index.ctp:23
+#: /views/group_types/admin_view.ctp:20;60
+#: /views/groups/admin_index.ctp:38
+#: /views/groups/admin_view.ctp:46;96;144;256
+#: /views/groups/edit.ctp:20
+#: /views/media_files/admin_view.ctp:80;126;186
+#: /views/media_files/edit.ctp:26
+#: /views/organization_histories/admin_edit.ctp:17
+#: /views/organization_histories/admin_index.ctp:29
+#: /views/organization_histories/admin_view.ctp:35
+#: /views/organization_histories/edit.ctp:17
+#: /views/organization_histories/index.ctp:29
+#: /views/organization_histories/view.ctp:35
+#: /views/organizations/admin_index.ctp:52
+#: /views/parties/admin_view.ctp:76;120;168;280
+#: /views/posts/admin_index.ctp:42
+#: /views/posts/admin_view.ctp:82;130
+#: /views/revisions/admin_view.ctp:50
+#: /views/softwares/admin_view.ctp:62;104;156
+#: /views/softwares/edit.ctp:22
+#: /views/tournaments/admin_view.ctp:71;119;231
+#: /views/tournaments/edit.ctp:25
+#: /views/user_histories/admin_index.ctp:32
+#: /views/user_histories/admin_new.ctp:34
+#: /views/user_histories/admin_view.ctp:35
+#: /views/users/admin_index_backup.ctp:112
+#: /views/users/admin_view.ctp:205;263;311;355;399;447;493;535;581;639;685
+#: /views/users_revs/admin_edit.ctp:56
+#: /views/users_revs/admin_view.ctp:230
+msgid "Are you sure you want to delete # %s?"
+msgstr "Вы уверены, что хотите удалить # %s"
+
+#: /views/competitions/admin_view.ctp:47
+#: /views/disciplines/add.ctp:19
+#: /views/disciplines/admin_view.ctp:48
+#: /views/disciplines/edit.ctp:21
+#: /views/softwares/add.ctp:24
+#: /views/softwares/admin_view.ctp:67
+#: /views/softwares/edit.ctp:26
+#: /views/tournaments/admin_view.ctp:74
+#: /views/tournaments/edit.ctp:27
+msgid "List Competitions"
+msgstr "Список соревнований"
+
+#: /views/competitions/admin_view.ctp:48
+#: /views/disciplines/add.ctp:20
+#: /views/disciplines/admin_view.ctp:49;94
+#: /views/disciplines/edit.ctp:22
+#: /views/softwares/add.ctp:25
+#: /views/softwares/admin_view.ctp:68;113
+#: /views/softwares/edit.ctp:27
+msgid "New Competition"
+msgstr "Новый соревнование"
+
+#: /views/competitions/admin_view.ctp:49
+#: /views/disciplines/add.ctp:18
+#: /views/disciplines/admin_view.ctp:46
+#: /views/disciplines/edit.ctp:20
+msgid "List Disciplines"
+msgstr "Список дисциплин"
+
+#: /views/competitions/admin_view.ctp:50
+#: /views/disciplines/admin_view.ctp:47
+msgid "New Discipline"
+msgstr ""
+
+#: /views/competitions/admin_view.ctp:51
+#: /views/softwares/add.ctp:21;22
+#: /views/softwares/admin_view.ctp:63;65
+#: /views/softwares/edit.ctp:23;24
+msgid "List Softwares"
+msgstr "Список игр"
+
+#: /views/competitions/admin_view.ctp:52
+#: /views/softwares/admin_view.ctp:64
+msgid "New Software"
+msgstr "Новая игра(софт)"
+
+#: /views/competitions/admin_view.ctp:53
+#: /views/games/admin_index.ctp:56
+#: /views/games/admin_view.ctp:40
+#: /views/parties/admin_view.ctp:85
+#: /views/tournaments/admin_view.ctp:80
+#: /views/tournaments/edit.ctp:33
+msgid "List Matches"
+msgstr "Список матчей"
+
+#: /views/competitions/admin_view.ctp:54;101
+#: /views/games/admin_index.ctp:57
+#: /views/games/admin_view.ctp:41
+#: /views/parties/admin_view.ctp:86;177
+#: /views/tournaments/admin_view.ctp:81;128
+#: /views/tournaments/edit.ctp:34
+msgid "New Match"
+msgstr "Новый матч"
+
+#: /views/competitions/admin_view.ctp:58
+#: /views/parties/admin_view.ctp:134
+#: /views/tournaments/admin_view.ctp:87
+msgid "Related Matches"
+msgstr ""
+
+#: /views/competitions/admin_view.ctp:63
+#: /views/parties/admin_view.ctp:139
+#: /views/tournaments/admin_view.ctp:92
+#: /views/users/admin_view.ctp:374
+msgid "Tournament Id"
+msgstr "Id Турнира"
+
+#: /views/competitions/admin_view.ctp:64
+#: /views/parties/admin_view.ctp:140
+msgid "Competition Id"
+msgstr ""
+
+#: /views/competitions/admin_view.ctp:65
+#: /views/parties/admin_view.ctp:141
+#: /views/tournaments/admin_view.ctp:29;93
+msgid "Accomplished"
+msgstr "Завершено"
+
+#: /views/competitions/admin_view.ctp:66
+#: /views/games/admin_view.ctp:15;60
+#: /views/parties/admin_view.ctp:50;98;142
+#: /views/tournaments/admin_view.ctp:34;94
+#: /views/users/admin_view.ctp:608
+msgid "Statictics"
+msgstr "Статистика"
+
+#: /views/competitions/admin_view.ctp:67
+#: /views/parties/admin_view.ctp:143
+#: /views/tournaments/admin_view.ctp:95
+#: /plugins/forum/views/topics/moderate.ctp:34
+msgid "Date"
+msgstr "Дата"
+
+#: /views/competitions/admin_view.ctp:90
+#: /views/disciplines/admin_view.ctp:83
+#: /views/games/admin_index.ctp:30
+#: /views/games/admin_view.ctp:89
+#: /views/group_types/admin_index.ctp:21
+#: /views/group_types/admin_view.ctp:58
+#: /views/groups/admin_index.ctp:36
+#: /views/groups/admin_view.ctp:94;142;254
+#: /views/groups/index.ctp:25
+#: /views/media_files/admin_view.ctp:124;184
+#: /views/parties/admin_view.ctp:118;166;278
+#: /views/posts/admin_index.ctp:40
+#: /views/posts/admin_view.ctp:80;128
+#: /views/softwares/admin_view.ctp:102;154
+#: /views/tournaments/admin_view.ctp:117;229
+#: /views/user_histories/admin_index.ctp:29
+#: /views/user_histories/admin_new.ctp:31
+#: /views/users/admin_index_backup.ctp:108
+#: /views/users/admin_view.ctp:261;309;353;397;445;491;533;579;637;683
+msgid "View"
+msgstr "Смотреть"
+
+#: /views/competitions/admin_view.ctp:91
+#: /views/disciplines/admin_view.ctp:84
+#: /views/games/admin_index.ctp:31
+#: /views/games/admin_view.ctp:90
+#: /views/group_types/admin_index.ctp:22
+#: /views/group_types/admin_view.ctp:59
+#: /views/groups/admin_index.ctp:37
+#: /views/groups/admin_view.ctp:95;143;255
+#: /views/media_files/admin_view.ctp:125;185
+#: /views/parties/admin_view.ctp:119;167;279
+#: /views/posts/admin_index.ctp:41
+#: /views/posts/admin_view.ctp:81;129
+#: /views/softwares/admin_view.ctp:103;155
+#: /views/tournaments/admin_view.ctp:118;230
+#: /views/user_histories/admin_index.ctp:31
+#: /views/user_histories/admin_new.ctp:33
+#: /views/users/admin_index_backup.ctp:109
+#: /views/users/admin_view.ctp:262;310;354;398;446;492;534;580;638;684
+#: /plugins/forum/views/elements/admin/forum_row.ctp:33
+#: /plugins/forum/views/forum/admin_index.ctp:117
+#: /plugins/forum/views/staff/admin_index.ctp:46;83;120
+#: /plugins/forum/views/stations/admin_index.ctp:23
+#: /plugins/forum/views/users/admin_index.ctp:58
+msgid "Edit"
+msgstr "Редактировать"
+
+#: /views/competitions/admin_view.ctp:92
+#: /views/disciplines/admin_view.ctp:85
+#: /views/disciplines/edit.ctp:19
+#: /views/edits/admin_edit.ctp:20
+#: /views/games/admin_index.ctp:32
+#: /views/games/admin_view.ctp:91
+#: /views/group_types/admin_edit.ctp:16
+#: /views/group_types/admin_index.ctp:23
+#: /views/group_types/admin_view.ctp:60
+#: /views/groups/admin_index.ctp:38
+#: /views/groups/admin_view.ctp:96;144;256
+#: /views/groups/edit.ctp:20
+#: /views/media_files/admin_view.ctp:126;186
+#: /views/media_files/edit.ctp:26
+#: /views/parties/admin_view.ctp:120;168;280
+#: /views/posts/admin_index.ctp:42
+#: /views/posts/admin_view.ctp:82;130
+#: /views/softwares/admin_view.ctp:104;156
+#: /views/softwares/edit.ctp:22
+#: /views/tournaments/admin_view.ctp:119;231
+#: /views/tournaments/edit.ctp:25
+#: /views/user_histories/admin_index.ctp:32
+#: /views/user_histories/admin_new.ctp:34
+#: /views/users/admin_index_backup.ctp:112
+#: /views/users/admin_view.ctp:263;311;355;399;447;493;535;581;639;685
+#: /views/users_revs/admin_edit.ctp:56
+#: /plugins/forum/views/elements/admin/forum_row.ctp:34
+#: /plugins/forum/views/staff/admin_delete_access_level.ctp:22
+#: /plugins/forum/views/staff/admin_index.ctp:47;84;121
+#: /plugins/forum/views/stations/admin_delete.ctp:30
+#: /plugins/forum/views/stations/admin_index.ctp:24
+msgid "Delete"
+msgstr "Удалить"
+
+#: /views/disciplines/add.ctp:4
+msgid "Add Discipline"
+msgstr ""
+
+#: /views/disciplines/admin_add.ctp:4
+msgid "Admin Add Discipline"
+msgstr "Добавить дисциплину"
+
+#: /views/disciplines/admin_edit.ctp:4
+msgid "Admin Edit Discipline"
+msgstr ""
+
+#: /views/disciplines/admin_view.ctp:14
+msgid "Number Of Parties"
+msgstr ""
+
+#: /views/disciplines/admin_view.ctp:19
+msgid "Number Of Players"
+msgstr ""
+
+#: /views/disciplines/admin_view.ctp:44
+#: /views/disciplines/edit.ctp:4
+msgid "Edit Discipline"
+msgstr ""
+
+#: /views/disciplines/admin_view.ctp:45
+msgid "Delete Discipline"
+msgstr ""
+
+#: /views/disciplines/admin_view.ctp:53
+#: /views/softwares/admin_view.ctp:72
+msgid "Related Competitions"
+msgstr ""
+
+#: /views/disciplines/admin_view.ctp:58
+#: /views/softwares/admin_view.ctp:77
+msgid "Discipline Id"
+msgstr ""
+
+#: /views/disciplines/admin_view.ctp:59
+#: /views/softwares/admin_view.ctp:78
+msgid "Software Id"
+msgstr ""
+
+#: /views/edits/admin_add.ctp:4
+msgid "Admin Add Edit"
+msgstr "Добавить правку"
+
+#: /views/edits/admin_add.ctp:19
+#: /views/edits/admin_edit.ctp:21
+msgid "List Edits"
+msgstr "Список правок"
+
+#: /views/edits/admin_edit.ctp:4
+msgid "Admin Edit Edit"
+msgstr ""
+
+#: /views/edits/admin_view.ctp:27
+msgid "Field"
+msgstr "Изменяемое поле"
+
+#: /views/edits/admin_view.ctp:28
+msgid "Old data"
+msgstr "Старые данные"
+
+#: /views/edits/admin_view.ctp:29
+msgid "New data"
+msgstr "Новые данные"
+
+msgid "Create date"
+msgstr "Дата создания"
+
+msgid "Edits of Events"
+msgstr "Модерация событий"
+
+msgid "Edits of Tournaments"
+msgstr "Модерация турниров"
+
+msgid "Edits of Matches"
+msgstr "Модерация матчей"
+
+msgid "Edits of Matchs"
+msgstr "Модерация матчей"
+
+msgid "Edits of Users"
+msgstr "Модерация пользователей"
+
+msgid "Edits of MediaFiles"
+msgstr "Модерация медиафайлов"
+
+msgid "Edits of Softwares"
+msgstr "Модерация игр(софта)"
+
+msgid "Edits of Disciplines"
+msgstr "Модерация дисциплин"
+
+msgid "Edits of Competitions"
+msgstr "Модерация соревнований"
+
+msgid "Edits of Posts"
+msgstr "Модерация постов"
+
+msgid "Edits of Comments"
+msgstr "Модерация комментариев"
+
+msgid "Edits"
+msgstr "Модерация"
+
+msgid "Judge has been added to Tournament"
+msgstr "Судья был добавлен в турнир"
+
+#: /views/events/admin_add.ctp:4
+msgid "Admin Add Event"
+msgstr "Добавить событие"
+
+#: /views/events/admin_edit.ctp:4
+msgid "Admin Edit Event"
+msgstr "Редактировать событие"
+
+#: /views/games/admin_add.ctp:5
+msgid "Admin Add Game"
+msgstr "Добавить гейм"
+
+#: /views/games/admin_edit.ctp:5
+msgid "Admin Edit Game"
+msgstr "Редактировать гейм"
+
+#: /views/games/admin_index.ctp:3
+msgid "Games"
+msgstr ""
+
+#: /views/games/admin_index.ctp:40
+#: /views/group_types/admin_index.ctp:31
+#: /views/groups/admin_index.ctp:46
+#: /views/posts/admin_index.ctp:50
+#: /views/user_histories/admin_new.ctp:42
+#: /views/users/admin_index_backup.ctp:120
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: /views/games/admin_index.ctp:45
+#: /views/group_types/admin_index.ctp:36
+#: /views/groups/admin_index.ctp:51
+#: /views/posts/admin_index.ctp:55
+#: /views/user_histories/admin_new.ctp:47
+#: /views/users/admin_index_backup.ctp:125
+msgid "previous"
+msgstr "предыдущий"
+
+#: /views/games/admin_index.ctp:48
+#: /views/group_types/admin_index.ctp:39
+#: /views/groups/admin_index.ctp:54
+#: /views/organization_histories/admin_index.ctp:45
+#: /views/posts/admin_index.ctp:58
+#: /views/user_histories/admin_new.ctp:50
+#: /views/users/admin_index_backup.ctp:128
+msgid "next"
+msgstr "следующий"
+
+#: /views/games/admin_index.ctp:55
+#: /views/games/admin_view.ctp:39
+#: /views/parties/admin_view.ctp:84;129
+msgid "New Game"
+msgstr "Новый гейм"
+
+#: /views/games/admin_index.ctp:58
+#: /views/games/admin_view.ctp:42
+#: /views/parties/admin_view.ctp:77
+#: /views/users/admin_index_backup.ctp:155
+#: /views/users/admin_view.ctp:228
+msgid "List Parties"
+msgstr "Список команд"
+
+#: /views/games/admin_index.ctp:59
+#: /views/games/admin_view.ctp:43;100
+#: /views/parties/admin_view.ctp:78
+#: /views/users/admin_index_backup.ctp:156
+#: /views/users/admin_view.ctp:229;648
+msgid "New Party"
+msgstr "Новая команда"
+
+#: /views/games/admin_view.ctp:3
+msgid "Game"
+msgstr "Игра"
+
+#: /views/games/admin_view.ctp:10
+msgid "Match"
+msgstr "Матч"
+
+msgid  "Slot"
+msgstr "Слот"
+
+msgid  "Slots"
+msgstr "Слоты"
+
+#: /views/games/admin_view.ctp:36
+msgid "Edit Game"
+msgstr "Редактировать гейм"
+
+#: /views/games/admin_view.ctp:37
+msgid "Delete Game"
+msgstr "Удалить гейм"
+
+#: /views/games/admin_view.ctp:38
+#: /views/parties/admin_view.ctp:83
+msgid "List Games"
+msgstr "Список геймов"
+
+#: /views/games/admin_view.ctp:47
+#: /views/users/admin_view.ctp:595
+msgid "Related Parties"
+msgstr "Список команд"
+
+#: /views/games/admin_view.ctp:53
+#: /views/users/admin_view.ctp:601
+msgid "Tournaments Id"
+msgstr ""
+
+#: /views/games/admin_view.ctp:54
+#: /views/groups/admin_view.ctp:186
+#: /views/parties/admin_view.ctp:20;210
+#: /views/tournaments/admin_view.ctp:161
+#: /views/users/admin_view.ctp:124;602
+#: /views/users_revs/admin_view.ctp:134
+msgid "Approved"
+msgstr ""
+
+#: /views/games/admin_view.ctp:57
+#: /views/parties/admin_view.ctp:35
+#: /views/users/admin_view.ctp:605
+msgid "Points"
+msgstr ""
+
+#: /views/games/admin_view.ctp:58
+#: /views/parties/admin_view.ctp:40
+#: /views/users/admin_view.ctp:606
+msgid "Place"
+msgstr ""
+
+#: /views/games/admin_view.ctp:59
+#: /views/groups/admin_view.ctp:185
+#: /views/parties/admin_view.ctp:45;209
+#: /views/tournaments/admin_view.ctp:160
+#: /views/users/admin_view.ctp:119;332;376;607
+#: /views/users_revs/admin_view.ctp:129
+msgid "Rating"
+msgstr ""
+
+#: /views/games/admin_view.ctp:63
+#: /views/parties/admin_view.ctp:65
+#: /views/users/admin_view.ctp:611
+msgid "Droped Out"
+msgstr ""
+
+#: /views/group_types/admin_add.ctp:4
+msgid "Admin Add Group Type"
+msgstr "Добавить тип группы"
+
+#: /views/group_types/admin_add.ctp:15
+#: /views/group_types/admin_edit.ctp:17
+#: /views/group_types/admin_view.ctp:21
+#: /views/groups/admin_view.ctp:51
+#: /views/groups/edit.ctp:24
+msgid "List Group Types"
+msgstr "Список типов групп"
+
+#: /views/group_types/admin_add.ctp:16
+#: /views/group_types/admin_edit.ctp:18
+#: /views/group_types/admin_index.ctp:46
+#: /views/group_types/admin_view.ctp:23
+#: /views/groups/admin_view.ctp:47
+#: /views/groups/edit.ctp:21
+#: /views/users/admin_index_backup.ctp:153
+#: /views/users/admin_view.ctp:226
+msgid "List Groups"
+msgstr "Список групп"
+
+#: /views/group_types/admin_add.ctp:17
+#: /views/group_types/admin_edit.ctp:19
+#: /views/group_types/admin_index.ctp:47
+#: /views/group_types/admin_view.ctp:24;69
+#: /views/groups/admin_view.ctp:48
+#: /views/users/admin_index_backup.ctp:154
+#: /views/users/admin_view.ctp:227;590
+msgid "New Group"
+msgstr "Новая группа"
+
+#: /views/group_types/admin_edit.ctp:4
+msgid "Admin Edit Group Type"
+msgstr ""
+
+#: /views/group_types/admin_index.ctp:2
+msgid "Group Types"
+msgstr ""
+
+#: /views/group_types/admin_index.ctp:45
+#: /views/group_types/admin_view.ctp:22
+#: /views/groups/admin_view.ctp:52
+#: /views/groups/edit.ctp:25
+msgid "New Group Type"
+msgstr "Новая тип группы"
+
+#: /views/group_types/admin_view.ctp:2
+#: /views/groups/admin_view.ctp:25
+msgid "Group Type"
+msgstr ""
+
+#: /views/group_types/admin_view.ctp:19
+msgid "Edit Group Type"
+msgstr "Редактировать тип группы"
+
+#: /views/group_types/admin_view.ctp:20
+msgid "Delete Group Type"
+msgstr ""
+
+#: /views/group_types/admin_view.ctp:28
+#: /views/users/admin_view.ctp:549
+msgid "Related Groups"
+msgstr "Список групп"
+
+#: /views/group_types/admin_view.ctp:36
+#: /views/users/admin_view.ctp:557
+msgid "Group Type Id"
+msgstr ""
+
+#: /views/groups/admin_add.ctp:5
+msgid "Admin Add Group"
+msgstr "Добавить группу"
+
+#: /views/groups/admin_edit.ctp:5
+msgid "Admin Edit Group"
+msgstr "Редактировать группу"
+
+#: /views/groups/admin_index.ctp:3
+msgid "Groups"
+msgstr "Группы"
+
+#: /views/groups/admin_view.ctp:3
+#: /views/posts/admin_view.ctp:15
+msgid "Group"
+msgstr "Группа"
+
+#: /views/groups/admin_view.ctp:45
+#: /views/groups/edit.ctp:4
+msgid "Edit Group"
+msgstr "Редактировать группы"
+
+#: /views/groups/admin_view.ctp:46
+msgid "Delete Group"
+msgstr "Удалить группу"
+
+#: /views/groups/admin_view.ctp:49
+#: /views/groups/edit.ctp:22
+#: /views/parties/admin_view.ctp:79
+#: /views/tournaments/admin_view.ctp:78
+#: /views/tournaments/edit.ctp:31
+msgid "List Organizations"
+msgstr "Список организаций"
+
+#: /views/groups/admin_view.ctp:50
+#: /views/groups/edit.ctp:23
+#: /views/parties/admin_view.ctp:80
+msgid "New Organization"
+msgstr "Новая огранизация"
+
+#: /views/groups/admin_view.ctp:53
+#: /views/groups/edit.ctp:26
+#: /views/users/admin_index_backup.ctp:147
+#: /views/users/admin_view.ctp:220
+msgid "List Polls"
+msgstr "Список голосований"
+
+#: /views/groups/admin_view.ctp:54;105
+#: /views/groups/edit.ctp:27
+#: /views/users/admin_index_backup.ctp:148
+#: /views/users/admin_view.ctp:221;456
+msgid "New Poll"
+msgstr "Новое голосование"
+
+#: /views/groups/admin_view.ctp:55
+#: /views/groups/edit.ctp:28
+#: /views/users/admin_index_backup.ctp:149
+#: /views/users/admin_view.ctp:222
+msgid "List Posts"
+msgstr "Список сообщений"
+
+#: /views/groups/admin_view.ctp:56;153
+#: /views/groups/edit.ctp:29
+#: /views/users/admin_index_backup.ctp:150
+#: /views/users/admin_view.ctp:223;502
+msgid "New Post"
+msgstr "Новое сообщение"
+
+#: /views/groups/admin_view.ctp:57
+#: /views/groups/edit.ctp:30
+#: /views/media_files/add.ctp:28
+#: /views/media_files/admin_view.ctp:85
+#: /views/media_files/edit.ctp:30
+#: /views/parties/admin_view.ctp:87
+#: /views/user_histories/admin_index.ctp:46
+#: /views/user_histories/admin_new.ctp:57
+#: /views/user_histories/admin_view.ctp:38
+#: /views/users/admin_view.ctp:206
+msgid "List Users"
+msgstr "Список пользователей"
+
+#: /views/groups/admin_view.ctp:58;265
+#: /views/groups/edit.ctp:31
+#: /views/media_files/add.ctp:29
+#: /views/media_files/admin_view.ctp:86
+#: /views/media_files/edit.ctp:31
+#: /views/parties/admin_view.ctp:88;289
+#: /views/user_histories/admin_index.ctp:47
+#: /views/user_histories/admin_new.ctp:58
+#: /views/user_histories/admin_view.ctp:39
+#: /views/users/admin_index_backup.ctp:134
+#: /views/users/admin_view.ctp:207
+msgid "New User"
+msgstr "Добавить пользователя"
+
+#: /views/groups/admin_view.ctp:62
+#: /views/users/admin_view.ctp:413
+msgid "Related Polls"
+msgstr "Голосования"
+
+#: /views/groups/admin_view.ctp:67;115
+#: /views/media_files/admin_view.ctp:146
+#: /views/posts/admin_view.ctp:53
+#: /views/revisions/admin_view.ctp:24
+#: /views/users/admin_view.ctp:240;282;331;375;418;466;512
+msgid "User Id"
+msgstr "Id пользователя"
+
+#: /views/groups/admin_view.ctp:68;116
+#: /views/users/admin_view.ctp:419;467
+msgid "Group Id"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:69;119
+#: /views/media_files/admin_view.ctp:44;152
+#: /views/posts/admin_view.ctp:30;56;101
+#: /views/tournaments/admin_view.ctp:9
+#: /views/users/admin_view.ctp:285;420;470;659
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:31
+#: /plugins/forum/views/staff/admin_index.ctp:26
+#: /plugins/forum/views/stations/admin_form.ctp:24
+#: /plugins/forum/views/topics/add.ctp:20
+#: /plugins/forum/views/topics/edit.ctp:20
+msgid "Title"
+msgstr "Название"
+
+#: /views/groups/admin_view.ctp:71
+#: /views/users/admin_view.ctp:422
+msgid "Answers"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:110
+#: /views/groups/view.ctp:43
+#: /views/users/admin_view.ctp:461
+msgid "Related Posts"
+msgstr "Связанные посты"
+
+#: /views/groups/admin_view.ctp:120
+#: /views/posts/admin_view.ctp:35;57
+#: /views/users/admin_view.ctp:286;471
+msgid "Text"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:121
+msgid "Approved To Main"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:158
+#: /views/parties/admin_view.ctp:182
+msgid "Related Users"
+msgstr "Связанные пользователи"
+
+#: /views/groups/admin_view.ctp:163
+#: /views/parties/admin_view.ctp:187
+#: /views/tournaments/admin_view.ctp:138
+#: /views/users_revs/admin_view.ctp:19
+msgid "Location Id"
+msgstr "Id места"
+
+#: /views/groups/admin_view.ctp:165
+#: /views/parties/admin_view.ctp:189
+#: /views/tournaments/admin_view.ctp:140
+#: /views/users/admin_view.ctp:19
+#: /views/users_revs/admin_view.ctp:29
+msgid "Surname"
+msgstr "Фамилия"
+
+#: /views/groups/admin_view.ctp:166
+#: /views/parties/admin_view.ctp:190
+#: /views/tournaments/admin_view.ctp:141
+#: /views/users/admin_view.ctp:24
+#: /views/users_revs/admin_view.ctp:34
+msgid "Fathername"
+msgstr "Отчество"
+
+#: /views/groups/admin_view.ctp:167
+#: /views/parties/admin_view.ctp:191
+#: /views/tournaments/admin_view.ctp:142
+#: /views/users/admin_view.ctp:29
+#: /views/users_revs/admin_view.ctp:39
+msgid "Nick"
+msgstr "Ник"
+
+#: /views/groups/admin_view.ctp:168
+#: /views/parties/admin_view.ctp:192
+#: /views/tournaments/admin_view.ctp:143
+#: /views/users/admin_view.ctp:34
+#: /views/users_revs/admin_view.ctp:44
+msgid "Birthday"
+msgstr "День рождения"
+
+#: /views/groups/admin_view.ctp:169
+#: /views/parties/admin_view.ctp:193
+#: /views/tournaments/admin_view.ctp:144
+#: /views/users/admin_view.ctp:39
+#: /views/users_revs/admin_view.ctp:49
+msgid "Congratulation"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:170
+#: /views/parties/admin_view.ctp:194
+#: /views/tournaments/admin_view.ctp:145
+#: /views/users/admin_view.ctp:44
+#: /views/users_revs/admin_view.ctp:54
+msgid "Online"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:171
+#: /views/parties/admin_view.ctp:195
+#: /views/tournaments/admin_view.ctp:146
+#: /views/users/admin_view.ctp:49
+#: /views/users_revs/admin_view.ctp:59
+msgid "Player"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:172
+#: /views/parties/admin_view.ctp:196
+#: /views/tournaments/admin_view.ctp:147
+#: /views/users/admin_view.ctp:54
+#: /views/users_revs/admin_view.ctp:64
+msgid "Judge"
+msgstr "Судья"
+
+#: /views/groups/admin_view.ctp:173
+#: /views/parties/admin_view.ctp:197
+#: /views/tournaments/admin_view.ctp:148
+#: /views/users/admin_view.ctp:59
+#: /views/users_revs/admin_view.ctp:69
+#: /plugins/forum/views/forum/admin_index.ctp:99
+#: /plugins/forum/views/users/admin_edit.ctp:17
+#: /plugins/forum/views/users/admin_index.ctp:30
+msgid "Email"
+msgstr "Почта"
+
+#: /views/groups/admin_view.ctp:174
+#: /views/parties/admin_view.ctp:198
+#: /views/tournaments/admin_view.ctp:149
+#: /views/users_revs/admin_view.ctp:74
+msgid "Avatar Id"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:175
+#: /views/parties/admin_view.ctp:199
+#: /views/tournaments/admin_view.ctp:150
+#: /views/users_revs/admin_view.ctp:79
+msgid "Photo Id"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:176
+#: /views/parties/admin_view.ctp:200
+#: /views/tournaments/admin_view.ctp:151
+#: /views/users/admin_view.ctp:74
+#: /views/users_revs/admin_view.ctp:84
+msgid "Skype"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:177
+#: /views/parties/admin_view.ctp:201
+#: /views/tournaments/admin_view.ctp:152
+#: /views/users/admin_view.ctp:79
+#: /views/users_revs/admin_view.ctp:89
+msgid "Icq"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:178
+#: /views/parties/admin_view.ctp:202
+#: /views/tournaments/admin_view.ctp:153
+#: /views/users/admin_view.ctp:84
+#: /views/users_revs/admin_view.ctp:94
+msgid "Phone"
+msgstr "Телефон"
+
+#: /views/groups/admin_view.ctp:179
+#: /views/parties/admin_view.ctp:203
+#: /views/tournaments/admin_view.ctp:154
+#: /views/users/admin_view.ctp:89
+#: /views/users_revs/admin_view.ctp:99
+msgid "Allow Messages"
+msgstr "Разрешить сообщения"
+
+msgid "Allow New Message Emails"
+msgstr "Разрешить письма о новых сообщениях"
+
+msgid "Allow Newsletters"
+msgstr "Разрешить новостные рассылки"
+
+#: /views/groups/admin_view.ctp:180
+#: /views/parties/admin_view.ctp:204
+#: /views/tournaments/admin_view.ctp:155
+#: /views/users/admin_view.ctp:94
+#: /views/users_revs/admin_view.ctp:104
+msgid "Allow Friends"
+msgstr "Разрешить друзей"
+
+#: /views/groups/admin_view.ctp:181
+#: /views/parties/admin_view.ctp:205
+#: /views/tournaments/admin_view.ctp:156
+#: /views/users/admin_view.ctp:99
+#: /views/users_revs/admin_view.ctp:109
+msgid "Allow Teams"
+msgstr "Разрешить команды"
+
+#: /views/groups/admin_view.ctp:182
+#: /views/parties/admin_view.ctp:206
+#: /views/tournaments/admin_view.ctp:157
+#: /views/users/admin_view.ctp:104
+#: /views/users_revs/admin_view.ctp:114
+#: /plugins/forum/controllers/users_controller.php:116
+#: /plugins/forum/views/elements/login.ctp:10
+#: /plugins/forum/views/elements/navigation.ctp:19
+#: /plugins/forum/views/users/login.ctp:5;8;23
+msgid "Login"
+msgstr "Логин"
+
+#: /views/groups/admin_view.ctp:183
+#: /views/parties/admin_view.ctp:207
+#: /views/tournaments/admin_view.ctp:158
+#: /views/users/admin_view.ctp:109
+#: /views/users_revs/admin_view.ctp:119
+#: /plugins/forum/views/elements/login.ctp:8
+#: /plugins/forum/views/users/login.ctp:17
+msgid "Password"
+msgstr "Пароль"
+
+#: /views/groups/admin_view.ctp:184
+#: /views/parties/admin_view.ctp:208
+#: /views/tournaments/admin_view.ctp:159
+#: /views/users/admin_view.ctp:114
+#: /views/users_revs/admin_view.ctp:124
+msgid "Visability Fields"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:187
+#: /views/parties/admin_view.ctp:211
+#: /views/tournaments/admin_view.ctp:162
+#: /views/users/admin_view.ctp:129
+#: /views/users_revs/admin_view.ctp:139
+#: /plugins/forum/views/helpers/common.php:193
+msgid "Active"
+msgstr "Активно"
+
+#: /views/groups/admin_view.ctp:190
+#: /views/parties/admin_view.ctp:214
+#: /views/tournaments/admin_view.ctp:165
+#: /views/users/admin_view.ctp:144
+#: /views/users_revs/admin_view.ctp:144
+msgid "Fcs Member"
+msgstr "Член ФКС"
+
+#: /views/groups/admin_view.ctp:191
+#: /views/parties/admin_view.ctp:215
+#: /views/tournaments/admin_view.ctp:166
+#: /views/users/admin_view.ctp:149
+#: /views/users_revs/admin_view.ctp:149
+msgid "Card Number"
+msgstr "Номер билета"
+
+#: /views/groups/admin_view.ctp:192
+#: /views/parties/admin_view.ctp:216
+#: /views/tournaments/admin_view.ctp:167
+#: /views/users/admin_view.ctp:154
+#: /views/users_revs/admin_view.ctp:154
+msgid "Activation Code"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:193
+#: /views/parties/admin_view.ctp:217
+#: /views/tournaments/admin_view.ctp:168
+#: /views/users/admin_view.ctp:159
+#: /views/users_revs/admin_view.ctp:159
+msgid "Activation Code Date"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:194
+#: /views/parties/admin_view.ctp:218
+#: /views/tournaments/admin_view.ctp:169
+#: /views/users/admin_view.ctp:164
+#: /views/users_revs/admin_view.ctp:164
+msgid "Activation Date"
+msgstr "Дата активации"
+
+#: /views/groups/admin_view.ctp:195
+#: /views/parties/admin_view.ctp:219
+#: /views/tournaments/admin_view.ctp:170
+#: /views/users/admin_view.ctp:169
+#: /views/users_revs/admin_view.ctp:169
+msgid "Activation Function"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:196
+#: /views/parties/admin_view.ctp:220
+#: /views/tournaments/admin_view.ctp:171
+#: /views/users/admin_view.ctp:174
+#: /views/users_revs/admin_view.ctp:174
+msgid "Activation New Mail"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:197
+#: /views/parties/admin_view.ctp:221
+#: /views/tournaments/admin_view.ctp:172
+#: /views/users/admin_view.ctp:179
+#: /views/users_revs/admin_view.ctp:179
+msgid "Last Email Sent"
+msgstr ""
+
+#: /views/groups/admin_view.ctp:198
+#: /views/parties/admin_view.ctp:222
+#: /views/tournaments/admin_view.ctp:173
+#: /views/users/admin_view.ctp:184
+#: /views/users_revs/admin_view.ctp:184
+msgid "Avatar Small"
+msgstr "Маленький аватар"
+
+#: /views/groups/admin_view.ctp:199
+#: /views/parties/admin_view.ctp:223
+#: /views/tournaments/admin_view.ctp:174
+#: /views/users/admin_view.ctp:189
+#: /views/users_revs/admin_view.ctp:189
+msgid "Avatar Medium"
+msgstr "Средний аватар"
+
+#: /views/groups/admin_view.ctp:200
+#: /views/parties/admin_view.ctp:224
+#: /views/tournaments/admin_view.ctp:175
+#: /views/users/admin_view.ctp:194
+#: /views/users_revs/admin_view.ctp:194
+msgid "Avatar Big"
+msgstr "Большой аватар"
+
+#: /views/groups/admin_view.ctp:201
+#: /views/parties/admin_view.ctp:225
+#: /views/tournaments/admin_view.ctp:176
+#: /views/users_revs/admin_view.ctp:199
+msgid "Role"
+msgstr ""
+
+#: /views/groups/index.ctp:27
+msgid "Join group"
+msgstr ""
+
+#: /views/groups/index.ctp:28
+msgid "Leave group"
+msgstr "Покинуть группу"
+
+#: /views/layouts/admin.ctp:25
+msgid "resp.su - "
+msgstr ""
+
+# ## Admin ###
+#: /views/layouts/admin.ctp:63
+#: /plugins/forum/views/layouts/admin.ctp:26
+#: /plugins/forum/views/layouts/default.ctp:33
+msgid "Home"
+msgstr "Главная"
+
+#: /views/layouts/admin.ctp:66
+#: /plugins/forum/controllers/forum_controller.php:25
+msgid "Index"
+msgstr "Список"
+
+#: /views/layouts/admin.ctp:69
+msgid "Add"
+msgstr "Добавить"
+
+#: /views/layouts/admin.ctp:72
+msgid "Accept"
+msgstr ""
+
+#: /views/layouts/admin.ctp:66
+#: /plugins/forum/controllers/forum_controller.php:25
+msgid "Index of %s"
+msgstr "Список %s"
+
+#: /views/layouts/admin.ctp:69
+msgid "Add %s"
+msgstr "Добавить %s"
+
+msgid "Demo"
+msgstr "демку"
+
+msgid "File"
+msgstr "файл"
+
+msgid "Video"
+msgstr "видео"
+
+msgid "Album"
+msgstr "альбом"
+
+msgid "Photo"
+msgstr "фото"
+
+#: /views/matches/admin_add.ctp:4
+msgid "Admin Add Match"
+msgstr "Добавить матч"
+
+#: /views/matches/admin_edit.ctp:4
+msgid "Admin Edit Match"
+msgstr ""
+
+#: /views/media_files/add.ctp:4
+msgid "Add Media File"
+msgstr "Добавить медиа-файл"
+
+#: /views/media_files/add.ctp:25;26
+#: /views/media_files/admin_view.ctp:81;83
+#: /views/media_files/edit.ctp:27;28
+#: /views/users/admin_index_backup.ctp:137
+#: /views/users/admin_view.ctp:210
+msgid "List Media Files"
+msgstr "Список медиа файлов"
+
+#: /views/media_files/add.ctp:27
+#: /views/media_files/admin_view.ctp:84
+#: /views/media_files/edit.ctp:29
+msgid "New Parent"
+msgstr "Новый предок"
+
+#: /views/media_files/add.ctp:30
+#: /views/media_files/admin_view.ctp:87
+#: /views/media_files/edit.ctp:32
+msgid "List Media File Links"
+msgstr "Список связок медиа-файлов"
+
+#: /views/media_files/add.ctp:31
+#: /views/media_files/admin_view.ctp:88;135
+#: /views/media_files/edit.ctp:33
+msgid "New Media File Link"
+msgstr "Новая связка медиа-файла"
+
+#: /views/media_files/admin_add.ctp:4
+msgid "Admin Add Media File"
+msgstr "Добавить медиа-файл"
+
+#: /views/media_files/admin_edit.ctp:4
+msgid "Admin Edit Media File"
+msgstr "Редактировать медиа-файл"
+
+#: /views/media_files/admin_view.ctp:2
+msgid "Media File"
+msgstr "Медиа-файл"
+
+#: /views/media_files/admin_view.ctp:9;145
+#: /views/posts/admin_view.ctp:95
+#: /plugins/forum/views/forum/admin_index.ctp:47
+#: /plugins/forum/views/reports/admin_index.ctp:26
+#: /plugins/forum/views/topics/add.ctp:25
+#: /plugins/forum/views/topics/edit.ctp:25
+msgid "Type"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:14
+#: /views/posts/admin_view.ctp:10
+#: /views/user_histories/admin_view.ctp:9
+#: /views/users/admin_view.ctp:2
+#: /plugins/forum/views/helpers/common.php:224
+#: /plugins/forum/views/reports/admin_users.ctp:28
+#: /plugins/forum/views/staff/admin_form_access.ctp:33
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:31
+#: /plugins/forum/views/staff/admin_index.ctp:68;104
+#: /plugins/forum/views/topics/moderate.ctp:32
+msgid "User"
+msgstr "Пользователь"
+
+#: /views/media_files/admin_view.ctp:19;147
+#: /views/posts/admin_view.ctp:96
+msgid "Path"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:24;148
+#: /views/posts/admin_view.ctp:97
+msgid "Thumb Path"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:29;149
+#: /views/posts/admin_view.ctp:98
+msgid "Big Path"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:34;150
+#: /views/posts/admin_view.ctp:99
+msgid "File Info"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:39
+msgid "Parent"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:64;102;156
+#: /views/users_revs/admin_view.ctp:214
+#: /plugins/forum/views/forum/admin_index.ctp:71
+#: /plugins/forum/views/reports/admin_index.ctp:51
+#: /plugins/forum/views/reports/admin_posts.ctp:46;53
+#: /plugins/forum/views/reports/admin_topics.ctp:45
+#: /plugins/forum/views/reports/admin_users.ctp:45
+msgid "Deleted"
+msgstr "Удалено"
+
+#: /views/media_files/admin_view.ctp:69;103;157
+#: /views/users_revs/admin_view.ctp:219
+msgid "Deleted Date"
+msgstr "Дата удаления"
+
+#: /views/media_files/admin_view.ctp:79
+#: /views/media_files/edit.ctp:4
+msgid "Edit Media File"
+msgstr "Редактировать медиа-файл"
+
+#: /views/media_files/admin_view.ctp:80
+msgid "Delete Media File"
+msgstr "Удалить медиа-файл"
+
+#: /views/media_files/admin_view.ctp:82
+msgid "New Media File"
+msgstr "Новый медиа-файл"
+
+#: /views/media_files/admin_view.ctp:92
+msgid "Related Media File Links"
+msgstr "Связки медиа-файлов"
+
+#: /views/media_files/admin_view.ctp:97
+msgid "Media File Id"
+msgstr "Id медиа-файла"
+
+#: /views/media_files/admin_view.ctp:98
+#: /views/posts/admin_view.ctp:54
+#: /views/revisions/admin_view.ctp:9
+#: /views/users/admin_view.ctp:283
+msgid "Entity"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:99
+#: /views/posts/admin_view.ctp:55
+#: /views/revisions/admin_view.ctp:14
+#: /views/users/admin_view.ctp:284
+msgid "Entity Id"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:140
+#: /views/posts/admin_view.ctp:90
+msgid "Related Media Files"
+msgstr "Список медиа файлов"
+
+#: /views/media_files/admin_view.ctp:151
+#: /views/posts/admin_view.ctp:100
+#: /views/softwares/admin_view.ctp:127
+msgid "Parent Id"
+msgstr ""
+
+#: /views/media_files/admin_view.ctp:195
+msgid "New Children"
+msgstr "Новый потомок"
+
+#: /views/parties/admin_add.ctp:4
+#, fuzzy
+msgid "Admin Add Party"
+msgstr "Добавить участника"
+
+#: /views/parties/admin_edit.ctp:4
+#, fuzzy
+msgid "Admin Edit Party"
+msgstr "Редактирование участника"
+
+#: /views/parties/admin_view.ctp:3
+#, fuzzy
+msgid "Party"
+msgstr "Участник"
+
+#: /views/parties/admin_view.ctp:15
+#, fuzzy
+msgid "Tournaments"
+msgstr "Турниры"
+
+#: /views/parties/admin_view.ctp:75
+#, fuzzy
+msgid "Edit Party"
+msgstr "Список участников"
+
+#: /views/parties/admin_view.ctp:76
+#, fuzzy
+msgid "Delete Party"
+msgstr "Удалить участника"
+
+#: /views/parties/admin_view.ctp:81
+#: /views/tournaments/admin_view.ctp:72
+#: /views/tournaments/edit.ctp:26
+#, fuzzy
+msgid "List Tournaments"
+msgstr "Список турниров"
+
+#: /views/parties/admin_view.ctp:82
+#, fuzzy
+msgid "New Tournaments"
+msgstr "Новый турнир"
+
+#: /views/parties/admin_view.ctp:92
+msgid "Related Games"
+msgstr ""
+
+#: /views/parties/admin_view.ctp:97
+#: /views/users/admin_view.ctp:330
+msgid "Match Id"
+msgstr ""
+
+#: /views/posts/admin_add.ctp:5
+#, fuzzy
+msgid "Admin Add Post"
+msgstr "Добавить пользователя"
+
+#: /views/posts/admin_edit.ctp:5
+#, fuzzy
+msgid "Admin Edit Post"
+msgstr "Добавить пользователя"
+
+#: /views/posts/admin_index.ctp:3
+#: /plugins/forum/views/forum/admin_index.ctp:102
+#: /plugins/forum/views/forum/index.ctp:20
+#: /plugins/forum/views/reports/admin_index.ctp:9
+#: /plugins/forum/views/reports/admin_posts.ctp:5;10
+#: /plugins/forum/views/reports/admin_topics.ctp:10
+#: /plugins/forum/views/reports/admin_users.ctp:10
+#: /plugins/forum/views/search/index.ctp:51
+#: /plugins/forum/views/stations/admin_index.ctp:44
+#: /plugins/forum/views/stations/moderate.ctp:33
+#: /plugins/forum/views/stations/view.ctp:33;67
+#: /plugins/forum/views/users/admin_index.ctp:34
+#: /plugins/forum/views/users/index.ctp:29
+#: /plugins/forum/views/users/profile.ctp:89
+#, fuzzy
+msgid "Posts"
+msgstr "Список сообщений"
+
+#: /views/posts/admin_view.ctp:3
+#: /plugins/forum/views/helpers/common.php:223
+#: /plugins/forum/views/posts/report.ctp:23
+#: /plugins/forum/views/reports/admin_posts.ctp:29
+#: /plugins/forum/views/stations/admin_index.ctp:46
+#: /plugins/forum/views/topics/moderate.ctp:33
+#, fuzzy
+msgid "Post"
+msgstr "Новое сообщение"
+
+#: /views/posts/admin_view.ctp:40
+msgid "Approved_to_main"
+msgstr ""
+
+#: /views/posts/admin_view.ctp:48
+#: /views/users/admin_view.ctp:277
+#, fuzzy
+msgid "Related Comments"
+msgstr "Список комментариев"
+
+#: /views/revisions/admin_view.ctp:2
+msgid "Revision"
+msgstr ""
+
+#: /views/revisions/admin_view.ctp:29
+msgid "Monitored"
+msgstr ""
+
+#: /views/revisions/admin_view.ctp:34
+msgid "Accepted"
+msgstr ""
+
+#: /views/revisions/admin_view.ctp:39
+msgid "Data"
+msgstr "Данные"
+
+#: /views/revisions/admin_view.ctp:49
+msgid "Edit Revision"
+msgstr ""
+
+#: /views/revisions/admin_view.ctp:50
+msgid "Delete Revision"
+msgstr ""
+
+#: /views/revisions/admin_view.ctp:51
+#, fuzzy
+msgid "List Revisions"
+msgstr "Список званий"
+
+#: /views/revisions/admin_view.ctp:52
+#, fuzzy
+msgid "New Revision"
+msgstr "Новое звание"
+
+#: /views/softwares/add.ctp:4
+msgid "Add Software"
+msgstr "Добавить игру(софт)"
+
+#: /views/softwares/add.ctp:23
+#: /views/softwares/admin_view.ctp:66
+#: /views/softwares/edit.ctp:25
+msgid "New Parent Software"
+msgstr ""
+
+#: /views/softwares/admin_add.ctp:4
+#, fuzzy
+msgid "Admin Add Software"
+msgstr "Добавить игру(софт)"
+
+#: /views/softwares/admin_add.ctp:11
+#: /views/softwares/admin_edit.ctp:12
+#: /views/tournaments/admin_add.ctp:14
+#: /views/tournaments/admin_edit.ctp:15
+msgid "choose one..."
+msgstr ""
+
+#: /views/softwares/admin_edit.ctp:4
+msgid "Admin Edit Software"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:20;125
+msgid "Lft"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:25;126
+msgid "Right"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:30
+msgid "Parent Software"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:35;128
+msgid "Small Icon"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:40;129
+msgid "Big Icon"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:61
+#: /views/softwares/edit.ctp:4
+msgid "Edit Software"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:62
+msgid "Delete Software"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:118
+msgid "Related Softwares"
+msgstr ""
+
+#: /views/softwares/admin_view.ctp:165
+msgid "New Child Software"
+msgstr ""
+
+#: /views/tournaments/add.ctp:4
+#, fuzzy
+msgid "Add Tournament"
+msgstr "Новый турнир"
+
+#: /views/tournaments/admin_add.ctp:9
+#, fuzzy
+msgid "Admin Add Tournament"
+msgstr "Добавить турнир"
+
+#: /views/tournaments/admin_add.ctp:29
+#: /views/tournaments/admin_edit.ctp:30
+msgid "Playoff Format"
+msgstr ""
+
+#: /views/tournaments/admin_edit.ctp:9
+#, fuzzy
+msgid "Admin Edit Tournament"
+msgstr "Редактирование турнира"
+
+#: /views/tournaments/admin_add_party.ctp:9
+msgid "Admin Add Party Tournament"
+msgstr "Добавление Участника в Турнир"
+
+#: /views/tournaments/admin_add_party.ctp:9
+msgid "Enter the data for the person you want to include in the tournament"
+msgstr "Укажите данные человека, которого вы хотите включить в турнир"
+
+#: /views/parties/admin_add_user.ctp:9
+msgid "Admin Add User Party"
+msgstr "Добавление Пользователя в Команду"
+
+#: /views/tournaments/admin_add_party.ctp:18
+#: /plugins/forum/controllers/search_controller.php:94
+#: /plugins/forum/views/elements/search.ctp:6
+#: /plugins/forum/views/layouts/default.ctp:35
+#: /plugins/forum/views/search/index.ctp:4;7
+#: /plugins/forum/views/users/admin_index.ctp:12
+#: /plugins/forum/views/users/index.ctp:10
+#, fuzzy
+msgid "Search"
+msgstr "Искать"
+
+#: /views/tournaments/admin_view.ctp:2
+#, fuzzy
+msgid "Tournament"
+msgstr "Турнир"
+
+#: /views/tournaments/admin_view.ctp:19
+msgid "Competitions"
+msgstr "Соревнования"
+
+#: /views/tournaments/admin_view.ctp:24
+msgid "Event"
+msgstr "Событие"
+
+#: /views/tournaments/admin_view.ctp:44
+msgid "Start Day"
+msgstr "День начала"
+
+#: /views/tournaments/admin_view.ctp:49
+msgid "Finish Day"
+msgstr "День окончания"
+
+
+
+msgid "Start"
+msgstr "День начала"
+
+msgid "Finish"
+msgstr "День окончания"
+
+#: /views/tournaments/admin_view.ctp:70
+#: /views/tournaments/edit.ctp:4
+#, fuzzy
+msgid "Edit Tournament"
+msgstr "Список турниров"
+
+#: /views/tournaments/admin_view.ctp:71
+#, fuzzy
+msgid "Delete Tournament"
+msgstr "Новый турнир"
+
+#: /views/tournaments/admin_view.ctp:73
+#, fuzzy
+msgid "New Tournament"
+msgstr "Новый турнир"
+
+#: /views/tournaments/admin_view.ctp:75
+#: /views/tournaments/edit.ctp:28
+#, fuzzy
+msgid "New Competitions"
+msgstr "Новый комментарий"
+
+#: /views/tournaments/admin_view.ctp:76
+#: /views/tournaments/edit.ctp:29
+#, fuzzy
+msgid "List Events"
+msgstr "Список комментариев"
+
+#: /views/tournaments/admin_view.ctp:77
+#: /views/tournaments/edit.ctp:30
+#, fuzzy
+msgid "New Event"
+msgstr "Новый комментарий"
+
+#: /views/tournaments/admin_view.ctp:79
+#: /views/tournaments/edit.ctp:32
+#, fuzzy
+msgid "New Organizations"
+msgstr "Новые организации"
+
+#: /views/tournaments/admin_view.ctp:82
+#: /views/tournaments/edit.ctp:35
+#, fuzzy
+msgid "List Judges"
+msgstr "Список матчей"
+
+#: /views/tournaments/admin_view.ctp:83;240
+#: /views/tournaments/edit.ctp:36
+#, fuzzy
+msgid "New Judge"
+msgstr "Новый матч"
+
+#: /views/tournaments/admin_view.ctp:133
+msgid "Related Judges"
+msgstr ""
+
+#: /views/user_histories/admin_index.ctp:45
+#: /views/user_histories/admin_new.ctp:56
+#: /views/user_histories/admin_view.ctp:37
+#: /views/users/admin_index_backup.ctp:152
+#: /views/users/admin_view.ctp:225;544
+msgid "New User History"
+msgstr "Новая история"
+
+#: /views/user_histories/admin_view.ctp:2
+#, fuzzy
+msgid "User History"
+msgstr "Новая история"
+
+#: /views/user_histories/admin_view.ctp:34
+#, fuzzy
+msgid "Edit User History"
+msgstr "Новая история"
+
+#: /views/user_histories/admin_view.ctp:35
+#, fuzzy
+msgid "Delete User History"
+msgstr "Новая история"
+
+#: /views/user_histories/admin_view.ctp:36
+#: /views/users/admin_index_backup.ctp:151
+#: /views/users/admin_view.ctp:224
+msgid "List User Histories"
+msgstr "Список историй"
+
+#: /views/users/admin_add.ctp:4
+msgid "Admin Add User"
+msgstr "Добавить пользователя"
+
+#: /views/users/admin_edit.ctp:4
+#, fuzzy
+msgid "Admin Edit User"
+msgstr "Редактирование пользователя"
+
+#: /views/users/admin_index_backup.ctp:9
+#: /plugins/forum/views/layouts/admin.ctp:31
+#: /plugins/forum/views/layouts/default.ctp:38
+#: /plugins/forum/views/reports/admin_index.ctp:10
+#: /plugins/forum/views/reports/admin_posts.ctp:11
+#: /plugins/forum/views/reports/admin_topics.ctp:11
+#: /plugins/forum/views/reports/admin_users.ctp:5;11
+#: /plugins/forum/views/users/admin_edit.ctp:4
+#: /plugins/forum/views/users/admin_index.ctp:4
+#: /plugins/forum/views/users/edit.ctp:4
+#: /plugins/forum/views/users/index.ctp:4
+#: /plugins/forum/views/users/login.ctp:4
+#: /plugins/forum/views/users/profile.ctp:4
+#: /plugins/forum/views/users/report.ctp:4
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Country"
+msgstr "Страна"
+
+#: /views/users/admin_index_backup.ctp:135
+#: /views/users/admin_view.ctp:208
+msgid "List Locations"
+msgstr "Список мест"
+
+#: /views/users/admin_index_backup.ctp:136
+#: /views/users/admin_view.ctp:209
+msgid "New Location"
+msgstr "Новое место"
+
+#: /views/users/admin_index_backup.ctp:138
+#: /views/users/admin_view.ctp:211
+msgid "New Avatar File"
+msgstr "Новый аватар"
+
+#: /views/users/admin_index_backup.ctp:139
+#: /views/users/admin_view.ctp:212
+msgid "List Accounts"
+msgstr "Список аккаунтов"
+
+#: /views/users/admin_index_backup.ctp:140
+#: /views/users/admin_view.ctp:213;272
+msgid "New Account"
+msgstr "Новый аккаунт"
+
+#: /views/users/admin_index_backup.ctp:141
+#: /views/users/admin_view.ctp:214
+msgid "List Comments"
+msgstr "Список комментариев"
+
+#: /views/users/admin_index_backup.ctp:142
+#: /views/users/admin_view.ctp:215;320
+msgid "New Comment"
+msgstr "Новый комментарий"
+
+msgid "Comments"
+msgstr "Комментарии"
+
+msgid "Filter spam comments"
+msgstr "Отфильтровать спам"
+
+msgid "Filter good comments"
+msgstr "Отфильтровать не спам"
+
+#: /views/users/admin_index_backup.ctp:143
+#: /views/users/admin_view.ctp:216
+msgid "List Judges Matches"
+msgstr "Список матчей"
+
+#: /views/users/admin_index_backup.ctp:144
+#: /views/users/admin_view.ctp:217;364
+msgid "New Judges Match"
+msgstr "Новый матч"
+
+#: /views/users/admin_index_backup.ctp:145
+#: /views/users/admin_view.ctp:218
+msgid "List Judges Tournaments"
+msgstr "Список турниров"
+
+#: /views/users/admin_index_backup.ctp:146
+#: /views/users/admin_view.ctp:219;408
+msgid "New Judges Tournament"
+msgstr "Новый турнир"
+
+#: /views/users/admin_index_backup.ctp:157
+#: /views/users/admin_view.ctp:230
+msgid "List Ranks"
+msgstr "Список званий"
+
+#: /views/users/admin_index_backup.ctp:158
+#: /views/users/admin_view.ctp:231;694
+msgid "New Rank"
+msgstr "Новое звание"
+
+#: /views/users/admin_revisions.ctp:8
+msgid "Revisions"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:11
+msgid "version_id"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:12
+msgid "version_created"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:13
+msgid "id"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:14
+#, fuzzy
+msgid "location_id"
+msgstr "Место"
+
+#: /views/users/admin_revisions.ctp:15
+#, fuzzy
+msgid "name"
+msgstr "Имя"
+
+msgid "Author Name"
+msgstr "Имя автора"
+
+msgid "Author Email"
+msgstr "E-mail автора"
+
+msgid "Is Spam"
+msgstr "Спам"
+
+msgid "To Main"
+msgstr "На главную"
+
+msgid "Approved To Main"
+msgstr "Подтверждено на главную"
+
+msgid "Comment"
+msgstr "Комментарий"
+
+msgid "Foreign Key"
+msgstr "Внешний ключ"
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "Body"
+msgstr "Текст"
+
+msgid "Number Of Parties"
+msgstr "Число команд"
+
+msgid "Number Of Players"
+msgstr "Число игроков в команде"
+
+msgid "Admin Edit Discipline"
+msgstr "Редактирование дисциплин"
+
+msgid "Admin Edit Competition"
+msgstr "Редактирование соревнований"
+
+msgid "two players"
+msgstr "два игрока"
+
+msgid "two commands"
+msgstr "две команды"
+
+msgid "two players"
+msgstr "два игрока"
+
+msgid "deathmatch"
+msgstr "смертельный матч"
+
+msgid "Parent"
+msgstr "Родитель"
+
+msgid "Demo Extensions"
+msgstr "Демо-расширения"
+
+msgid "Small Icon"
+msgstr "Маленькая иконка"
+
+msgid "Big Icon"
+msgstr "Большая иконка"
+
+msgid "choose one..."
+msgstr "Выберите одно..."
+
+msgid "Admin Edit Software"
+msgstr "Редактирование игр(софта)"
+
+msgid "Path"
+msgstr "Путь"
+
+msgid "Thumb Path"
+msgstr "'Thumb' путь"
+
+msgid "Big Path"
+msgstr "'Big' путь"
+
+msgid "File Info"
+msgstr "Информация о файле"
+
+msgid "Self Registered"
+msgstr "Саморегистрация"
+
+msgid "Congratulation"
+msgstr "Поздравления"
+
+msgid "Role"
+msgstr "Права"
+
+msgid "user"
+msgstr "пользователь"
+
+msgid "judge"
+msgstr "судья"
+
+msgid "admin"
+msgstr "администратор"
+
+msgid "Conflict"
+msgstr "Конфликт"
+
+msgid "Stage"
+msgstr "Этап"
+
+msgid "Allow Games"
+msgstr "Погеймовый ввод"
+
+msgid "Game Count"
+msgstr "Число игр"
+
+msgid "Game Max Count"
+msgstr "Максимальное число игр"
+
+msgid "Blocked"
+msgstr "Блокированно"
+
+msgid "Games Num"
+msgstr "Число игр"
+
+msgid "user_id"
+msgstr "Пользователь"
+
+msgid "id"
+msgstr "Айди"
+
+msgid "tournament_id"
+msgstr "Соревнование"
+
+msgid "Match #"
+msgstr "Матч №"
+
+msgid "Map"
+msgstr "Карта"
+
+msgid "Duration"
+msgstr "Длительность"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "Online"
+msgstr "Онлайн"
+
+msgid "Playoff Grid Size"
+msgstr " Максимальное количество участников"
+
+msgid "None"
+msgstr "Ничего"
+
+#: /views/users/admin_revisions.ctp:16
+#, fuzzy
+msgid "surname"
+msgstr "Фамилия"
+
+#: /views/users/admin_revisions.ctp:17
+#, fuzzy
+msgid "fathername"
+msgstr "Отчество"
+
+#: /views/users/admin_revisions.ctp:18
+msgid "nick"
+msgstr "Ник"
+
+#: /views/users/admin_revisions.ctp:19
+#, fuzzy
+msgid "birthday"
+msgstr "День рождения"
+
+#: /views/users/admin_revisions.ctp:20
+msgid "congratulation"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:21
+msgid "online"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:22
+msgid "player"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:23
+msgid "judge"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:24
+#, fuzzy
+msgid "email"
+msgstr "Почта"
+
+#: /views/users/admin_revisions.ctp:25
+msgid "avatar_id"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:26
+msgid "photo_id"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:27
+msgid "skype"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:28
+msgid "icq"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:29
+msgid "phone"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:30
+msgid "allow_messages"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:31
+msgid "allow_friends"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:32
+msgid "allow_teams"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:33
+msgid "login"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:34
+msgid "password"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:35
+msgid "visability_fields"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:36
+#, fuzzy
+msgid "rating"
+msgstr "Модерация"
+
+#: /views/users/admin_revisions.ctp:37
+msgid "approved"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:38
+msgid "active"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:39
+#, fuzzy
+msgid "fcs_member"
+msgstr "Член ФКС"
+
+#: /views/users/admin_revisions.ctp:40
+#, fuzzy
+msgid "card_number"
+msgstr "Номер билета"
+
+#: /views/users/admin_revisions.ctp:41
+msgid "activation_code"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:42
+msgid "activation_code_date"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:43
+msgid "activation_date"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:44
+msgid "activation_function"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:45
+msgid "activation_new_mail"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:46
+msgid "last_email_sent"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:47
+msgid "avatar_small"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:48
+msgid "avatar_medium"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:49
+msgid "avatar_big"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:50
+msgid "role"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:51
+msgid "created"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:52
+msgid "modified"
+msgstr ""
+
+#: /views/users/admin_revisions.ctp:53
+#, fuzzy
+msgid "deleted"
+msgstr "Удалено"
+
+#: /views/users/admin_revisions.ctp:54
+msgid "deleted_date"
+msgstr "Дата удаления"
+
+#: /views/users/admin_view.ctp:9
+#, fuzzy
+msgid "Location"
+msgstr "Место"
+
+#: /views/users/admin_view.ctp:64
+#, fuzzy
+msgid "Avatar File"
+msgstr "Аватар"
+
+#: /views/users/admin_view.ctp:69
+msgid "Photo File"
+msgstr "Фотография"
+
+#: /views/users/admin_view.ctp:204
+#: /plugins/forum/controllers/users_controller.php:219
+#: /plugins/forum/views/users/admin_edit.ctp:8
+#, fuzzy
+msgid "Edit User"
+msgstr "Список пользователей"
+
+#: /views/users/admin_view.ctp:205
+#, fuzzy
+msgid "Delete User"
+msgstr "Удалить"
+
+#: /views/users/admin_view.ctp:235
+#, fuzzy
+msgid "Related Accounts"
+msgstr "Список аккаунтов"
+
+#: /views/users/admin_view.ctp:241
+msgid "Amount"
+msgstr ""
+
+#: /views/users/admin_view.ctp:325
+#, fuzzy
+msgid "Related Judges Matches"
+msgstr "Список матчей"
+
+#: /views/users/admin_view.ctp:369
+#, fuzzy
+msgid "Related Judges Tournaments"
+msgstr "Список судей"
+
+#: /views/users/admin_view.ctp:507
+#, fuzzy
+msgid "Related User Histories"
+msgstr "Список ревизий"
+
+#: /views/users/admin_view.ctp:653
+#, fuzzy
+msgid "Related Ranks"
+msgstr "Список званий"
+
+#: /views/users/admin_view.ctp:658
+msgid "Rule"
+msgstr ""
+
+#: /views/users/admin_view.ctp:661
+msgid "Picture Url"
+msgstr ""
+
+#: /views/users_revs/admin_add.ctp:4
+#, fuzzy
+msgid "Admin Add Users Rev"
+msgstr "Добавить ревизию"
+
+#: /views/users_revs/admin_add.ctp:55
+#: /views/users_revs/admin_edit.ctp:57
+#: /views/users_revs/admin_view.ctp:231
+#, fuzzy
+msgid "List Users Revs"
+msgstr "Список ревизий"
+
+#: /views/users_revs/admin_edit.ctp:4
+#, fuzzy
+msgid "Admin Edit Users Rev"
+msgstr "Редактировать ревизию"
+
+#: /views/users_revs/admin_index.ctp:2
+#, fuzzy
+msgid "Users Revs"
+msgstr "Ревизии пользователя"
+
+#: /views/users_revs/admin_view.ctp:2
+#, fuzzy
+msgid "Users Rev"
+msgstr "Ревизия пользователя"
+
+#: /views/users_revs/admin_view.ctp:4
+msgid "Version Id"
+msgstr "Id ревизии"
+
+#: /views/users_revs/admin_view.ctp:9
+msgid "Version Created"
+msgstr "Ревизия создана"
+
+#: /views/users_revs/admin_view.ctp:229
+#, fuzzy
+msgid "Edit Users Rev"
+msgstr "Список ревизий пользователей"
+
+#: /views/users_revs/admin_view.ctp:230
+msgid "Delete Users Rev"
+msgstr ""
+
+#: /views/users_revs/admin_view.ctp:232
+#, fuzzy
+msgid "New Users Rev"
+msgstr "Добавить ревизию пользователя"
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: /plugins/forum/controllers/forum_controller.php:58
+#: /plugins/forum/views/layouts/default.ctp:37
+msgid "Help"
+msgstr ""
+
+#: /plugins/forum/controllers/forum_controller.php:76
+#: /plugins/forum/views/layouts/default.ctp:36
+msgid "Rules"
+msgstr ""
+
+#: /plugins/forum/controllers/forum_controller.php:88
+#: /plugins/forum/views/forum/admin_index.ctp:3
+#: /plugins/forum/views/forum/admin_settings.ctp:3
+#: /plugins/forum/views/reports/admin_index.ctp:3
+#: /plugins/forum/views/reports/admin_posts.ctp:3
+#: /plugins/forum/views/reports/admin_topics.ctp:3
+#: /plugins/forum/views/reports/admin_users.ctp:3
+#: /plugins/forum/views/staff/admin_delete_access_level.ctp:3
+#: /plugins/forum/views/staff/admin_form_access.ctp:13
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:13
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:13
+#: /plugins/forum/views/staff/admin_index.ctp:3
+#: /plugins/forum/views/stations/admin_delete.ctp:3
+#: /plugins/forum/views/stations/admin_form.ctp:11
+#: /plugins/forum/views/stations/admin_index.ctp:3
+#: /plugins/forum/views/users/admin_edit.ctp:3
+#: /plugins/forum/views/users/admin_index.ctp:3
+msgid "Administration"
+msgstr ""
+
+#: /plugins/forum/controllers/forum_controller.php:109
+msgid "Settings have been updated!"
+msgstr ""
+
+#: /plugins/forum/controllers/forum_controller.php:118
+#: /plugins/forum/views/forum/admin_settings.ctp:4;7
+#: /plugins/forum/views/layouts/admin.ctp:27
+msgid "Settings"
+msgstr ""
+
+#: /plugins/forum/controllers/posts_controller.php:68
+#: /plugins/forum/views/elements/tiles/topic_controls.ctp:17
+#: /plugins/forum/views/posts/add.ctp:13;32
+#: /plugins/forum/views/topics/view.ctp:212
+msgid "Post Reply"
+msgstr ""
+
+#: /plugins/forum/controllers/posts_controller.php:98
+#: /plugins/forum/views/posts/edit.ctp:13
+#: /plugins/forum/views/topics/view.ctp:126
+#, fuzzy
+msgid "Edit Post"
+msgstr "Список сообщений"
+
+#: /plugins/forum/controllers/posts_controller.php:142
+msgid "You have succesfully reported this post! A moderator will review this post and take the necessary action."
+msgstr ""
+
+#: /plugins/forum/controllers/posts_controller.php:149
+#: /plugins/forum/views/posts/report.ctp:13
+#: /plugins/forum/views/topics/view.ctp:130
+#, fuzzy
+msgid "Report Post"
+msgstr "Новое сообщение"
+
+#: /plugins/forum/controllers/reports_controller.php:61
+#: /plugins/forum/views/reports/admin_index.ctp:14
+msgid "Reported Items"
+msgstr ""
+
+#: /plugins/forum/controllers/reports_controller.php:90
+msgid "A total of %d topics have been processed"
+msgstr ""
+
+#: /plugins/forum/controllers/reports_controller.php:97
+#: /plugins/forum/views/reports/admin_topics.ctp:15
+msgid "Reported Topics"
+msgstr ""
+
+#: /plugins/forum/controllers/reports_controller.php:121
+msgid "A total of %d posts have been processed"
+msgstr ""
+
+#: /plugins/forum/controllers/reports_controller.php:128
+#: /plugins/forum/views/reports/admin_posts.ctp:15
+msgid "Reported Posts"
+msgstr ""
+
+#: /plugins/forum/controllers/reports_controller.php:153
+msgid "A total of %d users have been processed"
+msgstr ""
+
+#: /plugins/forum/controllers/reports_controller.php:160
+#: /plugins/forum/views/reports/admin_users.ctp:15
+msgid "Reported Users"
+msgstr ""
+
+#: /plugins/forum/controllers/search_controller.php:51
+msgid "Last post time"
+msgstr ""
+
+#: /plugins/forum/controllers/search_controller.php:52
+msgid "Topic created time"
+msgstr ""
+
+#: /plugins/forum/controllers/search_controller.php:53
+msgid "Total posts"
+msgstr ""
+
+#: /plugins/forum/controllers/search_controller.php:54
+msgid "Total views"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:25
+#: /plugins/forum/views/layouts/admin.ctp:29
+#: /plugins/forum/views/staff/admin_delete_access_level.ctp:4
+#: /plugins/forum/views/staff/admin_form_access.ctp:14
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:14
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:14
+#: /plugins/forum/views/staff/admin_index.ctp:4;61
+msgid "Staff"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:37
+msgid "Access has been granted to %s."
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:42
+#: /plugins/forum/views/staff/admin_form_access.ctp:6
+msgid "Add Access"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:62
+msgid "Access for %s has been updated."
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:69
+#: /plugins/forum/views/staff/admin_form_access.ctp:10
+msgid "Edit Access"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:87
+msgid "The access levels for %s have been succesfully removed."
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:99
+msgid "Access level %s has been added."
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:104
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:6
+#: /plugins/forum/views/staff/admin_index.ctp:9;142
+msgid "Add Access Level"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:123
+msgid "Access level %s has been updated."
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:130
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:10
+msgid "Edit Access Level"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:149
+msgid "The level %s has been deleted, and all its users have been moved!"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:153
+#: /plugins/forum/views/staff/admin_delete_access_level.ctp:5;8
+msgid "Delete Access Level"
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:169
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:6
+#: /plugins/forum/views/staff/admin_index.ctp:10;129;143
+#, fuzzy
+msgid "Add Moderator"
+msgstr "Модерация"
+
+#: /plugins/forum/controllers/staff_controller.php:187
+msgid "Moderator %s has been updated."
+msgstr ""
+
+#: /plugins/forum/controllers/staff_controller.php:194
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:10
+#, fuzzy
+msgid "Edit Moderator"
+msgstr "Модерация"
+
+#: /plugins/forum/controllers/staff_controller.php:220
+msgid "The moderator %s has been succesfully removed!"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:95
+msgid "A total of %d topic(s) have been permanently deleted"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:99
+msgid "A total of %d topic(s) have been locked to the public"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:103
+msgid "A total of %d topic(s) have been re-opened"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:107
+msgid "A total of %d topic(s) have been moved to another forum category"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:121
+#: /plugins/forum/controllers/topics_controller.php:276
+#: /plugins/forum/views/elements/tiles/forum_controls.ctp:5
+#: /plugins/forum/views/elements/tiles/topic_controls.ctp:4
+#: /plugins/forum/views/stations/moderate.ctp:16
+#: /plugins/forum/views/topics/moderate.ctp:19
+#, fuzzy
+msgid "Moderate"
+msgstr "Модерация"
+
+#: /plugins/forum/controllers/stations_controller.php:158
+msgid "The order of the forums have been updated!"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:161
+#: /plugins/forum/views/stations/admin_index.ctp:11
+msgid "Manage Forums"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:181
+msgid "The %s forum has been added."
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:186
+#: /plugins/forum/views/stations/admin_form.ctp:5
+#: /plugins/forum/views/stations/admin_index.ctp:7;74
+msgid "Add Forum"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:220
+msgid "The %s forum has been updated."
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:227
+#: /plugins/forum/views/stations/admin_form.ctp:8
+msgid "Edit Forum"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:253
+msgid "The %s forum has been deleted, and all its sub-forums and topics have been moved!"
+msgstr ""
+
+#: /plugins/forum/controllers/stations_controller.php:257
+#: /plugins/forum/views/stations/admin_delete.ctp:5;8
+#, fuzzy
+msgid "Delete Forum"
+msgstr "Удалить"
+
+#: /plugins/forum/controllers/topics_controller.php:65
+#: /plugins/forum/views/elements/tiles/forum_controls.ctp:14
+#: /plugins/forum/views/elements/tiles/topic_controls.ctp:12
+#, fuzzy
+msgid "Create Poll"
+msgstr "Новое голосование"
+
+#: /plugins/forum/controllers/topics_controller.php:68
+#: /plugins/forum/views/elements/tiles/forum_controls.ctp:10
+#: /plugins/forum/views/elements/tiles/topic_controls.ctp:8
+msgid "Create Topic"
+msgstr ""
+
+#: /plugins/forum/controllers/topics_controller.php:130
+#: /plugins/forum/views/topics/edit.ctp:13;76
+#: /plugins/forum/views/topics/view.ctp:116
+msgid "Edit Topic"
+msgstr ""
+
+#: /plugins/forum/controllers/topics_controller.php:202
+msgid "You have succesfully reported this topic! A moderator will review this topic and take the necessary action."
+msgstr ""
+
+#: /plugins/forum/controllers/topics_controller.php:207
+#: /plugins/forum/views/topics/report.ctp:13
+#: /plugins/forum/views/topics/view.ctp:123
+msgid "Report Topic"
+msgstr ""
+
+#: /plugins/forum/controllers/topics_controller.php:265
+msgid "A total of %d post(s) have been permanently deleted"
+msgstr ""
+
+#: /plugins/forum/controllers/users_controller.php:61
+#: /plugins/forum/views/users/index.ctp:14
+#, fuzzy
+msgid "User List"
+msgstr "Пользователи"
+
+#: /plugins/forum/controllers/users_controller.php:91
+msgid "Your profile information has been updated!"
+msgstr ""
+
+#: /plugins/forum/controllers/users_controller.php:97
+#: /plugins/forum/views/elements/navigation.ctp:12
+#: /plugins/forum/views/users/edit.ctp:5;8
+msgid "Edit Profile"
+msgstr ""
+
+#: /plugins/forum/controllers/users_controller.php:141
+#, fuzzy
+msgid "User Profile"
+msgstr "Истории пользователей"
+
+#: /plugins/forum/controllers/users_controller.php:167
+msgid "You have succesfully reported this user! A moderator will review this topic and take the necessary action."
+msgstr ""
+
+#: /plugins/forum/controllers/users_controller.php:172
+#: /plugins/forum/views/users/profile.ctp:8
+#: /plugins/forum/views/users/report.ctp:5;8
+#, fuzzy
+msgid "Report User"
+msgstr "Добавить пользователя"
+
+#: /plugins/forum/controllers/users_controller.php:192
+#: /plugins/forum/views/users/admin_index.ctp:16
+#, fuzzy
+msgid "Manage Users"
+msgstr "Добавить пользователя"
+
+#: /plugins/forum/controllers/users_controller.php:212
+msgid "Profile for %s has been updated."
+msgstr ""
+
+#: /plugins/forum/controllers/components/toolbar.php:176
+#: /plugins/forum/views/forum/index.ctp:18
+#: /plugins/forum/views/search/index.ctp:48
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:33
+#: /plugins/forum/views/stations/admin_form.ctp:32
+#: /plugins/forum/views/stations/admin_index.ctp:41
+#: /plugins/forum/views/stations/view.ctp:31
+#: /plugins/forum/views/stations/rss/feed.ctp:3
+#: /plugins/forum/views/topics/add.ctp:21
+#: /plugins/forum/views/topics/edit.ctp:23
+msgid "Forum"
+msgstr ""
+
+#: /plugins/forum/views/elements/login.ctp:7
+#: /plugins/forum/views/forum/admin_index.ctp:98
+#: /plugins/forum/views/users/admin_edit.ctp:16
+#: /plugins/forum/views/users/admin_index.ctp:10;29
+#: /plugins/forum/views/users/index.ctp:25
+#: /plugins/forum/views/users/login.ctp:16
+#, fuzzy
+msgid "Username"
+msgstr "Отчество"
+
+#: /plugins/forum/views/elements/login.ctp:9
+#: /plugins/forum/views/users/login.ctp:18
+#, fuzzy
+msgid "Remember Me?"
+msgstr "Декабрь"
+
+#: /plugins/forum/views/elements/navigation.ctp:10
+msgid "Logout"
+msgstr ""
+
+#: /plugins/forum/views/elements/navigation.ctp:11
+#, fuzzy
+msgid "View New Posts"
+msgstr "Новое сообщение"
+
+#: /plugins/forum/views/elements/navigation.ctp:16
+msgid "Forgot Password"
+msgstr ""
+
+#: /plugins/forum/views/elements/navigation.ctp:22
+msgid "Sign Up"
+msgstr ""
+
+#: /plugins/forum/views/elements/navigation.ctp:37
+msgid "Welcome %s"
+msgstr ""
+
+#: /plugins/forum/views/elements/pagination.ctp:8
+msgid "Displaying %start%-%end% of %count%"
+msgstr ""
+
+#: /plugins/forum/views/elements/tiles/forum_controls.ctp:17
+#: /plugins/forum/views/elements/tiles/topic_controls.ctp:19
+#: /plugins/forum/views/helpers/common.php:164
+#: /plugins/forum/views/topics/view.ctp:16
+msgid "Closed"
+msgstr ""
+
+#: /plugins/forum/views/elements/tiles/forum_row.ctp:22
+#: /plugins/forum/views/stations/view.ctp:24
+msgid "Sub-Forums"
+msgstr ""
+
+#: /plugins/forum/views/elements/tiles/forum_row.ctp:38
+#: /plugins/forum/views/elements/tiles/topic_row.ctp:46
+msgid "by"
+msgstr ""
+
+#: /plugins/forum/views/elements/tiles/forum_row.ctp:41
+#: /plugins/forum/views/elements/tiles/topic_row.ctp:51
+msgid "No latest activity to display"
+msgstr ""
+
+#: /plugins/forum/views/elements/tiles/topic_row.ctp:20
+msgid "Pages"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:10
+#: /plugins/forum/views/stations/view.ctp:131
+#: /plugins/forum/views/topics/view.ctp:158
+#: /plugins/forum/views/users/admin_edit.ctp:19
+#: /plugins/forum/views/users/profile.ctp:29
+msgid "Total Topics"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:11
+#: /plugins/forum/views/stations/view.ctp:144
+#: /plugins/forum/views/topics/view.ctp:159
+#: /plugins/forum/views/users/admin_edit.ctp:18
+#: /plugins/forum/views/users/profile.ctp:56
+#, fuzzy
+msgid "Total Posts"
+msgstr "Список сообщений"
+
+#: /plugins/forum/views/forum/admin_index.ctp:12
+#, fuzzy
+msgid "Total Polls"
+msgstr "Список голосований"
+
+#: /plugins/forum/views/forum/admin_index.ctp:13
+#, fuzzy
+msgid "Total Users"
+msgstr "Список пользователей"
+
+#: /plugins/forum/views/forum/admin_index.ctp:14
+msgid "Total Profiles"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:15
+msgid "Total Reports"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:16
+#, fuzzy
+msgid "Total Moderators"
+msgstr "Модерация"
+
+#: /plugins/forum/views/forum/admin_index.ctp:17
+#: /plugins/forum/views/forum/index.ctp:55
+#, fuzzy
+msgid "Newest User"
+msgstr "Добавить пользователя"
+
+#: /plugins/forum/views/forum/admin_index.ctp:40
+msgid "Latest Reports"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:48
+#: /plugins/forum/views/reports/admin_index.ctp:27
+msgid "Item"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:49
+#: /plugins/forum/views/reports/admin_index.ctp:28
+#: /plugins/forum/views/reports/admin_posts.ctp:30
+#: /plugins/forum/views/reports/admin_topics.ctp:29
+#: /plugins/forum/views/reports/admin_users.ctp:29
+msgid "Reported By"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:50
+#: /plugins/forum/views/posts/report.ctp:24
+#: /plugins/forum/views/reports/admin_index.ctp:29
+#: /plugins/forum/views/reports/admin_posts.ctp:31
+#: /plugins/forum/views/reports/admin_topics.ctp:30
+#: /plugins/forum/views/reports/admin_users.ctp:30
+#: /plugins/forum/views/topics/report.ctp:22
+#: /plugins/forum/views/users/report.ctp:17
+#, fuzzy
+msgid "сomment"
+msgstr "комментарий"
+
+#: /plugins/forum/views/forum/admin_index.ctp:51
+#: /plugins/forum/views/reports/admin_index.ctp:30
+#: /plugins/forum/views/reports/admin_posts.ctp:32
+#: /plugins/forum/views/reports/admin_topics.ctp:31
+#: /plugins/forum/views/reports/admin_users.ctp:31
+msgid "Reported On"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:91
+#, fuzzy
+msgid "Latest Users"
+msgstr "Список пользователей"
+
+#: /plugins/forum/views/forum/admin_index.ctp:100
+#: /plugins/forum/views/posts/add.ctp:55
+#: /plugins/forum/views/topics/view.ctp:157
+#: /plugins/forum/views/users/admin_index.ctp:31
+#: /plugins/forum/views/users/index.ctp:26
+#: /plugins/forum/views/users/profile.ctp:26
+msgid "Joined"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:101
+#: /plugins/forum/views/forum/index.ctp:19
+#: /plugins/forum/views/reports/admin_index.ctp:8
+#: /plugins/forum/views/reports/admin_posts.ctp:9
+#: /plugins/forum/views/reports/admin_topics.ctp:5;9
+#: /plugins/forum/views/reports/admin_users.ctp:9
+#: /plugins/forum/views/stations/admin_index.ctp:43
+#: /plugins/forum/views/stations/view.ctp:32
+#: /plugins/forum/views/users/admin_index.ctp:33
+#: /plugins/forum/views/users/index.ctp:28
+msgid "Topics"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_index.ctp:103
+#: /plugins/forum/views/staff/admin_index.ctp:30;71;107
+#: /plugins/forum/views/stations/admin_index.ctp:49
+#: /plugins/forum/views/users/admin_index.ctp:35
+#, fuzzy
+msgid "Options"
+msgstr "Действия"
+
+#: /plugins/forum/views/forum/admin_settings.ctp:16
+#, fuzzy
+msgid "Site Name"
+msgstr "Имя"
+
+#: /plugins/forum/views/forum/admin_settings.ctp:17
+#, fuzzy
+msgid "Site Email"
+msgstr "Почта"
+
+#: /plugins/forum/views/forum/admin_settings.ctp:18
+msgid "Site Website"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:19
+msgid "Security Question"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:20
+msgid "Security Answer"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:21
+msgid "Page Title Separator"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:23
+msgid "Topic Settings"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:26;27
+msgid "Topics Per Page"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:28
+msgid "Topic Flood Interval"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:28;36
+#, fuzzy
+msgid "Seconds"
+msgstr "секунда"
+
+#: /plugins/forum/views/forum/admin_settings.ctp:29
+msgid "Paging Till Truncation"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:29
+msgid "Paging under a topic title"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:31
+msgid "Post Settings"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:34
+msgid "Posts Per Page"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:35
+msgid "Posts Per Hour"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:36
+msgid "Post Flood Interval"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:37
+msgid "Posts Till Hot Topic"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:39
+msgid "Misc Settings"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:42
+#: /plugins/forum/views/users/admin_edit.ctp:20
+#: /plugins/forum/views/users/edit.ctp:16
+msgid "Language"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:43
+#: /plugins/forum/views/users/admin_edit.ctp:21
+#: /plugins/forum/views/users/edit.ctp:17
+msgid "Timezone"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:44
+msgid "Days"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:44
+msgid "Inactive Days Till Topic Auto-Lock"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:45
+msgid "Whos Online Interval"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:45
+msgid "Past Minutes"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:46
+msgid "Enable Quick Reply"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:47
+msgid "Enable Gravatar"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:48
+msgid "Censored Words"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:48
+msgid "Separate with commas"
+msgstr ""
+
+#: /plugins/forum/views/forum/admin_settings.ctp:54
+#: /plugins/forum/views/staff/admin_form_access.ctp:9
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:9
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:9
+#: /plugins/forum/views/stations/admin_form.ctp:7
+#: /plugins/forum/views/users/admin_edit.ctp:27
+msgid "Update"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:4;7
+msgid "Help Desk"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:10
+msgid "Why do I need to sign up?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:11
+msgid "You may read all public forums as a guest, but to be able to post or reply to a topic, you must have a user account."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:13
+msgid "Why can't I post a topic, poll or reply?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:14
+msgid "To begin you must have a user account and must be logged in. If you have done this, the topic might be locked or you do not have the proper acces to post in that topic or forum."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:16
+msgid "Why can't I login?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:17
+msgid "The server might be having technicaly difficulties so your request could not be processed. It may also be that your account has been deleted or banned."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:19
+msgid "Oh no, I forgot my password!"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:20
+msgid "If you have forgotten your password, you can reset it using the %s form."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:20
+msgid "forgotten password"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:22
+msgid "What does reporting do?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:23
+msgid "If you find a piece of content that you find inappropriate or offensive, you can report the content for a moderator to delete or fix."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:25
+msgid "What are moderators, super moderators and administrators?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:26
+msgid "Those are users with higher access and privileges than a regular user. Moderators control and moderate specific forums, where as Super Moderators have full access to all forums. Administrators have full access to all forums as well as editing all the sites settings and configuration. Additionally, moderates have the power to edit and delete other users content."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:28
+msgid "What does the power search do?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:29
+msgid "By default the search will only search for terms within the topic title. If you check the power search, it will search within the title and post."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:31
+msgid "How do I edit my profile?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:32
+msgid "Once you have logged in, you can edit your profile by going to the %s link, located at the top right."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:34
+msgid "How do I post a topic?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:35
+msgid "You would first navigate to the appropriate forum you want to post in. Once there, you would click the \"Create Topic\" link located at the top and bottom right of the page."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:37
+msgid "How do I post a reply?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:38
+msgid "When you are reading a topic and are logged in, you would click the \"Post Reply\" link also located at the top and bottom right of the page."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:40
+msgid "How do I create a poll?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:41
+msgid "You would create a poll the same way you would create a topic. First enter the correct forum, then hit the \"Create Poll\" link."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:43
+msgid "How do I edit my topic, poll, post, etc?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:44
+msgid "When you are reading a topic, at the top right of each post you will see a few text links. Hit the \"Edit\" link to edit your respective content. If you are editing the first post of a topic, it will additionally edit the topic or poll as well. You may only edit your own posts or topics unless you have moderating capabilities."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:46
+msgid "How do I report a topic, post or user?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:47
+msgid "At the top right of each post you would click the \"Report <content>\" link. From there you should add a comment on why you are reporting this content."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:49
+msgid "How do I get higher access and permissions?"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:50
+msgid "It is up to the administrator to give you higher access. All you can do is be a superb member on the forum and hope they promote you."
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:52
+msgid "I have more questions that aren't shown here!"
+msgstr ""
+
+#: /plugins/forum/views/forum/help.ctp:53
+msgid "If you have additional questions and need further help, please contact us at %s."
+msgstr ""
+
+#: /plugins/forum/views/forum/index.ctp:21
+#: /plugins/forum/views/search/index.ctp:53
+#: /plugins/forum/views/stations/moderate.ctp:35
+#: /plugins/forum/views/stations/view.ctp:34;69
+msgid "Activity"
+msgstr ""
+
+#: /plugins/forum/views/forum/index.ctp:36
+msgid "There are no categories within this forum."
+msgstr ""
+
+#: /plugins/forum/views/forum/index.ctp:50
+msgid "Statistics"
+msgstr ""
+
+#: /plugins/forum/views/forum/index.ctp:50
+msgid "%d topics, %d posts, and %d users"
+msgstr ""
+
+#: /plugins/forum/views/forum/index.ctp:67
+msgid "Whos Online"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:4;7
+msgid "Rules and Regulations"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:10
+msgid "No Offensive Material"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:11
+msgid "No posting any harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, hateful, or racially, ethnically or otherwise objectionable content. This means no porn, gore, offensive, violent or disturbing images, websites and or other adult content. This will result in an immediate ban from the community."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:13
+msgid "No Prejudice or Discrimation"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:14
+msgid "There is to be absolutely no discriminating or hatred against somebody else due to race, religion, gender, cultural background or sexual preference. This will result in an immediate ban from the community."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:16
+msgid "No Flaming"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:17
+msgid "There is to be no offensive language, personal attacks, harassment or flaming to another member of the forum. For each infraction you will be warned, and if the problem persists you will be banned."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:19
+msgid "No Spamming"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:20
+msgid "No spamming or flooding forums or threads by posting frequent and / or annoying messages in the forums which serve no purpose."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:22
+msgid "No Short Length Posts"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:23
+msgid "A response with only a few words is considered spam. If you post a reply that contains less than 5-10 words, it is considered spam. If you do not have anything worth while to add to the conversation, then do not reply at all. Please refer to the No Spamming rule above."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:25
+msgid "No Virus, Trojans or Warez"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:26
+msgid "Posting links to and / or information about cheats, hacks, virus, trojans, warez and otherwise illegal content is prohibited. If this happens you will be banned immediately."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:28
+msgid "No Threadomancy"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:29
+msgid "Posting in a thread that hasn't had any new replies in roughly 3-4 weeks or more (up to mod discretion; possible exceptions apply)."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:31
+msgid "No Trolling"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:32
+msgid "No trolling these forums are allowed. Do not intentionally post controversial or contrary messages to invoke other members of the community. This will result in an immediate ban."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:34
+msgid "No Advertising"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:35
+msgid "Posting links to other community sites that are not on our affiliates list or posting links to advertise your site or community is prohibited. You may place a link within your signature, but you may not advertise with a topic. This will result in a warning or a ban."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:37
+msgid "No Double Posting"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:38
+msgid "Do not double post, if you need to double post please edit your previous post instead. Posting consecutively is not permitted."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:40
+msgid "No Duplicate Topics"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:41
+msgid "Do not create a new topic with the same content to an existing topic. Duplicated topics will be locked, and removed. Browse through the forum, or do a search and see if a topic already exist."
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:43
+msgid "No Abusing Topics"
+msgstr ""
+
+#: /plugins/forum/views/forum/rules.ctp:44
+msgid "Do not post topics that have no real reason for being created. Also do not spam topics/polls."
+msgstr ""
+
+#: /plugins/forum/views/forum/rss/feed.ctp:4
+#: /plugins/forum/views/users/profile.ctp:80
+msgid "Latest Topics"
+msgstr ""
+
+#: /plugins/forum/views/forum/rss/feed.ctp:6
+msgid "The latest 10 topics out of all forums"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:157
+msgid "Yes"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:158
+msgid "No"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:163
+msgid "Open"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:169
+msgid "Visible"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:170
+msgid "Hidden"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:175
+#, fuzzy
+msgid "Member"
+msgstr "Член ФКС"
+
+#: /plugins/forum/views/helpers/common.php:178
+#, fuzzy
+msgid "Moderator"
+msgstr "Модерация"
+
+#: /plugins/forum/views/helpers/common.php:181
+#, fuzzy
+msgid "Super Moderator"
+msgstr "Модерация"
+
+#: /plugins/forum/views/helpers/common.php:184
+msgid "Administrator"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:188
+msgid "Guest"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:194
+msgid "Banned"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:199
+msgid "Normal"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:200
+msgid "Sticky"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:201
+msgid "Important"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:202
+msgid "Announcement"
+msgstr ""
+
+#: /plugins/forum/views/helpers/common.php:222
+#: /plugins/forum/views/reports/admin_posts.ctp:28
+#: /plugins/forum/views/reports/admin_topics.ctp:28
+#: /plugins/forum/views/search/index.ctp:47
+#: /plugins/forum/views/stations/moderate.ctp:29
+#: /plugins/forum/views/stations/view.ctp:64
+#: /plugins/forum/views/topics/rss/feed.ctp:3
+#: /plugins/forum/views/users/profile.ctp:87;126
+msgid "Topic"
+msgstr ""
+
+#: /plugins/forum/views/layouts/admin.ctp:22
+msgid "Forum Administration"
+msgstr ""
+
+#: /plugins/forum/views/layouts/admin.ctp:28
+#: /plugins/forum/views/layouts/default.ctp:34
+#: /plugins/forum/views/stations/admin_delete.ctp:4
+#: /plugins/forum/views/stations/admin_form.ctp:12
+#: /plugins/forum/views/stations/admin_index.ctp:4
+msgid "Forums"
+msgstr ""
+
+#: /plugins/forum/views/layouts/admin.ctp:30
+#: /plugins/forum/views/reports/admin_index.ctp:4
+#: /plugins/forum/views/reports/admin_posts.ctp:4
+#: /plugins/forum/views/reports/admin_topics.ctp:4
+#: /plugins/forum/views/reports/admin_users.ctp:4
+msgid "Reported"
+msgstr ""
+
+#: /plugins/forum/views/layouts/admin.ctp:32
+#: /plugins/forum/views/stations/moderate.ctp:12
+msgid "Return to Forum"
+msgstr ""
+
+#: /plugins/forum/views/layouts/default.ctp:13
+msgid "RSS Feed - Latest Topics"
+msgstr ""
+
+#: /plugins/forum/views/layouts/default.ctp:15
+msgid "RSS Feed - Content Review"
+msgstr ""
+
+#: /plugins/forum/views/layouts/default.ctp:41
+msgid "Admin"
+msgstr ""
+
+#: /plugins/forum/views/posts/add.ctp:25
+#: /plugins/forum/views/posts/edit.ctp:25
+#: /plugins/forum/views/topics/add.ctp:45
+#: /plugins/forum/views/topics/edit.ctp:66
+msgid "Content"
+msgstr ""
+
+#: /plugins/forum/views/posts/add.ctp:39
+msgid "Topic Review - Last 10 Replies"
+msgstr ""
+
+#: /plugins/forum/views/posts/edit.ctp:32
+#, fuzzy
+msgid "Update Post"
+msgstr "Новое сообщение"
+
+#: /plugins/forum/views/posts/report.ctp:16
+msgid "Are you sure you want to report the post (below) in the topic %s? If so, please add a comment as to why you are reporting it, 255 max characters."
+msgstr ""
+
+#: /plugins/forum/views/posts/report.ctp:29
+#: /plugins/forum/views/topics/report.ctp:27
+#: /plugins/forum/views/users/report.ctp:22
+msgid "Report"
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_index.ctp:62
+msgid "There are no reported items to display."
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_posts.ctp:65
+msgid "There are no reported posts."
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_posts.ctp:81
+#: /plugins/forum/views/topics/moderate.ctp:71
+#, fuzzy
+msgid "Delete Post(s)"
+msgstr "Удалить"
+
+#: /plugins/forum/views/reports/admin_posts.ctp:82
+#: /plugins/forum/views/reports/admin_topics.ctp:75
+#: /plugins/forum/views/reports/admin_users.ctp:74
+msgid "Remove Report Only"
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_posts.ctp:85
+#: /plugins/forum/views/reports/admin_topics.ctp:78
+#: /plugins/forum/views/reports/admin_users.ctp:77
+#: /plugins/forum/views/stations/moderate.ctp:73
+#: /plugins/forum/views/topics/moderate.ctp:71
+msgid "Perform Action"
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_posts.ctp:88
+#: /plugins/forum/views/reports/admin_topics.ctp:81
+#: /plugins/forum/views/reports/admin_users.ctp:80
+#: /plugins/forum/views/stations/moderate.ctp:77
+#: /plugins/forum/views/topics/moderate.ctp:72
+msgid "Process"
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_topics.ctp:57
+msgid "There are no reported topics."
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_topics.ctp:73
+#: /plugins/forum/views/stations/moderate.ctp:70
+msgid "Delete Topic(s)"
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_topics.ctp:74
+#: /plugins/forum/views/stations/moderate.ctp:68
+msgid "Close Topic(s)"
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_users.ctp:57
+msgid "There are no reported users."
+msgstr ""
+
+#: /plugins/forum/views/reports/admin_users.ctp:73
+#, fuzzy
+msgid "Ban User(s)"
+msgstr "Пользователи"
+
+#: /plugins/forum/views/search/index.ctp:17
+msgid "Keywords"
+msgstr ""
+
+#: /plugins/forum/views/search/index.ctp:20
+msgid "Within Forum Category"
+msgstr ""
+
+#: /plugins/forum/views/search/index.ctp:23
+msgid "Order By"
+msgstr ""
+
+#: /plugins/forum/views/search/index.ctp:26
+msgid "By User (Username)"
+msgstr ""
+
+#: /plugins/forum/views/search/index.ctp:35
+msgid "Search Topics"
+msgstr ""
+
+#: /plugins/forum/views/search/index.ctp:49
+#: /plugins/forum/views/stations/moderate.ctp:31
+#: /plugins/forum/views/stations/view.ctp:65
+#: /plugins/forum/views/users/profile.ctp:127
+msgid "Author"
+msgstr ""
+
+#: /plugins/forum/views/search/index.ctp:52
+#: /plugins/forum/views/stations/moderate.ctp:34
+#: /plugins/forum/views/stations/view.ctp:68
+#: /plugins/forum/views/users/profile.ctp:90
+#, fuzzy
+msgid "Views"
+msgstr "Смотреть"
+
+#: /plugins/forum/views/search/index.ctp:61
+msgid "No results were found, please refine your search criteria."
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_delete_access_level.ctp:11
+msgid "Before you delete the access level %s, please select which level a user should receive, if they have the level that will be deleted."
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_delete_access_level.ctp:17
+msgid "Move Users To"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_form_access.ctp:5
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:5
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:5
+#: /plugins/forum/views/stations/admin_form.ctp:4
+msgid "Save"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_form_access.ctp:22
+msgid "To find the users ID, you can search for them in the %s."
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_form_access.ctp:22
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:21
+#, fuzzy
+msgid "Users listing"
+msgstr "Истории пользователей"
+
+#: /plugins/forum/views/staff/admin_form_access.ctp:31
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:29
+#, fuzzy
+msgid "User ID"
+msgstr "Пользователи"
+
+#: /plugins/forum/views/staff/admin_form_access.ctp:35
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:32
+#: /plugins/forum/views/staff/admin_index.ctp:69
+msgid "Access Level"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:23
+msgid "You are unable to edit core levels, they are restricted."
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:33
+msgid "Is Super Moderator?"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_form_access_level.ctp:34
+msgid "Is Administrator?"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_form_moderator.ctp:21
+msgid "To find the users ID, you can search for them on the %s."
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:8;141
+msgid "Add Staff"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:14
+msgid "Staff &amp; Moderators"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:19
+msgid "Levels"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:27
+msgid "Level"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:28
+msgid "Is Admin"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:29
+msgid "Is Super Mod"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:44
+msgid "Restricted"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:70;106
+msgid "Achieved On"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:84;121
+#: /plugins/forum/views/topics/moderate.ctp:14
+#: /plugins/forum/views/topics/view.ctp:120;127
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: /plugins/forum/views/staff/admin_index.ctp:97
+#: /plugins/forum/views/stations/view.ctp:158
+#, fuzzy
+msgid "Moderators"
+msgstr "Модерация"
+
+#: /plugins/forum/views/staff/admin_index.ctp:105
+#: /plugins/forum/views/users/profile.ctp:59
+#, fuzzy
+msgid "Moderates"
+msgstr "Модерация"
+
+#: /plugins/forum/views/staff/admin_index.ctp:129
+msgid "There are no assigned moderators."
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_delete.ctp:13
+msgid "You may not delete this forum, you must have at least one forum active."
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_delete.ctp:17
+msgid "Before you delete the %s forum, please select which forum all topics and sub-forums should be moved to."
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_delete.ctp:24
+msgid "Move Topics To"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_delete.ctp:25
+msgid "Move Sub-forums To"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:25
+#: /plugins/forum/views/stations/admin_index.ctp:42
+#: /plugins/forum/views/stations/moderate.ctp:30
+#: /plugins/forum/views/topics/add.ctp:24
+#: /plugins/forum/views/topics/edit.ctp:24
+msgid "Status"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:26
+msgid "Order No"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:28
+msgid "The fields below apply to child level forums."
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:32;33
+msgid "None"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:33
+msgid "Restrict Access To"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:34
+msgid "Read Access"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:35
+msgid "Post Access"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:36
+msgid "Reply Access"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:37
+msgid "Poll Access"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:38
+msgid "Increase Users Post/Topic Count"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_form.ctp:39
+msgid "Auto-Lock Inactive Topics"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_index.ctp:45
+msgid "Read"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_index.ctp:47
+msgid "Reply"
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_index.ctp:48
+#, fuzzy
+msgid "Poll"
+msgstr "Новое голосование"
+
+#: /plugins/forum/views/stations/admin_index.ctp:73
+msgid "There are no forums to display."
+msgstr ""
+
+#: /plugins/forum/views/stations/admin_index.ctp:87
+msgid "Update Order"
+msgstr ""
+
+#: /plugins/forum/views/stations/moderate.ctp:51
+#: /plugins/forum/views/stations/view.ctp:103
+msgid "There are no topics within this forum."
+msgstr ""
+
+#: /plugins/forum/views/stations/moderate.ctp:67
+msgid "Open Topic(s)"
+msgstr ""
+
+#: /plugins/forum/views/stations/moderate.ctp:69
+msgid "Move Topic(s)"
+msgstr ""
+
+#: /plugins/forum/views/stations/moderate.ctp:76
+msgid "Move To"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:77
+msgid "Important Topics"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:88
+msgid "Regular Topics"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:134
+msgid "Increases Post Count"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:137
+msgid "Can Read Topics"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:140
+msgid "Can Create Topics"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:147
+msgid "Auto-Lock Topics"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:150
+msgid "Can Reply"
+msgstr ""
+
+#: /plugins/forum/views/stations/view.ctp:153
+msgid "Can Create Polls"
+msgstr ""
+
+#: /plugins/forum/views/topics/add.ctp:21
+#: /plugins/forum/views/topics/edit.ctp:23
+msgid "Select a Forum"
+msgstr ""
+
+#: /plugins/forum/views/topics/add.ctp:31
+#: /plugins/forum/views/topics/edit.ctp:33
+msgid "Poll Options"
+msgstr ""
+
+#: /plugins/forum/views/topics/add.ctp:32
+msgid "One option per line. Max 10 options."
+msgstr ""
+
+#: /plugins/forum/views/topics/add.ctp:37
+#: /plugins/forum/views/topics/edit.ctp:55
+msgid "Expiration Date"
+msgstr ""
+
+#: /plugins/forum/views/topics/add.ctp:38
+#: /plugins/forum/views/topics/edit.ctp:56
+msgid "How many days till expiration? Leave blank to last forever."
+msgstr ""
+
+#: /plugins/forum/views/topics/edit.ctp:46
+#, fuzzy
+msgid "Delete?"
+msgstr "Удалить"
+
+#: /plugins/forum/views/topics/moderate.ctp:14
+#: /plugins/forum/views/topics/view.ctp:120
+#, fuzzy
+msgid "Delete Topic"
+msgstr "Удалить"
+
+#: /plugins/forum/views/topics/moderate.ctp:15
+msgid "Return to Topic"
+msgstr ""
+
+#: /plugins/forum/views/topics/report.ctp:16
+msgid "Are you sure you want to report the topic %s? If so, please add a comment as to why you are reporting it, 255 max characters."
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:58
+msgid "Voting on this poll has been closed"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:60
+msgid "Vote"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:63
+msgid "Please login to vote!"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:79
+msgid "%d votes"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:82
+msgid "Your Vote"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:127
+#, fuzzy
+msgid "Delete Post"
+msgstr "Удалить"
+
+#: /plugins/forum/views/topics/view.ctp:134
+msgid "Quote"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:190
+msgid "Quick Reply"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:200
+msgid "Message"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:202
+msgid "Advanced Reply"
+msgstr ""
+
+#: /plugins/forum/views/topics/view.ctp:203
+msgid "BBCode Enabled"
+msgstr ""
+
+#: /plugins/forum/views/users/admin_edit.ctp:22
+#: /plugins/forum/views/users/edit.ctp:18
+msgid "Signature"
+msgstr ""
+
+#: /plugins/forum/views/users/admin_index.ctp:9
+#, fuzzy
+msgid "Search Users"
+msgstr "Добавить пользователя"
+
+#: /plugins/forum/views/users/admin_index.ctp:11
+msgid "ID"
+msgstr ""
+
+#: /plugins/forum/views/users/admin_index.ctp:32
+#: /plugins/forum/views/users/index.ctp:27
+msgid "Last Active"
+msgstr ""
+
+#: /plugins/forum/views/users/admin_index.ctp:52
+#: /plugins/forum/views/users/index.ctp:42
+#: /plugins/forum/views/users/profile.ctp:52
+msgid "Never"
+msgstr ""
+
+#: /plugins/forum/views/users/admin_index.ctp:66
+msgid "There are no users signed up on this forum"
+msgstr ""
+
+#: /plugins/forum/views/users/edit.ctp:24
+#, fuzzy
+msgid "Update Account"
+msgstr "Новый аккаунт"
+
+#: /plugins/forum/views/users/index.ctp:9
+msgid "Search Users (Username)"
+msgstr ""
+
+#: /plugins/forum/views/users/index.ctp:53
+msgid "There are no users to display."
+msgstr ""
+
+#: /plugins/forum/views/users/profile.ctp:32
+msgid "Roles"
+msgstr ""
+
+#: /plugins/forum/views/users/profile.ctp:42;68
+msgid "N/A"
+msgstr ""
+
+#: /plugins/forum/views/users/profile.ctp:47
+#, fuzzy
+msgid "Last Login"
+msgstr "Список мест"
+
+#: /plugins/forum/views/users/profile.ctp:91
+msgid "Last Activity"
+msgstr ""
+
+#: /plugins/forum/views/users/profile.ctp:119
+#, fuzzy
+msgid "Latest Posts"
+msgstr "Список сообщений"
+
+#: /plugins/forum/views/users/profile.ctp:128
+msgid "Posted On"
+msgstr ""
+
+#: /plugins/forum/views/users/report.ctp:11
+msgid "Are you sure you want to report the user %s? If so, please add a comment as to why you are reporting this user, and please be descriptive. Are they spamming, trolling, flaming, etc. 255 max characters."
+msgstr ""
+
+#: /plugins/utils/controllers/components/archive.php:156
+msgid "No %s found for that date range"
+msgstr ""
+
+#: /plugins/utils/controllers/components/form_preserver.php:77
+msgid "Your form data is preserved you'll be redirected to it after login."
+msgstr ""
+
+#: /plugins/utils/models/behaviors/csv_import.php:142
+msgid "%s for Row %d failed to save."
+msgstr ""
+
+#: /plugins/utils/models/behaviors/toggleable.php:48
+msgid "You need to define at least one field to be toggleable."
+msgstr ""
+
+#: /plugins/utils/models/behaviors/toggleable.php:69
+msgid "The field %s is not in the list of toggleable fields."
+msgstr ""
+
+#: /plugins/utils/models/behaviors/toggleable.php:73
+msgid "The field %s does not have two toggleable states defined."
+msgstr ""
+
+#: /plugins/utils/models/behaviors/toggleable.php:93
+msgid "Invalid record"
+msgstr ""
+
+# ################### time ago in words
+msgid "Yesterday, %s"
+msgstr "Вчера, %s"
+
+msgid "Today, %s"
+msgstr "Сегодня, %s"
+
+#, fuzzy
+msgid "year"
+msgstr "год"
+
+#, fuzzy
+msgid "month"
+msgstr "месяц"
+
+#, fuzzy
+msgid "week"
+msgstr "неделя"
+
+#, fuzzy
+msgid "day"
+msgstr "день"
+
+#, fuzzy
+msgid "hour"
+msgstr "час"
+
+#, fuzzy
+msgid "minute"
+msgstr "минута"
+
+#, fuzzy
+msgid "second"
+msgstr "секунда"
+
+msgid "%s ago"
+msgstr "%s назад"
+
+#, fuzzy
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "комментарий"
+msgstr[1] "комментария"
+msgstr[2] "комментариев"
+
+# ################### month names
+msgid "January"
+msgstr "Январь"
+
+msgid "February"
+msgstr "Февраль"
+
+msgid "March"
+msgstr "Март"
+
+msgid "April"
+msgstr "Апрель"
+
+msgid "May"
+msgstr "Май"
+
+msgid "June"
+msgstr "Июнь"
+
+msgid "July"
+msgstr "Июль"
+
+msgid "August"
+msgstr "Август"
+
+msgid "September"
+msgstr "Сентябрь"
+
+msgid "October"
+msgstr "Октябрь"
+
+msgid "November"
+msgstr "Ноябрь"
+
+msgid "December"
+msgstr "Декабрь"
+
+msgid "Moderation"
+msgstr "Модерация"
+
+msgid "Block"
+msgstr "Заблокировать"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Events"
+msgstr "События"
+
+msgid "Tournaments"
+msgstr "Турниры"
+
+msgid "Matches"
+msgstr "Матчи"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Clans"
+msgstr "Кланы"
+
+msgid "Partners"
+msgstr "Партнёры"
+
+msgid "Universities"
+msgstr "Вузы"
+
+msgid "Hubs"
+msgstr "Хабы"
+
+msgid "MediaFiles"
+msgstr "Медиафайлы"
+
+msgid "Softwares"
+msgstr "Игры, моды (софт)"
+
+msgid "Disciplines"
+msgstr "Дисциплины"
+
+msgid "Competitions"
+msgstr "Виды соревнований"
+
+msgid "Parties"
+msgstr "Участники"
+
+msgid "Posts"
+msgstr "Посты"
+
+msgid "Transactions"
+msgstr "Транзакции"
+
+msgid "Prev Tournament"
+msgstr "Предыдущий турнир"
+
+msgid "Rules"
+msgstr "Правила"
+
+msgid "Stream"
+msgstr "Трансляция"
+
+msgid "Rank"
+msgstr "Ранг"
+
+msgid "Visible"
+msgstr "Видимый"
+
+msgid "Min Party Size"
+msgstr "Минимальный размер команды"
+
+msgid "Max Party Size"
+msgstr "Максимальный размер команды"
+
+msgid "Allow Substitution"
+msgstr "Разрешить замены"
+
+msgid "Min Parties Num"
+msgstr "Минимальное количество команд"
+
+msgid "Max Parties Num"
+msgstr "Максимальное количество команд"
+
+msgid "Prize Fund"
+msgstr "Призовой фонд"
+
+msgid "Registration Start"
+msgstr "Начало регистрации"
+
+msgid "Registration Finish"
+msgstr "Окончание регистрации"
+
+msgid "Contest Start"
+msgstr "Начало соревнования"
+
+msgid "Confirmation Period"
+msgstr "Период подтверждения"
+
+msgid "Game Duration"
+msgstr "Продолжительность гейма"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "await"
+msgstr "предстоит"
+
+msgid "registration"
+msgstr "регистрация"
+
+msgid "started"
+msgstr "начался"
+
+msgid "finished"
+msgstr "закончен"
+
+msgid "canceled"
+msgstr "отменён"
+
+
+msgid "Age Limit"
+msgstr "Возрастное ограничение"
+
+msgid "Single Parties"
+msgstr "Команды из одного человека, deathmatch"
+
+msgid "Group Stage"
+msgstr "Групповая стадия"
+
+msgid "Playoff Stage"
+msgstr "Стадия плей-офф"
+
+
+msgid "Playoff Format"
+msgstr "Тип олимпийской системы"
+
+msgid "double elimination"
+msgstr "Олимпийская система с выбыванием после двух поражений (Double Elimination)"
+
+msgid "single elimination"
+msgstr "Олимпийская система (Single Elimination)"
+
+msgid "swiss system"
+msgstr "Швейцарская система"
+
+msgid "Playoff Dimension"
+msgstr "Число команд в турнире (только для плей-офф)"
+
+msgid "Groups"
+msgstr "Группы"
+
+msgid "Judges"
+msgstr "Судьи"
+
+msgid  "This field cannot be left blank"
+msgstr "Это поле нельзя оставить пустым"
+
+msgid  "This field is too long"
+msgstr "Содержимое этого поле слишком длинное"
+
+msgid  "This field must be a number"
+msgstr "Это поле должно быть числом"
+
+msgid  "Invalid value for checkbox"
+msgstr "Недопустимое значение флажка"
+
+msgid  "Incorrect date or time"
+msgstr "Неправильнная дата, или время"
+
+msgid  "Incorrect value"
+msgstr "Недопустимое занчение"
+
+msgid  "You have already registered for this tournament"
+msgstr "Вы уже зарегистрированы на этот турнир"
+
+
+
+msgid  "Party of %s"
+msgstr "Команда им. %s"
+
+
+msgid  "You have been added to party"
+msgstr "Вы приглашены в команду"
+
+
+msgid  "This user have just added you to party for tournament %s. Follow this link %s to approve your participation"
+msgstr "Этот пользователь приглашает вас в команду для участия в турнире %s. Перейдите по ссылке %s для подтверждения"
+
+
+msgid  "User has been deleted"
+msgstr "Пользователь удален"
+
+msgid  "User has not been deleted"
+msgstr "Пользователь не был удален"
+
+msgid  "Leader of party can't delete himself"
+msgstr "Лидер команды не может быть удален"
+
+
+msgid  "Your participation has been aproved"
+msgstr "Ваше участие в команде подтверждено"
+
+msgid  "User has been invited to Party"
+msgstr "Пользователю отправлено приглашение"
+
+msgid  "User has not been added to Party"
+msgstr "Пользователь не был добавлен в команду"
+
+msgid  "User have already been added"
+msgstr "Пользователь уже добавлен"
+
+msgid  "User have already registered in other party"
+msgstr "Пользователь уже зарегистрирован в другой команде"
+
+msgid  "Match Duration"
+msgstr "Средняя продолжительность матча"
+
+msgid  "Save"
+msgstr "Сохранить"
+
+msgid  "Results have not been saved"
+msgstr "Результаты не были сохранены"
+
+msgid  "Results have been saved"
+msgstr "Результаты сохранены"
+
+msgid  "Tour"
+msgstr "Тур"
+
+msgid  "Position"
+msgstr "Позиция"
+
+msgid  "pending"
+msgstr "предстоит"
+
+msgid  "accomplished"
+msgstr "завершён"
+
+msgid  "conflict"
+msgstr "конфликт"
+
+msgid  "accomplished (unprincipled conflict)"
+msgstr "завершён (непринципиальный конфликт)"
+
+msgid  "Start Time"
+msgstr "Время начала"
+
+msgid  "Finish Time"
+msgstr "Время окончания"
+
+msgid  "Admin Edit Match"
+msgstr "Редактирование Матча"
+
+msgid  "PartiesMatch"
+msgstr "Участник Матча"
+
+msgid  "%s has not been deleted"
+msgstr "%s не был удалён"
+
+msgid  "%s has been deleted"
+msgstr "%s удалён"
+
+msgid  "The %s has been added"
+msgstr "%s добавлен"
+
+msgid  "Build"
+msgstr "Построить"
+
+msgid  "Copy parties"
+msgstr "Скопировать участников"
+
+msgid  "Set tours"
+msgstr "Задать туры"
+
+msgid  "Start"
+msgstr "Начать"
+
+msgid  "Seeding"
+msgstr "Посев"
+
+msgid  "Drawing"
+msgstr "Жеребьёвка"
+
+msgid  "Tours"
+msgstr "Туры"
+
+msgid  "Add Next Tournament"
+msgstr "Добавить следующий турнир"
+
+msgid  "Copy Tournament"
+msgstr "Создать копию"
+
+msgid  "Set places"
+msgstr "Расстановка мест"
+
+
+msgid  "Set Party"
+msgstr "Выбор Участника"
+
+msgid  "Party has been set to Slot"
+msgstr "Участник установлен в слот"
+
+msgid  "Party has not been set to Slot"
+msgstr "Участник не был установлен в слот"
+
+msgid  "Tournament has been started"
+msgstr "Турнир стартовал"
+
+msgid  "Tournament has not been started"
+msgstr "Турнир не стартовал"
+
+
+msgid  "Parties have been seeded"
+msgstr "Участники были посеены"
+
+msgid  "Parties have not been seeded"
+msgstr "Участники не были посеены"
+
+msgid  "Parties have been drawed"
+msgstr "Жеребьёвка проведена"
+
+msgid  "Parties have not been drawed"
+msgstr "Жеребьёвка не получилась"
+
+msgid  "It\'s not confirmation period"
+msgstr "Период для подтверждения участия закончился"
+
+msgid  "You have already approved your party"
+msgstr "Вы уже подтвердили участие своей команды"
+
+msgid  "Party has not been approved"
+msgstr "Команда не подтверждена"
+
+msgid  "Party has been approved"
+msgstr "Команда подтверждена"
+
+msgid  "Add Judge"
+msgstr "Добавление Судьи"
+
+msgid  "Add Party"
+msgstr "Добавление Участника"
+
+msgid  "Edit Party"
+msgstr "Редактирование Участника"
+
+msgid  "Create User & Party"
+msgstr "Создать Участника"
+
+msgid  "Clear"
+msgstr "Очистить"
+
+msgid  "Round robin"
+msgstr "Круговая система"
+
+msgid  "round robin"
+msgstr "Круговая система"
+
+msgid  "Double elimination"
+msgstr "До двух поражений (Double elimination)"
+
+msgid  "double elimination"
+msgstr "До двух поражений (Double elimination)"
+
+
+msgid  "Too much parties in group "
+msgstr "Слишко много участников в группе "
+
+msgid  "Seeds have been saved"
+msgstr "Посев сохранён"
+
+msgid  "Seeds have not been saved"
+msgstr "Посев не был сохранён"
+
+msgid  "Results have been saved. Match accomplished"
+msgstr "Результаты приняты. Матч завершён"
+
+msgid  "Results have been accepted. Conflict detected"
+msgstr "Результаты приняты. Обнаружен конфликт"
+
+msgid  "Results have been saved"
+msgstr "Результаты приняты"
+
+msgid  "This value must be not greater then %s"
+msgstr "Это значение не должно превышать %s"
+
+msgid  "Standoff is unallowable in this tournament"
+msgstr "Ничья недопустима в данном турнире"
+
+msgid  "This value is too large"
+msgstr "Это значение слишком велико"
+
+msgid  "This value is too small"
+msgstr "Это значение слишком мало"			
+
+msgid  "This value is out of parent value range"
+msgstr "Это значение выходит за пределы родительского значения"			
+
+msgid  "Show everything"
+msgstr "Показывать всё"
+msgid  "Filter posts for main page"
+msgstr "Отфильтровать посты для главной"
+msgid  "Filter approved posts for main page"
+msgstr "Отфильтровать подтверждённые посты для главной"
+msgid  "Filter not approved posts for main page"
+msgstr "Отфильтровать неподтверждённые посты для главной"
+msgid  "Approve to main"
+msgstr "Подтвердить для главной"
+msgid  "Disapprove to main"
+msgstr "Снять с главной"
+msgid  "The post has been approved to main"
+msgstr "Пост подтверждён для главной"
+msgid  "The post has been disapproved to main"
+msgstr "Пост снят с главной"
+msgid  "Error. Please, try again."
+msgstr "Ошибка. Попробуйте позже."
+
+msgid  "none"
+msgstr "нет"
+
+msgid  "news"
+msgstr "новости"
+
+msgid  "articles"
+msgstr "статьи"
+
+msgid  "interviews"
+msgstr "интервью"
+
+msgid  "publications"
+msgstr "Наука"
+
+msgid  "None"
+msgstr "Нет"
+
+msgid  "News"
+msgstr "Новости"
+
+msgid  "Articles"
+msgstr "Статьи"
+
+msgid  "Interviews"
+msgstr "Интервью"
+
+msgid  "Publications"
+msgstr "Наука"
+
+msgid  "Stand-off in game is not allowed"
+msgstr "Ничья в гейме недопустима"
+
+################################################################################
+###                            MESSAGES                                      ###
+################################################################################
+
+### party_added ###
+
+msgid  "%s created party for %s"
+msgstr "%s примет участие в %s"
+
+msgid  "%s (%s) have just created party (%s) for %s (%s)"
+msgstr "%s (%s) примет участие (%s) в %s (%s)"
+
+msgid  "Login failed. Invalid username or password."
+msgstr  "Неправильный e-mail или пароль, попробуйте снова."
+
+msgid "...select..."
+msgstr "...выбрать..."
+
+msgid "Approved"
+msgstr "Подтвержден"
+
+msgid "Reserve"
+msgstr "Резервный"
+
+msgid "UsersParties"
+msgstr "Участники пати"
+
+msgid "Spam state"
+msgstr "Метка спама"
+
+msgid "not aproved"
+msgstr "неподтвержденные"
+
+msgid "approved"
+msgstr "подтвержденные"
+
+msgid "ham"
+msgstr "одобрено"
+
+msgid "clean"
+msgstr "не спам"
+
+msgid "manualspam"
+msgstr "проверка спама"
+
+msgid "spam"
+msgstr "спам"
+
+msgid "Changed"
+msgstr "Изменяется"
+
+msgid "Changed by"
+msgstr "Изменяет"
+
+msgid "MediaFile"
+msgstr "Медиафайл"
+
+msgid "photo"
+msgstr "фото"
+
+msgid "video"
+msgstr "видео"
+
+msgid "album"
+msgstr "альбом"
+
+msgid "file"
+msgstr "файл"
+
+msgid "demo"
+msgstr "демо"

@@ -165,6 +165,10 @@ class User extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
+		'AvatarFile' => array(
+			'className' => 'MediaFile',
+			'foreignKey' => 'avatar_id',
+		),
 //		'Avatar' => array(
 //			'className' => 'Avatar',
 //			'foreignKey' => 'avatar_id',

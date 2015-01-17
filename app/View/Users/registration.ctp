@@ -2,7 +2,7 @@
     <h2>Регистрация</h2>
     <div class="form-wrap">
         <div class="login-form">
-            <?php echo $this->Form->create('User'); ?>
+            <?php echo $this->Form->create('User', array('type' => 'file')); ?>
             <?
             echo $this->Form->input('surname', array('label' => 'Фамилия', 'autofocus' => 'autofocus'));
             echo $this->Form->input('name', array('label' => 'Имя'));

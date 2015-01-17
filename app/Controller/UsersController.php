@@ -49,13 +49,16 @@ class UsersController extends AppController {
 			$passwordHasher = new SimplePasswordHasher(array('hashType' => 'sha1'));
 			$User['password'] = $passwordHasher->hash($User['password']);
 			$User['repeat_password'] = $passwordHasher->hash($User['repeat_password']);
+
+			$AvatarFile = array_merge($this->data['AvatarFile'], array('type' => 'photo'));
+
 //			$AvatarFile = array_merge($this->data['AvatarFile'], array('type' => 'photo'));
 
 			/*$this->User->set( $User );
 			debug($this->User->validates());
 			debug($this->User->invalidFields());*/
 
-			if ($this->User->saveAll(compact('User'))){//, 'AvatarFile'))) {
+			if ($this->User->saveAll(compact('User', 'AvatarFile'))) {
 				$title = 'Регистрация на mcl.resp.su';
 				$this->User->sendEmailToUser($this->User->id, 'registration', $title, array('code' => $User['activation_code']));
 				$this->redirect(array('success'));

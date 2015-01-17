@@ -1118,7 +1118,7 @@ h1 {
 .ui-selectmenu-menu ul {
   border-radius: 0;
   border: 1px solid #99a4b2;
-  height: 300px;
+  max-height: 300px;
 }
 .ui-selectmenu-menu ul .ui-menu-item {
   line-height: 38px;
