@@ -28,8 +28,8 @@
 						</div>
 						<div class="city-bar">
 							<?= $this->Html->link('<span class="icon-mcl"></span>Москва', array('msc'), array('escape' => false)); ?>
-							<?= $this->Html->link('<span class="icon-scl"></span>Санкт-Петербург', array('spb'), array('escape' => false));?>
-							<?= $this->Html->link('<span class="icon-ecl"></span>Екатеринбург', array('ekb'), array('escape' => false));?>
+<!--							--><?//= $this->Html->link('<span class="icon-scl"></span>Санкт-Петербург', array('spb'), array('escape' => false));?>
+<!--							--><?//= $this->Html->link('<span class="icon-ecl"></span>Екатеринбург', array('ekb'), array('escape' => false));?>
 	<!--						<a href=""><span class="icon-mcl"></span>Москва</a>-->
 	<!--						<a href="/"><span class="icon-scl"></span>Санкт-Петербург</a>-->
 	<!--						<a href="/"><span class="icon-ecl"></span>Екатеринбург</a>-->

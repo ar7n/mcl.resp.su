@@ -45,8 +45,11 @@ class UsersController extends AppController {
 				'activation_function' => 'registration',
 			);
 			$User = array_merge($User, $autoFields);
+			App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
+			$passwordHasher = new SimplePasswordHasher(array('hashType' => 'sha256'));
+			$User['password'] = $passwordHasher->hash($User['password']);
+			$User['repeat_password'] = $passwordHasher->hash($User['repeat_password']);
 //			$AvatarFile = array_merge($this->data['AvatarFile'], array('type' => 'photo'));
-
 
 			/*$this->User->set( $User );
 			debug($this->User->validates());
@@ -63,6 +66,81 @@ class UsersController extends AppController {
 		}
 
 		$this->set('geoCountries', $this->User->GeoCountry->find('list'));
+	}
+
+	public function activation($code)
+	{
+		//$this->layout = false;
+		if (null == $code)
+			return;
+		$this->User->contain();
+		$user = $this->User->find('first',
+			array(
+				'conditions'=>array('activation_code'=>$code),
+				//'fields'=>array('id','mail','activation_new_mail','activation_function')
+			)
+		);
+
+		if(empty ($user)){
+			$this->Session->setFlash('Код активации не найден.');
+		}
+		else{
+
+			$autologin=false;
+			$siteSave = $siteParamSave = $accountSave = true;
+			$messages = array(
+				'registration'=>'Регистрация завершена. Добро пожаловать.',
+				'change_mail' =>'Ваш e-mail сменен.',
+				'forgot'=>'Новый пароль отправлен вам на почту.'
+			);
+
+			$user['User']['activation_code'] = NULL;
+			$this->User->query('START TRANSACTION');
+			if($user['User']['activation_function']=='registration')
+			{
+				$user['User']['active']=1;
+				$this->User->sendSystemMessage($user['User']['id'], 'user_added');
+				$autologin=true;
+
+			}
+			else if($user['User']['activation_function'] == 'change_mail')
+			{
+				$user['User']['mail']=$user['User']['activation_new_mail'];
+			}
+			else if($user['User']['activation_function'] == 'forgot')
+			{
+				$code = $this->User->generate_code(6);
+				$user['User']['password'] = SHA1(Configure::read('Security.salt').$code);
+				$title = "Новый пароль на ".PROJECTSITE;
+				$this->User->sendEmailToUser($user['User']['id'], 'new_password', $title, array('mail'=>$user['User']['email'],'pass' => $code));
+				$user['User']['self_registered'] = true;
+				$user['User']['active'] = true;
+				$autologin=true;
+			}
+
+			if($this->User->save($user, false))
+			{
+				$this->Session->setFlash($messages[$user['User']['activation_function']]);
+
+				$this->User->query('COMMIT');
+
+				if($autologin){
+					$trololo = array('User' => array(
+						'username' => $user['User']['nick'],
+						'password' => $user['User']['password'],)
+					);
+					$this->Auth->login($trololo);
+					$this->redirect('/');
+				}
+			}
+			else
+			{
+				$this->User->query('ROLLBACK');
+				$this->Session->setFlash('Сбой на сервере.');
+			}
+		}
+
+		$this->redirect('/');
 	}
 
 	public function admin_login() {

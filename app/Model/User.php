@@ -75,19 +75,6 @@ class User extends AppModel {
 				'last' => true,
 				'allowEmpty' => false,
 			),
-			'between' => array(
-				'rule' => array('maxLength', 40),
-				'message' => 'Пароль должен иметь длину до 40 символов',
-			),
-			'alphaNumeric' => array(
-				'rule' => 'alphaNumeric',
-				'message' => 'Пароль должен состоять только из букв латинского алфавита и цифр',
-			),
-			'checkNewPassword' => array(
-				'rule' => array('checkNewPassword', 'old_password','password'),
-				'message' => 'Пароль совпадает со старым',
-				'on' => 'update',
-			),
 		),
 		'repeat_password' => array(
 			'checkMatch' => array(

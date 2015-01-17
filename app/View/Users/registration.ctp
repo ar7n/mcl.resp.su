@@ -25,7 +25,7 @@
             ));
             echo $this->Form->input('nick', array('label' => 'Ник', 'autofocus' => 'autofocus'));
             echo $this->Form->input('email', array('label' => 'E-mail'));
-            echo $this->Form->input('password', array('label' => 'Пароль', 'value' => ''));
+            echo $this->Form->input('password', array('type' => 'password', 'label' => 'Пароль', 'value' => ''));
             echo $this->Form->input('repeat_password', array('type' => 'password', 'label' => 'Повторите пароль', 'value' => ''));
             echo $this->Form->input('AvatarFile.file', array('type' => 'file', 'label' => 'Аватар'));
             echo $this->Form->hidden('AvatarFile.id', array('value' => '0'));

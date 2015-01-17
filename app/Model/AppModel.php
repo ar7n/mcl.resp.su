@@ -46,29 +46,9 @@ class AppModel extends Model {
         $Email->to($email);
         $Email->subject($title);
         $Email->template($template);
-        $Email->emailFormat('text'); //Send as 'html', 'text' or 'both' (default is 'text')
+        $Email->emailFormat('text');
         $Email->viewVars($data);
         return $Email->send();
-        
-//        $emailComponent = new EmailComponent;
-//        $controller = new Controller;
-//        $emailComponent->initialize($controller);
-//		$emailComponent->startup($controller);
-//        $controller->set($data);
-//        $emailComponent->to = $email;
-//        $emailComponent->template = $template;
-//        $emailComponent->subject = $title;
-//        $emailComponent->from = Configure::read('App.Mail');
-//        $emailComponent->sendAs = 'text';
-//        if (!empty($options)) {
-//            foreach ($options as $key => $option) {
-//                $emailComponent->$key = $option;
-//            }
-//        }
-//        if (!$emailComponent->send(NULL)) {
-//            return FALSE;
-//        }
-//        return TRUE;
     }
 
 }
