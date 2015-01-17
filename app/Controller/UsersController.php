@@ -83,31 +83,4 @@ class UsersController extends AppController {
 		return $this->redirect($this->Auth->logout());
 	}
 
-	/**
-	 * Отправка письма, созданного из шаблона, пользователю
-	 *
-	 * @param type $id
-	 * @param type $template
-	 * @param type $data
-	 * @param type $options
-	 * @return boolean
-	 */
-	public function sendEmailToUser($id, $template, $title, $data = null, $options = null) {
-		$this->contain();
-		$user = $this->findById($id);
-		if (empty($user)) {
-			return FALSE;
-		}
-		if (empty($data)) {
-			$data = array();
-		}
-		$data = array_merge($data, $user);
-		if (!$this->sendEmail($user[$this->alias]['email'], $template, $title, $data, $options)){
-			return FALSE;
-		}
-		$this->id = $id;
-		$this->saveField('last_email_sent', mysqldate(), FALSE);
-		return TRUE;
-	}
-
 }

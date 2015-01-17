@@ -40,29 +40,35 @@ class AppModel extends Model {
      * @return boolean
      */
     function sendEmail($email, $template, $title, $data = NULL, $options = NULL) {
-//		$mail = $this->useTemplate($template, $data);
-        $classname = Configure::read('App.ClassNameForMail');
-        $componentname = Configure::read('App.ComponentNameForMail');
-        App::import('Component', $classname);
-        $emailComponent = new $classname;
-        $controller = new Controller;
-        $emailComponent->initialize($controller);
+        App::uses('CakeEmail', 'Network/Email');
+        $Email = new CakeEmail();
+        $Email->from(array(Configure::read('App.Mail') => 'МКЛ'));
+        $Email->to($email);
+        $Email->subject($title);
+        $Email->template($template);
+        $Email->emailFormat('text'); //Send as 'html', 'text' or 'both' (default is 'text')
+        $Email->viewVars($data);
+        return $Email->send();
+        
+//        $emailComponent = new EmailComponent;
+//        $controller = new Controller;
+//        $emailComponent->initialize($controller);
 //		$emailComponent->startup($controller);
-        $controller->set($data);
-        $emailComponent->to = $email;
-        $emailComponent->template = $template;
-        $emailComponent->subject = $title;
-        $emailComponent->from = Configure::read('App.Mail');
-        $emailComponent->sendAs = 'text';
-        if (!empty($options)) {
-            foreach ($options as $key => $option) {
-                $emailComponent->$key = $option;
-            }
-        }
-        if (!$emailComponent->send(NULL)) {
-            return FALSE;
-        }
-        return TRUE;
+//        $controller->set($data);
+//        $emailComponent->to = $email;
+//        $emailComponent->template = $template;
+//        $emailComponent->subject = $title;
+//        $emailComponent->from = Configure::read('App.Mail');
+//        $emailComponent->sendAs = 'text';
+//        if (!empty($options)) {
+//            foreach ($options as $key => $option) {
+//                $emailComponent->$key = $option;
+//            }
+//        }
+//        if (!$emailComponent->send(NULL)) {
+//            return FALSE;
+//        }
+//        return TRUE;
     }
 
 }

@@ -384,3 +384,14 @@ Cache::config('_cake_model_', array(
 	'serialize' => ($engine === 'File'),
 	'duration' => $duration
 ));
+
+
+Configure::write('App.Name','mcl.resp.su');
+Configure::write('App.Host',"http://mcl.resp.su/");
+Configure::write('App.Site',"http://mcl.resp.su");
+Configure::write('App.Mail',"robot@mcl.resp.su");
+
+define('PROJECTNAME', Configure::read('App.Name'));
+define('PROJECTHOST', Configure::read('App.Host'));
+define('PROJECTSITE', Configure::read('App.Site'));
+define('PROJECTMAIL', Configure::read('App.Mail'));
