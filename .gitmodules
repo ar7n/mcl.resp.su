@@ -1,9 +1,0 @@
-[submodule "app/Plugin/Comments"]
-	path = app/Plugin/Comments
-	url = git@github.com:CakeDC/comments.git
-[submodule "app/Plugin/Utils"]
-	path = app/Plugin/Utils
-	url = git@github.com:CakeDC/utils.git
-[submodule "app/Plugin/Users"]
-	path = app/Plugin/Users
-	url = git@github.com:CakeDC/users.git
