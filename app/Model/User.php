@@ -19,7 +19,7 @@ class User extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'name';
+	public $displayField = 'nick';
 
 	public $validate = array(
 		'geo_country_id' => array(

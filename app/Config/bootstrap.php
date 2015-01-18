@@ -107,6 +107,8 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
+CakePlugin::load('Comments');
+CakePlugin::load('Utils');
 
 function rdate() {
 	$translate = array(

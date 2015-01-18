@@ -22,4 +22,8 @@
 	</div>
 
 	<? echo $this->element('SocialLikes'); ?>
+	<div id="post-comments" class="comments">
+		<?php $this->CommentWidget->options(array('allowAnonymousComment' => false, 'subtheme' => 'resp'));?>
+		<?php echo $this->CommentWidget->display();?>
+	</div>
 </div>

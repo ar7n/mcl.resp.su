@@ -14,7 +14,14 @@ class PostsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
+	public $components = array(
+		'Paginator',
+		'Session',
+		'Comments.Comments' => array(
+			'userModelClass' => 'User',
+
+		)
+	);
 
 	public $paginate = array(
 		'limit' => 5,
@@ -26,6 +33,11 @@ class PostsController extends AppController {
 	public function beforeFilter(){
 		parent::beforeFilter();
 		$this->Auth->allow(array('index', 'view'));
+	}
+
+	public function callback_commentsInitType() {
+		$this->Comments->callback_InitType();
+		return 'tree';
 	}
 
 

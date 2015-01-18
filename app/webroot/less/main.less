@@ -49,6 +49,19 @@ h2{
   font-family: "Proxima Nova", Arial, sans-serif;
 }
 
+h3{
+  margin: 0 0 15px 0;
+  color: @heading-color;
+  font-size: 22px;
+  font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+hr{
+  border: none;
+  border-top: 3px solid #dde9f7;
+  margin: 20px 0;
+}
+
 body{
   font-family: arial, sans-serif;
   font-size: 14px;
@@ -797,6 +810,102 @@ h1{
   }
 
 }
+
+
+.comments{
+  margin: 50px 0 0 0;
+}
+
+.comments .add-comment{
+  font-family: Verdana;
+  font-size: 12px;
+  color: #99a4b2;
+
+  form{
+    margin: 20px 0 0 0;
+
+    textarea{
+      border: 1px solid #99a4b2;
+      background: #eaeef2;
+      width: 570px;
+      height: 140px;
+    }
+
+    .submit{
+      margin: 10px 0 0 0;
+
+      input[type=submit]{
+        line-height: 30px;
+        border: none;
+        background: #08263f;
+        color: #dde9f7;
+        width: 150px;
+        font-family: "Proxima Nova", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.comments ul{
+  list-style: none;
+  padding: 0;
+}
+
+.comments ul li{
+  margin-left:30px;
+}
+
+.comments ul ul ul ul ul ul ul ul li{
+  margin-left:0;
+}
+
+.comments .comment .header{
+  color:#99a4b2;
+  font-size: 12px !important;
+}
+
+.comments .comment {
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dde9f7;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.comments .comment .comment-avatar{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.comments .comment .comment-content{
+  float: left;
+  margin: 0 0 0 70px;
+}
+
+.comments .comment .commentAvatar {
+  margin-right: 20px;
+}
+
+.comments .comment .body{
+  margin:10px 0 10px 0;
+  max-height: 10em;
+  overflow: auto;
+  font-family: Verdana;
+}
+
+.comments .comment .header,.comments .comment .footer{
+  font-size:90%;
+}
+
+.comments .paging .disabled{
+  color:#bababa;
+}
+
+
 
 /* SQL log */
 .cake-sql-log {
