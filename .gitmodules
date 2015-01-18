@@ -1,3 +1,0 @@
-[submodule "app/Plugin/Comments"]
-	path = app/Plugin/Comments
-	url = git@github.com:CakeDC/search.git
