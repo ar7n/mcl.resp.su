@@ -672,19 +672,20 @@ header .intro .inner .logo {
 header .second-menu {
   height: 70px;
   background: #08263f;
-}
-header .second-menu ul {
-  margin: 0;
   padding: 0;
 }
-header .second-menu ul li {
+header .second-menu ul.sections {
+  margin: 0;
+  padding: 0 40px;
+}
+header .second-menu ul.sections li {
   margin: 0 30px 0 0;
   float: left;
 }
-header .second-menu ul li.active a {
+header .second-menu ul.sections li.active a {
   color: #d13c3f;
 }
-header .second-menu ul li a {
+header .second-menu ul.sections li a {
   line-height: 70px;
   text-transform: uppercase;
   text-decoration: none;
@@ -693,8 +694,63 @@ header .second-menu ul li a {
   font-size: 16px;
   font-family: "Proxima Nova", Arial, sans-serif;
 }
-header .second-menu ul li a:hover {
+header .second-menu ul.sections li a:hover {
   color: #d13c3f;
+}
+header .second-menu .archive-menu {
+  position: relative;
+  float: right;
+  text-transform: uppercase;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  color: #dde9f7;
+}
+header .second-menu .archive-menu .archive-item {
+  display: block;
+  width: 170px;
+  height: 70px;
+  padding: 0 30px;
+  line-height: 70px;
+  background: #003663;
+  text-decoration: none;
+  color: #dde9f7;
+}
+header .second-menu .archive-menu .archive-item.active,
+header .second-menu .archive-menu .archive-item:hover {
+  color: #d13c3f;
+}
+header .second-menu .archive-menu .active:after {
+  content: '';
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  margin-top: -8px;
+  background: url('/img/icons.png');
+  background-position: -190px -46px;
+}
+header .second-menu .archive-menu.opened .active:after {
+  content: '';
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  margin-top: -8px;
+  background: url('/img/icons.png');
+  background-position: -226px -46px;
+}
+header .second-menu .archive-menu ul {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+}
+header .second-menu .archive-menu ul li {
+  border-top: 1px solid #08263f;
 }
 footer {
   height: 175px;
@@ -762,7 +818,13 @@ footer .inner .footer-logo {
 .container {
   min-width: 950px;
   padding: 0 20px;
-  max-width: 1160px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.container-nospace {
+  min-width: 990px;
+  padding: 0;
+  max-width: 1200px;
   margin: 0 auto;
 }
 @media (min-width: 1025px) {

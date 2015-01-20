@@ -150,10 +150,11 @@ header{
   .second-menu{
     height: 70px;
     background: @header-bg;
+    padding: 0;
 
-    ul {
+    ul.sections {
       margin: 0;
-      padding: 0;
+      padding: 0 40px;
 
       li {
         margin: 0 30px 0 0;
@@ -178,7 +179,70 @@ header{
         }
       }
     }
+
+    .archive-menu{
+      position: relative;
+      float: right;
+      text-transform: uppercase;
+      font-family: "Proxima Nova";
+      font-weight: bold;
+      color: #dde9f7;
+
+      .archive-item{
+        display: block;
+        width: 170px;
+        height: 70px;
+        padding: 0 30px;
+        line-height: 70px;
+        background: #003663;
+        text-decoration: none;
+        color: #dde9f7;
+
+        &.active, &:hover{
+          color: @hover-color;
+        }
+      }
+
+      .active:after{
+        content: '';
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        margin-top: -8px;
+        background: url('/img/icons.png');
+        background-position: -190px -46px;
+      }
+
+      &.opened .active:after {
+        content: '';
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        margin-top: -8px;
+        background: url('/img/icons.png');
+        background-position: -226px -46px;
+      }
+
+      ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 10;
+        margin: 0;
+        padding: 0;
+
+        li{
+          border-top: 1px solid #08263f;
+        }
+      }
+    }
   }
+
+
 }
 
 footer{
@@ -258,7 +322,14 @@ footer{
 .container{
   min-width: 950px;
   padding: 0 20px;
-  max-width: 1160px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.container-nospace{
+  min-width: 990px;
+  padding: 0;
+  max-width: 1200px;
   margin: 0 auto;
 }
 

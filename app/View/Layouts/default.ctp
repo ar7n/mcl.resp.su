@@ -52,8 +52,8 @@
 					</div>
 				</div>
 			</div>
-			<nav class="second-menu container clearfix">
-				<ul>
+			<nav class="second-menu container-nospace clearfix">
+				<ul class="sections">
 					<?
 					$menuItems = array(
 						'Новости' => '/',
@@ -72,6 +72,23 @@
 					}
 					?>
 				</ul>
+				<div class="archive-menu">
+					<a class="active archive-item" href="/">Пятый сезон</a>
+					<ul style="display: none;">
+						<li>
+							<a class="archive-item" href="/">Пятый сезон</a>
+						</li>
+						<li>
+							<a class="archive-item" href="http://resp.su/events/view/691">Четрветрый сезон</a>
+						</li>
+						<li>
+							<a class="archive-item" href="http://resp.su/events/view/471">Третий сезон</a>
+						</li>
+						<li >
+							<a class="archive-item" href="http://resp.su/events/view/278">Второй сезон </a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</header>
 
