@@ -24,7 +24,7 @@
 				<div class="container">
 					<nav class="menu-bar clearfix">
 						<div class="logo-bar">
-							<a href="/"><span class="icon-resp"></span>RESP.SU</a>
+							<a href="http://resp.su"><span class="icon-resp"></span>RESP.SU</a>
 						</div>
 						<div class="city-bar">
 							<?= $this->Html->link('<span class="icon-mcl"></span>Москва', array('msc'), array('escape' => false)); ?>
@@ -49,6 +49,7 @@
 				<div class="container">
 					<div class="inner">
 						<a class="logo" href="/"></a>
+						<a class="rsss-logo" target="_blank" href="http://mrsss.ru/"></a>
 					</div>
 				</div>
 			</div>

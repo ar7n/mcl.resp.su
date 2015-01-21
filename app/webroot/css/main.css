@@ -669,6 +669,14 @@ header .intro .inner .logo {
   height: 168px;
   background: url('/img/logo.png');
 }
+header .intro .inner .rsss-logo {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  right: 40px;
+  top: 88px;
+  background: url('/img/rsss-logo.png');
+}
 header .second-menu {
   height: 70px;
   background: #08263f;
