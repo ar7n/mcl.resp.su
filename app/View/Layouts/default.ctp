@@ -73,11 +73,8 @@
 					?>
 				</ul>
 				<div class="archive-menu">
-					<a class="active archive-item" href="/">Пятый сезон</a>
+					<a class="active archive-item" href="/">Архив</a>
 					<ul style="display: none;">
-						<li>
-							<a class="archive-item" href="/">Пятый сезон</a>
-						</li>
 						<li>
 							<a class="archive-item" href="http://resp.su/events/view/691">Четрветрый сезон</a>
 						</li>
