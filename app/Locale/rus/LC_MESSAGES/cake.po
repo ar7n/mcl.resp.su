@@ -209,45 +209,51 @@ msgstr ""
 #: Utility/CakeTime.php:884
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d год"
+msgstr[1] "%d года"
+msgstr[2] "%d лет"
 
 #: Utility/CakeTime.php:887
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d месяц"
+msgstr[1] "%d месяца"
+msgstr[2] "%d месяцев"
 
 #: Utility/CakeTime.php:890
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d неделя"
+msgstr[1] "%d недели"
+msgstr[2] "%d недель"
 
 #: Utility/CakeTime.php:893
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d день"
+msgstr[1] "%d дня"
+msgstr[2] "%d дней"
 
 #: Utility/CakeTime.php:896
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d час"
+msgstr[1] "%d часа"
+msgstr[2] "%d часов"
 
 #: Utility/CakeTime.php:899
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d минута"
-msgstr[1] "%d минут"
+msgstr[1] "%d минуты"
 msgstr[2] "%d минут"
 
 #: Utility/CakeTime.php:902
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
-msgstr[1] "%d секунд"
+msgstr[1] "%d секунды"
+msgstr[2] "%d секунд"
 
 #: View/Helper/FormHelper.php:733
 msgid "Error in field %s"
