@@ -1,0 +1,4 @@
+<?php
+define('TEAMS_ENABLED', true);
+define('TABLE_ENABLED', true);
+

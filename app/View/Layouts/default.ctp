@@ -57,18 +57,22 @@
 				<ul class="sections">
 					<?
 					$menuItems = array(
-						'Новости' => '/',
-						'Таблица сезона' => '/',
-						'Участники' => '/teams',
-						'Регламент' => '/rules',
-						'Партнеры' => '/partners',
+						'Новости' => array('/', true),
+						'Таблица сезона' => array('/', TABLE_ENABLED),
+						'Участники' => array('/teams', TEAMS_ENABLED),
+						'Регламент' => array('/rules', true),
+						'Партнеры' => array('/partners', true),
 					);
-					foreach ($menuItems as $title => $url){
-						if (isset($currentMenuItem) && $currentMenuItem == $title) {
-							echo '<li class="active"><a href="' . $url . '">' . $title . '</a></li>';
+					foreach ($menuItems as $title => $params){
+						if ($params[1]) {
+							$class = '';
+							if (isset($currentMenuItem) && $currentMenuItem == $title) {
+								$class = 'active';
+							}
+							echo '<li class="' . $class . '"><a href="' . $params[0] . '">' . $title . '</a></li>';
 						}
-						else {
-							echo '<li><a href="' . $url . '">' . $title . '</a></li>';
+						else{
+							echo '<li class="disabled">' . $title . '</li>';
 						}
 					}
 					?>

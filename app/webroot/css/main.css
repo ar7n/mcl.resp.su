@@ -674,7 +674,7 @@ header .intro .inner .rsss-logo {
   height: 88px;
   position: absolute;
   right: 40px;
-  top: 88px;
+  top: 0;
   background: url('/img/rsss-logo.png');
 }
 header .second-menu {
@@ -689,18 +689,22 @@ header .second-menu ul.sections {
 header .second-menu ul.sections li {
   margin: 0 30px 0 0;
   float: left;
-}
-header .second-menu ul.sections li.active a {
-  color: #d13c3f;
-}
-header .second-menu ul.sections li a {
   line-height: 70px;
   text-transform: uppercase;
-  text-decoration: none;
   color: #dde9f7;
   font-weight: bold;
   font-size: 16px;
   font-family: "Proxima Nova", Arial, sans-serif;
+}
+header .second-menu ul.sections li.active a {
+  color: #d13c3f;
+}
+header .second-menu ul.sections li.disabled {
+  color: #666;
+}
+header .second-menu ul.sections li a {
+  text-decoration: none;
+  color: #dde9f7;
 }
 header .second-menu ul.sections li a:hover {
   color: #d13c3f;

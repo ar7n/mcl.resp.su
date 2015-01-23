@@ -400,4 +400,12 @@ define('PROJECTHOST', Configure::read('App.Host'));
 define('PROJECTSITE', Configure::read('App.Site'));
 define('PROJECTMAIL', Configure::read('App.Mail'));
 
+
 Configure::write('Config.language', 'rus');
+
+if (file_exists(APP.'Config/'.'mode.php')){
+	require_once APP.'Config/'.'mode.php';
+}
+else {
+	require_once APP.'Config/'.'mode.php.default';
+}

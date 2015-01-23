@@ -6,3 +6,4 @@ app/tmp/cache/views/
 app/tmp/logs
 app/tmp/sessions
 app/tmp/tests
+app/Config/mode.php
