@@ -1,59 +1,62 @@
 <?php
-App::uses('AppModel', 'Model');
+
 /**
- * MediaFile Model
- *
- * @property User $User
- * @property MediaFile $ParentMediaFile
- * @property MediaFileLink $MediaFileLink
- * @property MediaFile $ChildMediaFile
+ * @package       MediaFile
+ * @subpackage    MediaFile.model
  */
+
 class MediaFile extends AppModel {
+	var $name = 'MediaFile';
 
-	public $tablePrefix = '';
+//	var $actsAs = array('SoftDeletable');
 
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'title';
-
+	var $validate = array(
+//		'parent_id' => array(
+//			'numeric' => array(
+//				'rule' => array('numeric'),
+//				//'message' => 'Your custom message here',
+//				//'allowEmpty' => false,
+//				//'required' => false,
+//				//'last' => false, // Stop validation after this rule
+//				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+//			),
+//		),
+		'title' => array(
+			'notEmpty' => array(
+				'rule' => 'notEmpty',
+				'message' => 'Название не должно быть пустым',
+				'last' => true
+			),
+			'Название должно быть короче 100 символов' => array(
+				'rule' => array('maxLength', 100),
+			),
+		),
+	);
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
-/**
- * belongsTo associations
- *
- * @var array
- */
-	public $belongsTo = array(
+	var $belongsTo = array(
+//		'Parent' => array(
+//			'className' => 'MediaFile',
+//			'foreignKey' => 'parent_id',
+//			'conditions' => '',
+//			'fields' => '',
+//			'order' => ''
+//		),
 		'User' => array(
 			'className' => 'User',
 			'foreignKey' => 'user_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-		),
-		'ParentMediaFile' => array(
-			'className' => 'MediaFile',
-			'foreignKey' => 'parent_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
 		)
 	);
 
-/**
- * hasMany associations
- *
- * @var array
- */
-	public $hasMany = array(
+	var $hasMany = array(
 		'MediaFileLink' => array(
 			'className' => 'MediaFileLink',
 			'foreignKey' => 'media_file_id',
-			'dependent' => false,
+			'dependent' => TRUE,
 			'conditions' => '',
 			'fields' => '',
 			'order' => '',
@@ -63,10 +66,10 @@ class MediaFile extends AppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
-		'ChildMediaFile' => array(
+		'AlbumPhotos' => array(
 			'className' => 'MediaFile',
 			'foreignKey' => 'parent_id',
-			'dependent' => false,
+			'dependent' => TRUE,
 			'conditions' => '',
 			'fields' => '',
 			'order' => '',
@@ -75,9 +78,8 @@ class MediaFile extends AppModel {
 			'exclusive' => '',
 			'finderQuery' => '',
 			'counterQuery' => ''
-		)
+		),
 	);
-
 
 	const TypePhoto = 'photo';
 	const TypeAlbum = 'album';
@@ -224,9 +226,7 @@ class MediaFile extends AppModel {
 	function saveMedia($data, $win, $fail){
 		$data = Sanitize::clean($data,array('backslash'=>false));
 		$this->id = NULL;
-		if (!$this->save($data, FALSE)){
-//			debug($data);
-//			die();
+		if (!$this->save($data)){
 			$error = reset($this->validationErrors);
 			if ($error === FALSE){
 				$this->flashMessage = $fail;
@@ -269,7 +269,7 @@ class MediaFile extends AppModel {
 		$hash = md5(srand().microtime());
 		$first_catalog  = substr($hash, 0, 2);
 		$second_catalog = substr($hash, 2, 2);
-		$path = '/files/medium/'.$first_catalog.'/'.$second_catalog.'/';
+		$path = '/media/medium/'.$first_catalog.'/'.$second_catalog.'/';
 		$full_path = WWW_ROOT.substr($path, 1);
 		if (!is_dir($full_path)){
 			if (!mkdir($full_path, 0777, TRUE)){
@@ -302,11 +302,11 @@ class MediaFile extends AppModel {
 
 
 		$paths = array(
-			'original' =>  '/files/original/'.$first_catalog.'/'.$second_catalog.'/',
-			'big' =>   '/files/big/'.$first_catalog.'/'.$second_catalog.'/',
-			'thumb' => '/files/thumb/'.$first_catalog.'/'.$second_catalog.'/',
-			'medium' => '/files/medium/'.$first_catalog.'/'.$second_catalog.'/',
-			'small' => '/files/small/'.$first_catalog.'/'.$second_catalog.'/',
+			'original' =>  '/media/original/'.$first_catalog.'/'.$second_catalog.'/',
+			'big' =>   '/media/big/'.$first_catalog.'/'.$second_catalog.'/',
+			'thumb' => '/media/thumb/'.$first_catalog.'/'.$second_catalog.'/',
+			'medium' => '/media/medium/'.$first_catalog.'/'.$second_catalog.'/',
+			'small' => '/media/small/'.$first_catalog.'/'.$second_catalog.'/',
 		);
 
 		foreach($paths as $i => $path){
@@ -419,12 +419,7 @@ class MediaFile extends AppModel {
 
 	function beforeSave(){
 		//debug($this->data);
-//		debug($this->data);
-//		debug($this->alias);
-//		debug($this->isUploadedFile($this->data[$this->alias]['file']));
-
 		if (isset($this->data[$this->alias]['file']) && $this->isUploadedFile($this->data[$this->alias]['file'])){
-
 			$result = $this->UploadFile();
 
 			if (empty($result)){
@@ -706,7 +701,7 @@ class MediaFile extends AppModel {
 			if (!file_exists($img_full_path1)){
 				continue;
 			}
-			$img_path2 = '/files/small/'.substr($img_path1, 16);
+			$img_path2 = '/media/small/'.substr($img_path1, 16);
 			$img_full_path2 = WWW_ROOT.substr($img_path2, 1);
 			$img_dir2 = WWW_ROOT.substr($img_path2, 1, 17);
 			if(!is_dir($img_dir2)){
@@ -740,7 +735,7 @@ class MediaFile extends AppModel {
 			if (!file_exists($img_full_path1)){
 				continue;
 			}
-			$img_path2 = '/files/medium/'.substr($img_path1, 16);
+			$img_path2 = '/media/medium/'.substr($img_path1, 16);
 			$img_full_path2 = WWW_ROOT.substr($img_path2, 1);
 			$img_dir2 = WWW_ROOT.substr($img_path2, 1, 18);
 			if(!is_dir($img_dir2)){
@@ -757,5 +752,4 @@ class MediaFile extends AppModel {
 		}
 		return TRUE;
 	}
-
 }
