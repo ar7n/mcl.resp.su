@@ -25,7 +25,7 @@ class PostsController extends AppController {
 
 	public $paginate = array(
 		'limit' => 5,
-		'conditions' => array('hub_id' => 691),
+		'conditions' => array('hub_id' => HUB_ID),
 		'order' => array('created' => 'DESC'),
 	);
 
