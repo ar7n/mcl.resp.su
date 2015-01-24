@@ -40,7 +40,7 @@ $_userLink = $comment[$userModel]['nick'];
 //			$avatar_path = Configure::read('App.DefaultMediumAvatar');
 //		}
 
-		$img = '<img src="/'.$avatar_path.'" width="50" height="50"/>';
+		$img = '<img src="'.$avatar_path.'" width="50" height="50"/>';
 
 //		if(!$deleted){
 //			echo $this->Html->link($img,
