@@ -63,18 +63,7 @@
 						'Регламент' => array('/rules', true),
 						'Партнеры' => array('/partners', true),
 					);
-					foreach ($menuItems as $title => $params){
-						if ($params[1]) {
-							$class = '';
-							if (isset($currentMenuItem) && $currentMenuItem == $title) {
-								$class = 'active';
-							}
-							echo '<li class="' . $class . '"><a href="' . $params[0] . '">' . $title . '</a></li>';
-						}
-						else{
-							echo '<li class="disabled">' . $title . '</li>';
-						}
-					}
+					echo $this->element('MenuList', compact('menuItems'));
 					?>
 				</ul>
 				<div class="archive-menu">
@@ -105,12 +94,20 @@
 				</div>
 				<aside class="right">
 					<div class="title">Организаторы</div>
-					<a href="/"><img src="/img/mmmc-logo.png"/></a>
+					<a href="/"><img src="/img/fcsm-logo.png"/></a>
+					<a href="/"><img src="/img/mrsss-logo.png"/></a>
+					<div class="title">Комьюнити</div>
+					<a href="/"><img src="/img/vk-logo.jpg"/></a>
+					<a href="/"><img src="/img/yt-logo.jpg"/></a>
+					<a href="/"><img src="/img/fb-logo.jpg"/></a>
 					<div class="title">Информационные партнеры</div>
-					<a href="/"><img src="/img/gamer-logo.png"/></a>
+					<a href="/"><img src="/img/vpro-logo.png"/></a>
 					<a href="/"><img src="/img/gg-logo.png"/></a>
-					<div class="title">Технические партнеры</div>
-					<a href="/"><img src="/img/goharu-logo.png"/></a>
+					<a href="/"><img src="/img/gamer-logo.png"/></a>
+					<a href="/"><img src="/img/cg-logo.png"/></a>
+					<a href="/"><img src="/img/te-logo.png"/></a>
+					<a href="/"><img src="/img/tfm-logo.png"/></a>
+					<a href="/"><img src="/img/mmoc-logo.png"/></a>
 				</aside>
 			</div>
 		</div>
@@ -122,15 +119,12 @@
 						Создание дизайна - <a href="http://bbbro.ru">BBBro</a>
 					</div>
 					<div class="links">
-						<div class="col">
-							<a href="/">Новости</a>
-							<a href="/">Таблица сезона</a>
-							<a href="/">Участники</a>
-						</div>
-						<div class="col">
-							<a href="/">Регламент</a>
-							<a href="/">Партнеры</a>
-						</div>
+						<ul class="col">
+							<?= $this->element('MenuList', array('menuItems' => array_slice($menuItems, 0 , 3)));?>
+						</ul>
+						<ul class="col">
+							<?= $this->element('MenuList',  array('menuItems' => array_slice($menuItems, 3 , 2)));?>
+						</ul>
 					</div>
 					<div class="copyrights">
 						© 2011 - 2015<br/>

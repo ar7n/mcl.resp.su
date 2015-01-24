@@ -796,18 +796,23 @@ footer .inner .links .col {
   width: 120px;
   padding: 0 0 0 10px;
   float: left;
+  list-style-type: none;
+  list-style-image: none;
 }
-footer .inner .links .col a {
+footer .inner .links .col li {
   display: block;
   font-family: "Proxima Nova";
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
   line-height: 28px;
   color: #99a4b2;
 }
-footer .inner .links .col a:hover {
+footer .inner .links .col li a {
+  color: #99a4b2;
+  text-decoration: none;
+}
+footer .inner .links .col li a:hover {
   color: #d13c3f;
 }
 footer .inner .copyrights {
@@ -888,7 +893,8 @@ footer .inner .footer-logo {
   margin: 20px 0 20px 0;
 }
 .middle .container aside a {
-  padding: 0 10px;
+  display: block;
+  padding: 0 10px 10px 10px;
 }
 h1 {
   margin-top: 0;
@@ -947,6 +953,7 @@ h1 {
 .ui-tabs {
   background: none;
   border: none;
+  font-size: 12px;
 }
 .ui-tabs .ui-tabs-nav {
   background: none;
@@ -1042,6 +1049,12 @@ h1 {
 .pages.partners table td p {
   font-size: 12px;
   line-height: 20px;
+}
+.pages.rules a {
+  color: #4d72a0;
+}
+.pages.rules a:hover {
+  color: #d13c3f;
 }
 .users.login .form-wrap {
   border: 1px solid #dde9f7;
