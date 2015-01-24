@@ -34,7 +34,7 @@ $_userLink = $comment[$userModel]['nick'];
 		<?php
 		$avatar_path = NULL;
 		if (!$deleted){
-			$avatar_path = 'files'.$comment[$userModel]['avatar_medium'];
+			$avatar_path = $comment[$userModel]['avatar_medium'];
 		}
 		if (empty($avatar_path) || !file_exists(WWW_ROOT.$avatar_path)) {
 			$avatar_path = Configure::read('App.DefaultMediumAvatar');
