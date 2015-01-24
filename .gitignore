@@ -7,3 +7,5 @@ app/tmp/logs
 app/tmp/sessions
 app/tmp/tests
 app/Config/mode.php
+app/webroot/files
+app/webroot/media
