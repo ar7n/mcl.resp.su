@@ -94,20 +94,21 @@
 				</div>
 				<aside class="right">
 					<div class="title">Организаторы</div>
-					<a href="/"><img src="/img/fcsm-logo.png"/></a>
-					<a href="/"><img src="/img/mrsss-logo.png"/></a>
+					<a href="#"><img src="/img/fcsm-logo.png"/></a>
+					<a href="http://mrsss.ru" rel="nofollow" target="_blank"><img src="/img/mrsss-logo.png"/></a>
 					<div class="title">Комьюнити</div>
-					<a href="/"><img src="/img/vk-logo.jpg"/></a>
-					<a href="/"><img src="/img/yt-logo.jpg"/></a>
-					<a href="/"><img src="/img/fb-logo.jpg"/></a>
+					<a href="http://vk.com/mclresf" rel="nofollow" target="_blank"><img src="/img/vk-logo.jpg"/></a>
+					<a href="http://youtube.com/mclresf" rel="nofollow" target="_blank"><img src="/img/yt-logo.jpg"/></a>
+					<a href="http://facebook.com/mclresf" rel="nofollow" target="_blank"><img src="/img/fb-logo.jpg"/></a>
 					<div class="title">Информационные партнеры</div>
-					<a href="/"><img src="/img/vpro-logo.png"/></a>
-					<a href="/"><img src="/img/gg-logo.png"/></a>
-					<a href="/"><img src="/img/gamer-logo.png"/></a>
-					<a href="/"><img src="/img/cg-logo.png"/></a>
-					<a href="/"><img src="/img/te-logo.png"/></a>
-					<a href="/"><img src="/img/tfm-logo.png"/></a>
-					<a href="/"><img src="/img/mmoc-logo.png"/></a>
+					<a href="http://virtus.pro" rel="nofollow" target="_blank"><img src="/img/vpro-logo.png"/></a>
+					<a href="http://GoodGame.ru" rel="nofollow" target="_blank"><img src="/img/gg-logo.png"/></a>
+					<a href="http://gamer.ru" rel="nofollow" target="_blank"><img src="/img/gamer-logo.png"/></a>
+					<a href="http://cyber-game.tv" rel="nofollow" target="_blank"><img src="/img/cg-logo.png"/></a>
+					<a href="http://team-empire.org" rel="nofollow" target="_blank"><img src="/img/te-logo.png"/></a>
+					<a href="http://tort.fm" rel="nofollow" target="_blank"><img src="/img/tfm-logo.png"/></a>
+					<a href="http://mmocult.ru" rel="nofollow" target="_blank"><img src="/img/mmoc-logo.png"/></a>
+					<a href="http://game-links.ru" rel="nofollow" target="_blank"><img src="/img/gl-logo.png"/></a>
 				</aside>
 			</div>
 		</div>
