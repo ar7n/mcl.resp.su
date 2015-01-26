@@ -22,7 +22,7 @@
 				<div class="post-intro">
 				<?
 				$post['Post']['text'] = unserialize($post['Post']['text']);
-				echo strip_tags($post['Post']['text']['preview'], '<br><p><a>');
+				echo strip_tags($post['Post']['text']['preview'], '<br><p><a><b><strong>');
 				?>
 				</div>
 				<div class="post-actions">
