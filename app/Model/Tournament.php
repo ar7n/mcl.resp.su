@@ -20,6 +20,9 @@ class Tournament extends AppModel {
  */
 	public $displayField = 'title';
 
+	public $actsAs = array(
+		'Containable'
+	);
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
@@ -66,6 +69,19 @@ class Tournament extends AppModel {
 		),
 		'Party' => array(
 			'className' => 'Party',
+			'foreignKey' => 'tournament_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'HubsTournament' => array(
+			'className' => 'HubsTournament',
 			'foreignKey' => 'tournament_id',
 			'dependent' => false,
 			'conditions' => '',

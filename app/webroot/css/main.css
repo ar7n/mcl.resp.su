@@ -560,6 +560,619 @@ a:hover .icon-ecl {
 a:hover .icon-key {
   background-position: -144px -36px;
 }
+.MatchScheme {
+  border: 1px solid #dde9f7;
+}
+.MatchScheme ul {
+  list-style: none;
+  padding: inherit;
+}
+.MatchesLines .PartyItem span,
+.MatchScheme .PartyItem span {
+  white-space: nowrap;
+  /* Запрещаем перенос строк */
+  overflow: hidden;
+  /* Обрезаем все, что не помещается в область */
+  text-overflow: ellipsis;
+  /* Добавляем многоточие */
+  display: block;
+}
+.MatchScheme .elimination .PartyItem a {
+  padding-right: 15px;
+  padding-left: 3px;
+}
+.MatchesLines .PartyItem a {
+  max-width: 190px;
+}
+.PartyItem .place {
+  float: left;
+  width: 4em;
+  text-align: right;
+  margin-right: 0.3em;
+}
+.MatchScheme .elimination .scroll_block {
+  overflow: auto;
+  overflow-y: hidden;
+  position: relative;
+  cursor: move;
+}
+.MatchScheme .elimination .scroll_block .scheme-container {
+  min-height: 300px;
+  position: relative;
+}
+.MatchScheme .elimination .scheme-container {
+  background: url("/img/images/scheme_bg.png?2") repeat;
+}
+.MatchScheme .elimination table.main {
+  height: 400px;
+}
+.MatchScheme table {
+  width: auto;
+}
+.MatchScheme .elimination table.main tr {
+  vertical-align: top;
+}
+.MatchScheme .elimination table.main td,
+.MatchScheme .elimination table.main td:nth-child(odd) {
+  background: #eef5fe;
+}
+.MatchScheme .elimination table.main td:nth-child(even) {
+  background: #f6faff;
+}
+.MatchScheme .round-robin td h2 {
+  margin: 0;
+  line-height: 100%;
+  padding: 0;
+}
+.MatchScheme .round-robin .PartyItem {
+  width: 110px;
+}
+.MatchScheme .round-robin td {
+  border-right: 1px solid #DDD;
+}
+.MatchScheme .round-robin .first_col,
+.MatchScheme .round-robin .left_party,
+.MatchScheme .round-robin .top_party {
+  width: 130px;
+  overflow: hidden;
+}
+.MatchScheme .round-robin .score_col,
+.MatchScheme .round-robin .top_party,
+.MatchScheme .round-robin td.score {
+  text-align: center;
+}
+.MatchScheme .round-robin .score_col {
+  width: 62px;
+}
+.MatchScheme .round-robin .diagonal {
+  background: #f2eff6;
+}
+.MatchScheme .round-robin table {
+  margin-bottom: 2em;
+  width: auto;
+}
+.MatchScheme .round-robin table td {
+  padding: 6px 3px ;
+}
+.MatchScheme .round-robin .MatchItem a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+/* Swiss Ssystem */
+.MatchScheme .swiss-system td h2 {
+  margin: 0;
+  line-height: 100%;
+  padding: 0;
+}
+.MatchScheme .swiss-system .PartyItem {
+  width: 110px;
+}
+.MatchScheme .swiss-system td {
+  border-right: 1px solid #DDD;
+}
+.MatchScheme .swiss-system .first_col,
+.MatchScheme .swiss-system .left_party,
+.MatchScheme .swiss-system .top_party {
+  width: 130px;
+  overflow: hidden;
+}
+.MatchScheme .swiss-system .score_col,
+.MatchScheme .swiss-system .top_party,
+.MatchScheme .swiss-system td.score {
+  text-align: center;
+}
+.MatchScheme .swiss-system .score_col {
+  width: 62px;
+}
+.MatchScheme .swiss-system .diagonal {
+  background: #f2eff6;
+}
+.MatchScheme .swiss-system table {
+  margin-bottom: 2em;
+  width: auto;
+}
+.MatchScheme .swiss-system table td {
+  padding: 6px 3px ;
+}
+.MatchScheme .swiss-system .MatchItem a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.MatchScheme .elimination .MatchItem .PartyItem {
+  height: 22px;
+  line-height: 22px;
+  padding: 0;
+  border-bottom: 1px solid #c9c5b4;
+  margin: 0 !important;
+  background: #ffffff;
+}
+.MatchScheme .elimination .MatchItem {
+  background: red;
+}
+.MatchScheme .elimination .MatchItem .last {
+  border-bottom: 0;
+  *margin-top: -3px !important;
+}
+.MatchScheme a {
+  color: #494ea0 !important;
+}
+.MatchScheme .elimination table {
+  margin: 0;
+}
+.MatchScheme .elimination td {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 148px !important;
+  min-width: 148px !important;
+  background: transparent;
+  padding: 10px 0 20px 0;
+}
+.MatchScheme .elimination td > ul {
+  width: 128px;
+  margin: 0 10px;
+}
+.MatchScheme .elimination ul li.selected .MatchItem {
+  border: 1px solid red !important;
+}
+.MatchScheme .elimination ul li.selected {
+  border-bottom: 0 !important;
+}
+.MatchScheme .elimination ul.level1 li.selected {
+  margin-top: -1px;
+}
+.MatchScheme .elimination ul.level1 > li {
+  margin-bottom: 0px;
+}
+.MatchScheme .elimination ul.level1 > li .MatchItem {
+  border-width: 0 1px;
+}
+.MatchScheme .elimination ul.level1 > li {
+  border-bottom: 1px solid black;
+}
+.MatchScheme .elimination ul.level1 > li.last {
+  border-bottom: 1px solid #C9C5B4;
+}
+.MatchScheme .elimination ul.level1 > li.first {
+  border-top: 1px solid #C9C5B4;
+}
+.MatchScheme .elimination table.main ul.level1 {
+  padding-left: 2em;
+  border: 0;
+}
+/*.MatchScheme .elimination table.main ul.level1 li:first-child{border-top: 1px solid #C9C5B4;}
+.MatchScheme .elimination table.main ul.level1 li:last-child{border-bottom: 1px solid #C9C5B4;}*/
+.MatchScheme .elimination ul.level1 .MatchItem {
+  margin-bottom: 0px;
+}
+.MatchScheme .elimination ul.level2 .MatchItem {
+  margin-bottom: 45px;
+}
+.MatchScheme .elimination ul.level3 .MatchItem {
+  margin-bottom: 137px;
+}
+.MatchScheme .elimination ul.level4 .MatchItem {
+  margin-bottom: 321px;
+}
+.MatchScheme .elimination ul.level5 .MatchItem {
+  margin-bottom: 689px;
+}
+.MatchScheme .elimination ul.level6 .MatchItem {
+  margin-bottom: 1425px;
+}
+.MatchScheme .elimination ul.level7 .MatchItem {
+  margin-bottom: 2897px;
+}
+.MatchScheme .elimination ul.level8 .MatchItem {
+  margin-bottom: 5841px;
+}
+.MatchScheme .elimination ul.level9 .MatchItem {
+  margin-bottom: 11729px;
+}
+.MatchScheme .elimination ul.level10 .MatchItem {
+  margin-bottom: 23505px;
+}
+.MatchScheme .elimination ul.level1 {
+  margin-top: 0px;
+}
+.MatchScheme .elimination ul.level2 {
+  margin-top: 22px;
+}
+.MatchScheme .elimination ul.level3 {
+  margin-top: 68px;
+}
+.MatchScheme .elimination ul.level4 {
+  margin-top: 160px;
+}
+.MatchScheme .elimination ul.level5 {
+  margin-top: 344px;
+}
+.MatchScheme .elimination ul.level6 {
+  margin-top: 712px;
+}
+.MatchScheme .elimination ul.level7 {
+  margin-top: 1448px;
+}
+.MatchScheme .elimination ul.level8 {
+  margin-top: 2920px;
+}
+.MatchScheme .elimination ul.level9 {
+  margin-top: 5864px;
+}
+.MatchScheme .elimination ul.level10 {
+  margin-top: 11752px;
+}
+.MatchScheme .elimination .MatchItem .PartyItem:last-child,
+.MatchScheme .elimination td > ul > li:last-child,
+.MatchScheme .elimination .last,
+.MatchScheme .elimination .last .MatchItem {
+  margin-bottom: 0 !important;
+}
+.MatchScheme .elimination .last {
+  margin-bottom: 0 !important;
+}
+.MatchScheme .elimination .MatchItem {
+  position: relative!important;
+  border: 1px solid #c9c5b4;
+  display: block;
+}
+.MatchScheme .elimination .MatchItem * {
+  position: relative;
+  z-index: 5;
+}
+.MatchScheme .elimination .PartyItem > span {
+  padding-left: 3px;
+}
+.MatchScheme .elimination .MatchItem .MatchLink {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -0.8em;
+  margin-left: 2em;
+}
+/*.MatchScheme .elimination .MatchItem:hover .MatchLink{
+    display:block;
+}
+*/
+.MatchScheme .elimination .MatchItem div.after,
+.MatchScheme .elimination .MatchItem div.after span {
+  border: 1px solid #aeab91;
+  position: absolute;
+  z-index: 1;
+  display: block;
+}
+.MatchScheme .elimination .MatchItem div.after {
+  border-left: 0;
+  right: -12px;
+  left: 0;
+}
+.MatchScheme .elimination .MatchItem div.after span {
+  right: -10px;
+  width: 10px;
+  height: 0;
+  border-width: 0 0 1px 0;
+}
+.MatchScheme .elimination .MatchItem div.after-select,
+.MatchScheme .elimination .MatchItem div.after-select span {
+  border-color: red;
+  z-index: 2;
+}
+.MatchScheme .elimination .odd .MatchItem div.after {
+  top: 22px;
+  border-width: 1px 1px 0 0;
+}
+.MatchScheme .elimination .even .MatchItem div.after {
+  bottom: 22px;
+  border-width: 0 1px 1px 0;
+}
+.MatchScheme .elimination .odd .MatchItem div.after span {
+  bottom: 0;
+}
+.MatchScheme .elimination .even .MatchItem div.after span {
+  top: 0;
+}
+.MatchScheme .first_half_tour .odd .MatchItem div.after {
+  bottom: 10px !important;
+}
+.MatchScheme .first_half_tour .even .MatchItem div.after {
+  bottom: 10px !important;
+  top: 22px !important;
+  border-width: 1px 1px 0 0 !important;
+}
+.MatchScheme .first_half_tour .even .MatchItem div.after span {
+  top: auto;
+  bottom: 0;
+}
+.MatchScheme .elimination .MatchItem .score {
+  width: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  text-align: right;
+  padding-right: 3px;
+  cursor: pointer;
+  color: #000 !important;
+  text-decoration: none;
+}
+.MatchScheme .elimination ul.level1 .odd .MatchItem div.after {
+  bottom: 10px;
+}
+.MatchScheme .elimination ul.level1 .even .MatchItem div.after {
+  top: 10px;
+}
+.MatchScheme .elimination ul.level2 .odd .MatchItem div.after {
+  bottom: -13px;
+}
+.MatchScheme .elimination ul.level2 .even .MatchItem div.after {
+  top: -13px;
+}
+.MatchScheme .elimination ul.level3 .odd .MatchItem div.after {
+  bottom: -59px;
+}
+.MatchScheme .elimination ul.level3 .even .MatchItem div.after {
+  top: -59px;
+}
+.MatchScheme .elimination ul.level4 .odd .MatchItem div.after {
+  bottom: -151px;
+}
+.MatchScheme .elimination ul.level4 .even .MatchItem div.after {
+  top: -151px;
+}
+.MatchScheme .elimination ul.level5 .odd .MatchItem div.after {
+  bottom: -335px;
+}
+.MatchScheme .elimination ul.level5 .even .MatchItem div.after {
+  top: -335px;
+}
+.MatchScheme .elimination ul.level6 .odd .MatchItem div.after {
+  bottom: -703px;
+}
+.MatchScheme .elimination ul.level6 .even .MatchItem div.after {
+  top: -703px;
+}
+.MatchScheme .elimination ul.level7 .odd .MatchItem div.after {
+  bottom: -1439px;
+}
+.MatchScheme .elimination ul.level7 .even .MatchItem div.after {
+  top: -1439px;
+}
+.MatchScheme .elimination ul.level8 .odd .MatchItem div.after {
+  bottom: -2911px;
+}
+.MatchScheme .elimination ul.level8 .even .MatchItem div.after {
+  top: -2911px;
+}
+.MatchScheme .elimination ul.level9 .odd .MatchItem div.after {
+  bottom: -5855px;
+}
+.MatchScheme .elimination ul.level9 .even .MatchItem div.after {
+  top: -5855px;
+}
+.MatchScheme .elimination ul.level10 .odd .MatchItem div.after {
+  bottom: -11743px;
+}
+.MatchScheme .elimination ul.level10 .even .MatchItem div.after {
+  top: -11743px;
+}
+.MatchScheme .elimination .prize-places {
+  background: url('/img/images/prizes_block.png?2') no-repeat;
+  width: 264px;
+  height: 284px;
+  display: block;
+  position: absolute;
+  top: 55px;
+  padding-left: 30px;
+  padding-top: 23px;
+}
+.MatchScheme .elimination .prize-places {
+  left: 634px;
+}
+.MatchScheme .double-elimination .prize-places {
+  right: -20px;
+  top: 45%;
+  left: auto;
+}
+.MatchScheme .elimination .prize-places-5 {
+  left: 782px;
+}
+.MatchScheme .elimination .prize-places-3 {
+  left: 484px;
+}
+.MatchScheme .elimination .prize-places li.place1,
+.MatchScheme .elimination .prize-places li.place2,
+.MatchScheme .elimination .prize-places li.place3 {
+  background: url('/img/images/prizes_cups.png?2') no-repeat;
+}
+.MatchScheme .elimination .prize-places li {
+  height: 82px;
+  padding-left: 60px;
+}
+.MatchScheme .elimination .prize-places li.place1 {
+  background-position: 0 10px;
+}
+.MatchScheme .elimination .prize-places li.place2 {
+  background-position: 0 -70px;
+}
+.MatchScheme .elimination .prize-places li.place3 {
+  background-position: 0 -150px;
+}
+.MatchScheme .elimination .prize-places li .place_name {
+  font-size: 80%;
+}
+.MatchScheme .elimination .prize-places li h5 {
+  font-size: 140%;
+  font-weight: normal;
+  line-height: 140%;
+}
+.MatchScheme .elimination ul.level1 .MatchItem div.after {
+  left: 0;
+}
+/*финал*/
+.MatchScheme .elimination ul.last {
+  padding-top: 11px;
+}
+.MatchScheme .elimination ul.last.level1 {
+  margin-top: 11px;
+  padding-top: 0;
+}
+.MatchScheme .elimination ul.last .PartyItem {
+  border-bottom: 0!important;
+}
+.MatchScheme .elimination ul.prelast .odd .MatchItem div.after,
+.MatchScheme .elimination ul.prelast .even .MatchItem div.after {
+  bottom: 22px;
+  top: 22px;
+  /*right:-22px;*/
+}
+.MatchScheme .elimination ul.last .MatchItem div.after {
+  display: none;
+}
+/*матч за третье место*/
+.MatchScheme .elimination .third_place ul.last {
+  padding-top: 0;
+  margin-top: 11px;
+}
+.MatchScheme .third_place_table_scheme-container table.third_place {
+  background: transparent !important;
+}
+.MatchScheme .third_place .last .PartyItem {
+  border-bottom: 0 !important;
+}
+.MatchScheme .elimination .third_place td {
+  padding-top: 5px;
+}
+.MatchScheme .elimination figcaption {
+  padding-left: 10px;
+}
+.MatchScheme .tourname {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.MatchScheme .elimination .schema-counter {
+  position: absolute;
+  text-align: right;
+  left: -2.5em;
+  width: 2em;
+  line-height: 22px;
+  font-size: 80%;
+  color: #808080;
+}
+.MatchScheme .elimination .level1 li:nth-child(8n) .schema-counter-even {
+  color: #404040;
+}
+/*double*/
+.MatchScheme .elimination .upper td > ul {
+  margin-right: 158px;
+}
+.MatchScheme .elimination .upper .MatchItem div.after {
+  right: -160px !important;
+}
+.MatchScheme .elimination .upper td ul.last {
+  margin-right: 10px;
+}
+.MatchScheme .elimination .lower {
+  margin-left: 296px;
+}
+.MatchScheme .elimination table.final {
+  position: absolute;
+}
+.MatchScheme .elimination .lower ul.last .MatchItem div.after,
+.MatchScheme .elimination .upper ul.last .MatchItem div.after {
+  display: block;
+  right: -12px !important;
+}
+.MatchScheme .elimination .PartyItem .party-name {
+  padding-right: 15px;
+  padding-left: 22px;
+}
+.PartyItem .party-name,
+.PartyItem .score {
+  font-size: 11px !important;
+  font-family: Verdana !important;
+}
+.PartyItem .place {
+  float: left;
+  width: 4em;
+  text-align: right;
+  margin-right: 0.3em;
+}
+.PartyItem .logo {
+  position: absolute !important;
+  top: 2px;
+  left: 2px;
+}
+.matches-table {
+  width: 100%;
+  font-family: Verdana;
+  font-size: 12px;
+}
+.matches-table .PartyItem {
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+}
+.matches-table .PartyItem .party-name {
+  padding-left: 22px;
+}
+.matches-table td {
+  height: 55px;
+  border-bottom: 1px solid #dde9f7;
+}
+.matches-table th {
+  height: 55px;
+  color: #08263f !important;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  text-transform: uppercase;
+  border-top: 3px solid #dde9f7;
+  border-bottom: 3px solid #dde9f7;
+}
+.matches-table .time {
+  text-align: left;
+  color: #99a4b2;
+  border-right: 1px solid #dde9f7;
+}
+.matches-table .party1 {
+  text-align: right;
+  border-right: 1px solid #dde9f7;
+}
+.matches-table .game1,
+.matches-table .game2,
+.matches-table .game3 {
+  text-align: center;
+  border-right: 1px solid #dde9f7;
+}
+.matches-table .party2 {
+  text-align: left;
+  border-right: 1px solid #dde9f7;
+}
+.matches-table .status {
+  text-align: center;
+}
 @font-face {
   font-family: 'Proxima Nova';
   src: url('/fonts/ProximaNova-Regular.eot');
@@ -1055,6 +1668,21 @@ h1 {
 }
 .pages.rules a:hover {
   color: #d13c3f;
+}
+.pages.table .main-tabs {
+  font-size: 18px;
+}
+.pages.table .main-tabs .title {
+  display: block;
+  float: left;
+  color: #99a4b2;
+  padding: 9px 18px;
+}
+.pages.table .scheme {
+  margin: 30px 0 0 0;
+}
+.pages.table .matches {
+  margin: 30px 0 0 0;
 }
 .users.login .form-wrap {
   border: 1px solid #dde9f7;

@@ -8,6 +8,7 @@
 		echo $this->Html->css('jquery-ui.min.css');
 		echo $this->Html->css('social-likes_classic.css');
 		echo $this->Html->css('main');
+		echo $this->Html->script('jquery-1.11.2.min.js');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -58,7 +59,7 @@
 					<?
 					$menuItems = array(
 						'Новости' => array('/', true),
-						'Таблица сезона' => array('/', TABLE_ENABLED),
+						'Таблица сезона' => array('/table', TABLE_ENABLED),
 						'Участники' => array('/teams', TEAMS_ENABLED),
 						'Регламент' => array('/rules', true),
 						'Партнеры' => array('/partners', true),

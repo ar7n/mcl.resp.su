@@ -39,7 +39,7 @@ class PagesController extends AppController {
 
 	public function beforeFilter(){
 		parent::beforeFilter();
-		$this->Auth->allow(array('display'));
+		$this->Auth->allow(array('display', 'table'));
 	}
 
 
@@ -80,7 +80,38 @@ class PagesController extends AppController {
 		}
 	}
 
-	public function table(){
-
+	public function table($tabname = 'A'){
+		$this->set('currentMenuItem', 'Таблица сезона');
+		$this->loadModel('Hub');
+		$this->loadModel('Tournament');
+		$params = array(
+			'conditions' => array('Hub.id' => HUB_ID),
+			'contain' => array('HubsTournament'),
+		);
+		$hub = $this->Hub->find('all', $params);
+		$ids = Set::classicExtract($hub[0]['HubsTournament'], '{n}.tournament_id');
+		$params = array(
+			'conditions' => array('Tournament.id' => $ids),
+			'contain' => array('Match' => array('Game', 'Slot')),
+		);
+		$tournament = $this->Tournament->find('first', $params);
+		$params = array(
+			'conditions' => array('Party.tournament_id' => $ids),
+			'contain' => array('Hub' => 'LogoFile'),
+		);
+		$partiesRaw = $this->Tournament->Party->find('all', $params);
+		$parties = array();
+		foreach ($partiesRaw as $party) {
+			$parties[$party['Party']['id']] = $party;
+		}
+		foreach ($tournament['Match'] as $mn => $match) {
+			foreach ($match['Slot'] as $sn => $slot){
+				if ($slot['party_id']) {
+					$tournament['Match'][$mn]['Slot'][$sn]['Party'] = $parties[$slot['party_id']]['Party'];
+					$tournament['Match'][$mn]['Slot'][$sn]['Party']['Hub'] = $parties[$slot['party_id']]['Hub'];
+				}
+			}
+		}
+		$this->set(compact('tournament', 'tabname'));
 	}
 }

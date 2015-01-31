@@ -129,6 +129,7 @@ class UniversitiesController extends AppController {
 	 * @return void
 	 */
 	public function index($city = NULL) {
+		$this->set('currentMenuItem', 'Участники');
 		$this->University->recursive = 0;
 		$this->set('universities', $this->University->find('all'));
 	}

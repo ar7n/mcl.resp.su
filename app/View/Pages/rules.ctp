@@ -1,4 +1,6 @@
 <? $this->set('currentMenuItem', 'Регламент'); ?>
+
+
 <div class="pages rules">
     <div id="tabs">
         <ul>

@@ -20,6 +20,9 @@ class Hub extends AppModel {
  */
 	public $displayField = 'title';
 
+	public $actsAs = array(
+		'Containable'
+	);
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
@@ -28,28 +31,11 @@ class Hub extends AppModel {
  *
  * @var array
  */
-	public $belongsTo = array(
-		'ParentHub' => array(
-			'className' => 'Hub',
-			'foreignKey' => 'parent_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		),
+	var $belongsTo = array(
 		'LogoFile' => array(
-			'className' => 'LogoFile',
-			'foreignKey' => 'logo_file_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
+			'className'  => 'MediaFile',
+			'foreignKey' => 'logo_file_id'
 		),
-		'BackgroundFile' => array(
-			'className' => 'BackgroundFile',
-			'foreignKey' => 'background_file_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		)
 	);
 
 /**
@@ -73,6 +59,19 @@ class Hub extends AppModel {
 		),
 		'Post' => array(
 			'className' => 'Post',
+			'foreignKey' => 'hub_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'HubsTournament' => array(
+			'className' => 'HubsTournament',
 			'foreignKey' => 'hub_id',
 			'dependent' => false,
 			'conditions' => '',

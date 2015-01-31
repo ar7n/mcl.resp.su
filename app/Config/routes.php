@@ -29,7 +29,8 @@
 	Router::connect('/', array('controller' => 'posts', 'action' => 'index'));
 	Router::connect('/rules', array('controller' => 'pages', 'action' => 'display', 'rules'));
 	Router::connect('/partners', array('controller' => 'pages', 'action' => 'display', 'partners'));
-	Router::connect('/table/', array('controller' => 'pages', 'action' => 'table'));
+	Router::connect('/table', array('controller' => 'pages', 'action' => 'table'));
+	Router::connect('/table/*', array('controller' => 'pages', 'action' => 'table'));
 	Router::connect('/teams', array('admin' => false, 'controller' => 'universities', 'action' => 'index'));
 	Router::connect('/teams/*', array('admin' => false, 'controller' => 'universities', 'action' => 'index'));
 	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
