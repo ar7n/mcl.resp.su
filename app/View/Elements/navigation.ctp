@@ -14,6 +14,7 @@
             $menuItems = array(
                 'Города' => '/admin/cities',
                 'Университеты' => '/admin/universities',
+                'Команды' => '/admin/parties'
             );
             foreach ($menuItems as $title => $url){
               if (isset($currentMenuItem) && $currentMenuItem == $title) {

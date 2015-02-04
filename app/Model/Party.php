@@ -4,7 +4,6 @@ App::uses('AppModel', 'Model');
  * Party Model
  *
  * @property Tournament $Tournament
- * @property User $User
  * @property University $University
  * @property Slot $Slot
  * @property User $User
@@ -45,9 +44,9 @@ class Party extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Hub' => array(
-			'className' => 'Hub',
-			'foreignKey' => 'university_id',
+		'University' => array(
+			'className' => 'University',
+			'foreignKey' => 'mcl_university_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

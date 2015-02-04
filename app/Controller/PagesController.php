@@ -84,20 +84,21 @@ class PagesController extends AppController {
 		$this->set('currentMenuItem', 'Таблица сезона');
 		$this->loadModel('Hub');
 		$this->loadModel('Tournament');
-		$params = array(
-			'conditions' => array('Hub.id' => HUB_ID),
-			'contain' => array('HubsTournament'),
-		);
-		$hub = $this->Hub->find('all', $params);
-		$ids = Set::classicExtract($hub[0]['HubsTournament'], '{n}.tournament_id');
+		$ids = $this->Hub->getTournamentId(HUB_ID);
 		$params = array(
 			'conditions' => array('Tournament.id' => $ids),
-			'contain' => array('Match' => array('Game', 'Slot')),
+			'contain' => array(
+				'Match' => array(
+					'order' => array('start_time' => 'ASC'),
+					'Game',
+					'Slot'
+				)
+			),
 		);
 		$tournament = $this->Tournament->find('first', $params);
 		$params = array(
 			'conditions' => array('Party.tournament_id' => $ids),
-			'contain' => array('Hub' => 'LogoFile'),
+			'contain' => array('University'),
 		);
 		$partiesRaw = $this->Tournament->Party->find('all', $params);
 		$parties = array();
@@ -108,7 +109,7 @@ class PagesController extends AppController {
 			foreach ($match['Slot'] as $sn => $slot){
 				if ($slot['party_id']) {
 					$tournament['Match'][$mn]['Slot'][$sn]['Party'] = $parties[$slot['party_id']]['Party'];
-					$tournament['Match'][$mn]['Slot'][$sn]['Party']['Hub'] = $parties[$slot['party_id']]['Hub'];
+					$tournament['Match'][$mn]['Slot'][$sn]['Party']['University'] = $parties[$slot['party_id']]['University'];
 				}
 			}
 		}

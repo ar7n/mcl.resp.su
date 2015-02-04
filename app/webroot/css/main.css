@@ -1137,6 +1137,7 @@ a:hover .icon-key {
 }
 .matches-table .PartyItem .party-name {
   padding-left: 22px;
+  line-height: 22px;
 }
 .matches-table td {
   height: 55px;

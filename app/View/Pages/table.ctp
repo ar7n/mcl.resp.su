@@ -34,7 +34,7 @@ for ($i=0; $i<8; $i++) {
             <? } ?>
         </ul>
         <div class="scheme">
-            <h2>Сетка</h2>
+            <h2>Таблица</h2>
             <? echo $this->element('/matches/scheme', $tournament); ?>
         </div>
         <div class="matches">

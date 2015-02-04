@@ -108,8 +108,8 @@ if ($type == 'party'){
 	}
 
 	$logo = '';
-	if (isset($item['Hub']['LogoFile']['small_path']) && $item['Hub']['LogoFile']['small_path']){
-		$logo = '<img class="logo" src="http://resp.su'.$item['Hub']['LogoFile']['small_path'].'"  width="18" height="18"/>';
+	if (isset($item['University']['small_logo']) && $item['University']['small_logo']){
+		$logo = '<img class="logo" src="/files/'.$item['University']['small_logo'].'"  width="18" height="18"/>';
 	}
 	echo $logo.'<span class="party-name">'.$text.'</span>';
 //			$text,

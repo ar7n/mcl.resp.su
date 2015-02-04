@@ -36,6 +36,9 @@
 				<?php echo $this->Form->input('logo', array('class' => 'form-control', 'type' => 'file', 'label' => 'Логотип'));?>
 			</div>
 			<div class="form-group">
+				<?php echo $this->Form->input('small_logo', array('class' => 'form-control', 'type' => 'file', 'label' => 'Иконка'));?>
+			</div>
+			<div class="form-group">
 				<?php echo $this->Form->input('division', array('class' => 'form-control', 'label' => 'Дивизион'));?>
 			</div>
 			<div class="form-group">

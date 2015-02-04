@@ -33,6 +33,7 @@
 					<th><?php echo $this->Paginator->sort('id'); ?></th>
 					<th><?php echo $this->Paginator->sort('title'); ?></th>
 					<th><?php echo $this->Paginator->sort('logo'); ?></th>
+					<th><?php echo $this->Paginator->sort('small_logo'); ?></th>
 					<th><?php echo $this->Paginator->sort('division'); ?></th>
 					<th><?php echo $this->Paginator->sort('city_id'); ?></th>
 					<th class="actions"></th>
@@ -44,6 +45,7 @@
 						<td><?php echo h($university['University']['id']); ?>&nbsp;</td>
 						<td><?php echo h($university['University']['title']); ?>&nbsp;</td>
 						<td><?php echo h($university['University']['logo']); ?>&nbsp;</td>
+						<td><?php echo h($university['University']['small_logo']); ?>&nbsp;</td>
 						<td><?php echo h($university['University']['division']); ?>&nbsp;</td>
 						<td><?php echo h($university['University']['city_id']); ?>&nbsp;</td>
 						<td class="actions">

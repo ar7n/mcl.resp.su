@@ -86,44 +86,44 @@ foreach($sort_keys as $k){
             $pre_last=($j==($num_tours-2));
             $column='';
 
-            if(($group=='main' || $group=='upper' || $group=='lower') && !empty($matches)){
-                $tour_label='&nbsp;';
-                $map_name='&nbsp;';
-                if($k>0){
-                    //выводим номер тура и название карты
-					//////////////////////////////////////////////////////////////inferno
-					//$tour_label=getTourName($k,$group,$tour_num);
-                    $tour_label=$this->Arena->getTourName($k,$group,$tour_num,0);
-					//print_r($Tournament);
-					if($Tournament['type'] == "double elimination")
-						{
-							if($Tournament['playoff_grid_size'] == 8)
-								{
-									$_style = "padding-top:50px;";
-									?><script>my_new_top = 25;</script><?
-								}
-							elseif($Tournament['playoff_grid_size'] == 4)
-								{
-									$_style = "padding-top:170px;";
-									?><script>my_new_top = 85;</script><?
-								}
-							else $_style = "";
-						}
-					else
-						{
-							if($Tournament['playoff_grid_size'] == 16) $_style = "padding-top:90px;";
-							else $_style = "";
-						}
-					/////////////////////////////////////////////////////////////\inferno
-                    $i_mapname=$tour_num;
-                    if($group=='lower'){
-                        $i_mapname+=count($sorted_grid['upper'])+1;
-                    }
-                    $map_name=isset($maps_tours[$i_mapname])?$maps_tours[$i_mapname]:'';
-                }
-                $column="<div class='tourname' style='".$_style."'><em>$tour_label</em><br /><strong class='map'>$map_name&nbsp;</strong></div>";
-
-            }
+//            if(($group=='main' || $group=='upper' || $group=='lower') && !empty($matches)){
+//                $tour_label='&nbsp;';
+//                $map_name='&nbsp;';
+//                if($k>0){
+//                    //выводим номер тура и название карты
+//					//////////////////////////////////////////////////////////////inferno
+//					//$tour_label=getTourName($k,$group,$tour_num);
+//                    $tour_label=$this->Arena->getTourName($k,$group,$tour_num,0);
+//					//print_r($Tournament);
+//					if($Tournament['type'] == "double elimination")
+//						{
+//							if($Tournament['playoff_grid_size'] == 8)
+//								{
+//									$_style = "padding-top:50px;";
+//									?><!--<script>my_new_top = 25;</script>--><?//
+//								}
+//							elseif($Tournament['playoff_grid_size'] == 4)
+//								{
+//									$_style = "padding-top:170px;";
+//									?><!--<script>my_new_top = 85;</script>--><?//
+//								}
+//							else $_style = "";
+//						}
+//					else
+//						{
+//							if($Tournament['playoff_grid_size'] == 16) $_style = "padding-top:90px;";
+//							else $_style = "";
+//						}
+//					/////////////////////////////////////////////////////////////\inferno
+//                    $i_mapname=$tour_num;
+//                    if($group=='lower'){
+//                        $i_mapname+=count($sorted_grid['upper'])+1;
+//                    }
+//                    $map_name=isset($maps_tours[$i_mapname])?$maps_tours[$i_mapname]:'';
+//                }
+//                $column="<div class='tourname' style='".$_style."'><em>$tour_label</em><br /><strong class='map'>$map_name&nbsp;</strong></div>";
+//
+//            }
 
 
 

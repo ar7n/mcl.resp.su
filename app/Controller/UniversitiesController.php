@@ -50,6 +50,7 @@ class UniversitiesController extends AppController {
 		if ($this->request->is('post')) {
 
 			$this->request->data['University']['logo'] = $this->moveUploadedFile($this->request->data['University']['logo']);
+			$this->request->data['University']['small_logo'] = $this->moveUploadedFile($this->request->data['University']['small_logo']);
 
 			$this->University->create();
 			if ($this->University->save($this->request->data)) {
@@ -76,11 +77,19 @@ class UniversitiesController extends AppController {
 		if ($this->request->is(array('post', 'put'))) {
 
 			$logo = $this->moveUploadedFile($this->request->data['University']['logo']);
+			$small_logo = $this->moveUploadedFile($this->request->data['University']['small_logo']);
+
 			if ($logo){
 				$this->request->data['University']['logo'] = $logo;
 			}
 			else{
 				unset($this->request->data['University']['logo']);
+			}
+			if ($small_logo){
+				$this->request->data['University']['small_logo'] = $small_logo;
+			}
+			else{
+				unset($this->request->data['University']['small_logo']);
 			}
 
 			if ($this->University->save($this->request->data)) {

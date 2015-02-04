@@ -120,4 +120,14 @@ class Hub extends AppModel {
 		)
 	);
 
+
+	public function getTournamentId($id){
+		$params = array(
+			'conditions' => array('Hub.id' => $id),
+			'contain' => array('HubsTournament'),
+		);
+		$hub = $this->find('all', $params);
+		return  Set::classicExtract($hub[0]['HubsTournament'], '{n}.tournament_id');
+	}
+
 }
