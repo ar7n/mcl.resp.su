@@ -53,7 +53,7 @@ for ($i=0; $i<8; $i++) {
                         <th class="party1"></th>
                         <th class="game1">Dota 2</th>
                         <th class="game2">CS:GO</th>
-                        <th class="game3">FIFA 14</th>
+                        <th class="game3">FIFA 15</th>
                         <th class="party2"></th>
                         <th class="status">Статус</th>
                     </tr>
