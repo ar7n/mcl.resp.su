@@ -14,6 +14,7 @@
             $menuItems = array(
                 'Города' => '/admin/cities',
                 'Университеты' => '/admin/universities',
+                'Турниры' => '/admin/tournaments',
                 'Команды' => '/admin/parties'
             );
             foreach ($menuItems as $title => $url){

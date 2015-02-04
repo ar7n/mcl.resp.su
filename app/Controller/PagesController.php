@@ -86,7 +86,7 @@ class PagesController extends AppController {
 		$this->loadModel('Tournament');
 		$ids = $this->Hub->getTournamentId(HUB_ID);
 		$params = array(
-			'conditions' => array('Tournament.id' => $ids),
+			'conditions' => array('Tournament.id' => $ids, 'Tournament.division' => $tabname),
 			'contain' => array(
 				'Match' => array(
 					'order' => array('start_time' => 'ASC'),
@@ -96,6 +96,9 @@ class PagesController extends AppController {
 			),
 		);
 		$tournament = $this->Tournament->find('first', $params);
+		if (empty($tournament)){
+			throw new NotFoundException();
+		}
 		$params = array(
 			'conditions' => array('Party.tournament_id' => $ids),
 			'contain' => array('University'),
