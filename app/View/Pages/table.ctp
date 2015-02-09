@@ -39,7 +39,8 @@ for ($i=0; $i<8; $i++) {
         </div>
         <div class="matches">
             <h2>Матчи</h2>
-            <table class="matches-table">
+            <? if (!empty($tournament['Match'])):?>
+                <table class="matches-table">
                 <col width="145">
                 <col>
                 <col width="60">
@@ -105,6 +106,9 @@ for ($i=0; $i<8; $i++) {
                     <? } ?>
                 </tbody>
             </table>
+            <? else: ?>
+                <p>Матчи будут объявлены позднее</p>
+            <? endif; ?>
         </div>
     </div>
     <? echo $this->element('SocialLikes');?>

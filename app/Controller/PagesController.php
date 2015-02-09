@@ -96,9 +96,6 @@ class PagesController extends AppController {
 			),
 		);
 		$tournament = $this->Tournament->find('first', $params);
-		if (empty($tournament)){
-			throw new NotFoundException();
-		}
 		$params = array(
 			'conditions' => array('Party.tournament_id' => $ids),
 			'contain' => array('University'),
@@ -108,11 +105,13 @@ class PagesController extends AppController {
 		foreach ($partiesRaw as $party) {
 			$parties[$party['Party']['id']] = $party;
 		}
-		foreach ($tournament['Match'] as $mn => $match) {
-			foreach ($match['Slot'] as $sn => $slot){
-				if ($slot['party_id']) {
-					$tournament['Match'][$mn]['Slot'][$sn]['Party'] = $parties[$slot['party_id']]['Party'];
-					$tournament['Match'][$mn]['Slot'][$sn]['Party']['University'] = $parties[$slot['party_id']]['University'];
+		if (!empty($tournament['Match'])) {
+			foreach ($tournament['Match'] as $mn => $match) {
+				foreach ($match['Slot'] as $sn => $slot) {
+					if ($slot['party_id']) {
+						$tournament['Match'][$mn]['Slot'][$sn]['Party'] = $parties[$slot['party_id']]['Party'];
+						$tournament['Match'][$mn]['Slot'][$sn]['Party']['University'] = $parties[$slot['party_id']]['University'];
+					}
 				}
 			}
 		}
