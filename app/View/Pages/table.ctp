@@ -91,7 +91,7 @@ for ($i=0; $i<8; $i++) {
                         if (isset($match['Slot'][1]['Party'])){
                             $party2 = $this->element('parties/item', array('item' => $match['Slot'][1]['Party']));
                         }
-                        if ($party1 && $party2){
+                        if (!$match['Slot'][0]['free'] && !$match['Slot'][1]['free']){
                         ?>
                             <tr>
                                 <td class="time"><?= $match['start_time'] ? rdate('j.m.y в G:i', mysqlTimestamp($match['start_time'])) : '' ?></td>
