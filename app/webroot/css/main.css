@@ -565,7 +565,7 @@ a:hover .icon-key {
 }
 .MatchScheme ul {
   list-style: none;
-  padding: inherit;
+  padding: 0;
 }
 .MatchesLines .PartyItem span,
 .MatchScheme .PartyItem span {
@@ -1064,6 +1064,7 @@ a:hover .icon-key {
 }
 .MatchScheme .elimination .third_place td {
   padding-top: 5px;
+  vertical-align: top;
 }
 .MatchScheme .elimination figcaption {
   padding-left: 10px;
