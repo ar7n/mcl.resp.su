@@ -1243,6 +1243,9 @@ header {
 header .menu {
   height: 40px;
   background: #08263f;
+  color: #4d72a0;
+  font-size: 12px;
+  line-height: 40px;
 }
 header .menu a {
   color: #4d72a0;
@@ -1269,6 +1272,9 @@ header .menu .auth-bar {
 }
 header .menu .auth-bar a {
   margin: 0 0 0 20px;
+}
+header .menu .auth-bar strong {
+  font-weight: bold;
 }
 header .intro {
   height: 220px;
