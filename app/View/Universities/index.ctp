@@ -21,7 +21,7 @@ foreach ($universities as $university){
 			<div id="tabs-<?= $divisionName; ?>">
 				<? if (empty($division)): ?>
 					<br/>
-					<p>Участники будут объявлены позже</p>
+					<p>Участники будут объявлены позднее</p>
 				<? else: ?>
 					<? foreach ($division as $university){ ?>
 						<div class="university">
