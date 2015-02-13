@@ -115,7 +115,6 @@
 					<a href="http://team-empire.org" rel="nofollow" target="_blank"><img src="/img/te-logo.png"/></a>
 					<a href="http://tort.fm" rel="nofollow" target="_blank"><img src="/img/tfm-logo.png"/></a>
 					<a href="http://mmocult.ru" rel="nofollow" target="_blank"><img src="/img/mmoc-logo.png"/></a>
-					<a href="http://game-links.ru" rel="nofollow" target="_blank"><img src="/img/gl-logo.png"/></a>
 				</aside>
 			</div>
 		</div>
