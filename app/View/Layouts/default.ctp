@@ -101,6 +101,8 @@
 					<a href="http://mrsss.ru" rel="nofollow" target="_blank"><img src="/img/mrsss-logo.png"/></a>
 					<div class="title">При поддержке</div>
 					<a href="http://sport.mos.ru" rel="nofollow" target="_blank"><img src="/img/dep-logo.png"/></a>
+					<div class="title">Официальный партнер</div>
+					<a href="http://cyberstadium.ru" rel="nofollow" target="_blank"><img src="/img/mcs-logo.png"/></a>
 					<div class="title">Комьюнити</div>
 					<a href="http://vk.com/mclresf" rel="nofollow" target="_blank"><img src="/img/vk-logo.jpg"/></a>
 					<a href="http://youtube.com/mclresf" rel="nofollow" target="_blank"><img src="/img/yt-logo.jpg"/></a>
