@@ -1296,7 +1296,7 @@ header .intro .inner .rsss-logo {
   position: absolute;
   right: 40px;
   top: 0;
-  background: url('/img/rsss-logo.png');
+  background: #ffffff url('/img/rsss-logo.png');
 }
 header .second-menu {
   height: 70px;
