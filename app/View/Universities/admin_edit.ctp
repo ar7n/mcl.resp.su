@@ -54,7 +54,7 @@
 				<?php echo $this->Form->input('team_csgo', array('class' => 'form-control', 'label' => 'Команда CS:GO'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('team_fifa14', array('class' => 'form-control', 'label' => 'Команда Fifa 14'));?>
+				<?php echo $this->Form->input('team_fifa14', array('class' => 'form-control', 'label' => 'Команда Fifa 15'));?>
 			</div>
 			<div class="form-group">
 				<?php echo $this->Form->submit(__('Сохранить'), array('class' => 'btn btn-default')); ?>

@@ -52,7 +52,7 @@
 				<?php echo $this->Form->input('team_csgo', array('class' => 'form-control', 'label' => 'Команда cs:go'));?>
 			</div>
 			<div class="form-group">
-				<?php echo $this->Form->input('team_fifa14', array('class' => 'form-control', 'label' => 'Команда fifa 14'));?>
+				<?php echo $this->Form->input('team_fifa14', array('class' => 'form-control', 'label' => 'Команда fifa 15'));?>
 			</div>
 			<div class="form-group">
 				<?php echo $this->Form->submit(__('Добавить'), array('class' => 'btn btn-default')); ?>
