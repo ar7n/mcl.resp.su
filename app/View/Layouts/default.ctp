@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="ru">
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>Московская киберспортивная лига</title>
