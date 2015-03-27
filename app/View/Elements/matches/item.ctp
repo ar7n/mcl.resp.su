@@ -86,11 +86,11 @@ if($Party && $Party[0]['Slot']['position'] == 1){
         if ($item['conflict'] && !$item['accomplished']){
             $winner_class = 'conflict';
         }
-        else if($Party[0] && $Party[0]['Slot']['winner']){
+        else if($item['Slot'][0] && $item['Slot'][0]['winner']){
             $winner_class = 'winner';
 			$winner_slot=$Slot[0];
         }
-        else if($Party[1] && $Party[1]['Slot']['winner']){
+        else if($item['Slot'][1] && $item['Slot'][1]['winner']){
             $winner_class = 'winner';
             $winner_slot=$Slot[1];
         }		               
