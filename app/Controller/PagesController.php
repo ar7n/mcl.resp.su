@@ -80,7 +80,7 @@ class PagesController extends AppController {
 		}
 	}
 
-	public function table($tabname = 'A'){
+	public function table($tabname = 'playoff'){
 		$this->set('currentMenuItem', 'Таблица сезона');
 		$this->loadModel('Hub');
 		$this->loadModel('Tournament');
