@@ -15,7 +15,6 @@ if (!empty($Match)){
     }
     else if ($Tournament['type'] == 'double elimination'){
 		echo $this->element('matches/list_scheme',compact('Match','Tournament'));
-
     }
     elseif ($Tournament['type'] == 'round robin'){
         echo $this->element('matches/round_robin_scheme',compact('Match','Tournament','Party'));
