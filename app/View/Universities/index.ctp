@@ -38,7 +38,7 @@ foreach ($universities as $university){
 									<li><span class="title">Составы</span></li>
 									<li><a href="#university-tabs-a">DOTA 2</a></li>
 									<li><a href="#university-tabs-b">CS:GO</a></li>
-									<li><a href="#university-tabs-c">FIFA 15</a></li>
+									<li><a href="#university-tabs-c">FIFA 16</a></li>
 								</ul>
 								<div id="university-tabs-a"><p><?= $university['University']['team_dota2']; ?></p></div>
 								<div id="university-tabs-b"><p><?= $university['University']['team_csgo']; ?></p></div>
